@@ -11,7 +11,19 @@ class EAPTS:
         self.username = os.getenv("EAPTS_USERNAME")
         self.password = os.getenv("EAPTS_PASSWORD")
         self.url = os.getenv("EAPTS_AUTH_ENDPOINT")
-        
+
+    def getAuthHeader(self):
+        if self.auth is None:
+            self.authenticate()
+        elif self.auth['token']['access_token'] is None:
+            # throw an exception
+            raise Exception("Access token not found");
+
+        # Bearrer token header
+        return {
+            'Authorization': f'Bearer {self.auth['token']['access_token']}'
+        }
+    
     def authenticate(self):
 
         data = {
