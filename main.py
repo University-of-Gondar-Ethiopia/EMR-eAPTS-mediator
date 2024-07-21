@@ -4,13 +4,15 @@ from fastapi import FastAPI
 from dotenv import load_dotenv
 import requests
 import os
+from component.emr import EMR
+from component.eapts import EAPTS
 
 app = FastAPI()
 load_dotenv()
 
 @app.get("/")
 def read_root():
-    auth = authenticateEAPTS()
+    return testAuthenticateEAPTS()
     return {"Hello": "World"}
 
 
@@ -18,26 +20,12 @@ def read_root():
 def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 
+def testAuthenticateEMR():
+    emr = EMR()
+    return emr.authenticate();
 
-
-def authenticateEAPTS():
-    username = os.getenv("EAPTS_USERNAME")
-    password = os.getenv("EAPTS_PASSWORD")
-    url = os.getenv("EAPTS_AUTH_ENDPOINT")
-    
-    data = {
-        "username": username,
-        "password": password
-    }
-
-    # Sending the post request
-    response = requests.post(url, json=data, headers={'Content-Type': 'application/json'})
-
-    # Handling the response
-    if response.status_code == 200:
-        return {"status": "success", "response": response.json()}
-    else:
-        return {"status": "failure", "response": response.text}
-
+def testAuthenticateEAPTS():
+    eapts = EAPTS()
+    return  eapts.authenticate();
 
     
