@@ -1,0 +1,167 @@
+{
+  "urn": "urn:uuid:emr-eapts-interoperability new",
+  "version": "0.4.0",
+  "name": "EMR Eapts interoperability",
+  "description": "This mediator exchange data between EMR and Eapts",
+  "defaultChannelConfig": [
+    {
+      "ID": "1",
+      "name": "EMR to eAPTs",
+      "urlPattern": "/fetch",
+      "alerts": [],
+      "txRerunAcl": [],
+      "txViewFullAcl": [],
+      "txViewAcl": [],
+      "properties": [],
+      "matchContentTypes": [],
+      "routes": [
+        {
+          "name": "EMR Eapts Interoperability Route",
+          "host": "localhost",
+          "port": "3005",
+          "primary": true,
+          "type": "http",
+          "path": "/fetch"
+        }
+      ],
+      "allow": ["admin"],
+      "type": "http"
+    },
+    {
+      "ID": "2",
+      "name": "EMR to eAPTs dtpCase",
+      "urlPattern": "/dtpCase",
+      "alerts": [],
+      "txRerunAcl": [],
+      "txViewFullAcl": [],
+      "txViewAcl": [],
+      "properties": [],
+      "matchContentTypes": [],
+      "routes": [
+        {
+          "name": "EMR Eapts Interoperability DTP Route",
+          "host": "localhost",
+          "port": "3006",
+          "primary": true,
+          "type": "http",
+          "path": "/dtpCase"
+        }
+      ],
+      "allow": ["admin"],
+      "type": "http"
+    },
+    {
+      "ID": "3",
+      "name": "EMR to eAPTs drugSync",
+      "urlPattern": "/drugSync",
+      "alerts": [],
+      "txRerunAcl": [],
+      "txViewFullAcl": [],
+      "txViewAcl": [],
+      "properties": [],
+      "matchContentTypes": [],
+      "routes": [
+        {
+          "name": "EMR Eapts Interoperability Drug Sync Route",
+          "host": "localhost",
+          "port": "3007",
+          "primary": true,
+          "type": "http",
+          "path": "/drugSync"
+        }
+      ],
+      "allow": ["admin"],
+      "type": "http"
+    },
+    {
+      "ID": "4",
+      "name": "EMR to eAPTs dispenseDrug",
+      "urlPattern": "/dispenseDrug",
+      "alerts": [],
+      "txRerunAcl": [],
+      "txViewFullAcl": [],
+      "txViewAcl": [],
+      "properties": [],
+      "matchContentTypes": [],
+      "routes": [
+        {
+          "name": "EMR Eapts Interoperability Dispense Drug Route",
+          "host": "localhost",
+          "port": "3008",
+          "primary": true,
+          "type": "http",
+          "path": "/drugSync"
+        }
+      ],
+      "allow": ["admin"],
+      "type": "http"
+    },
+    {
+      "ID": "5",
+      "name": "EMR to eAPTs addressSync",
+      "urlPattern": "/addressSync",
+      "alerts": [],
+      "txRerunAcl": [],
+      "txViewFullAcl": [],
+      "txViewAcl": [],
+      "properties": [],
+      "matchContentTypes": [],
+      "routes": [
+        {
+          "name": "EMR Eapts Interoperability Address Route",
+          "host": "localhost",
+          "port": "3009",
+          "primary": true,
+          "type": "http",
+          "path": "/addressSync"
+        }
+      ],
+      "allow": ["admin"],
+      "type": "http"
+    }
+  ],
+  "endpoints": [
+    {
+      "name": "EMR Eapts Interoperability Route",
+      "host": "localhost",
+      "path": "/fetch",
+      "port": "3005",
+      "primary": true,
+      "type": "http"
+    },
+    {
+      "name": "EMR Eapts Interoperability DTP Route",
+      "host": "localhost",
+      "path": "/dtpCase",
+      "port": "3006",
+      "primary": true,
+      "type": "http"
+    },
+    {
+      "name": "EMR Eapts Interoperability Drug Sync Route",
+      "host": "localhost",
+      "path": "/drugSync",
+      "port": "3007",
+      "primary": true,
+      "type": "http"
+    },
+    {
+      "name": "EMR Eapts Interoperability Dispense Drug Route",
+      "host": "localhost",
+      "path": "/dispenseDrug",
+      "port": "3008",
+      "primary": true,
+      "type": "http"
+    },
+    {
+      "name": "EMR Eapts Interoperability Address Route",
+      "host": "localhost",
+      "path": "/addressSync",
+      "port": "3009",
+      "primary": true,
+      "type": "http"
+    }
+  ],
+  "configDefs": [],
+  "config": {}
+}
