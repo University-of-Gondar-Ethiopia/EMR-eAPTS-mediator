@@ -7,7 +7,7 @@
     {
       "ID": "1",
       "name": "EMR to eAPTs",
-      "urlPattern": "/fetch",
+      "urlPattern": "/syncPrescription",
       "alerts": [],
       "txRerunAcl": [],
       "txViewFullAcl": [],
@@ -21,7 +21,7 @@
           "port": "3005",
           "primary": true,
           "type": "http",
-          "path": "/fetch"
+          "path": "/syncPrescription"
         }
       ],
       "allow": ["admin"],
@@ -124,7 +124,7 @@
     {
       "name": "EMR Eapts Interoperability Route",
       "host": "host.docker.internal",
-      "path": "/fetch",
+      "path": "/syncPrescription",
       "port": "3005",
       "primary": true,
       "type": "http"
