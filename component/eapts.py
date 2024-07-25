@@ -3,7 +3,8 @@ import requests
 import os
 from dotenv import load_dotenv
 import base64
-
+import time
+import json
 load_dotenv()
 
 class EAPTS:
@@ -11,6 +12,7 @@ class EAPTS:
         self.username = os.getenv("EAPTS_USERNAME")
         self.password = os.getenv("EAPTS_PASSWORD")
         self.url = os.getenv("EAPTS_AUTH_ENDPOINT")
+        self.prescription_url = os.getenv("EAPTS_PRESCRIPTION_ENDPOINT")
 
     def getAuthHeader(self):
         if self.auth is None:
@@ -41,7 +43,35 @@ class EAPTS:
         else:
             return {"status": "failure", "response": response.text}
 
-""" Sample auth object
+    def uploadPrescription(self, prescriptions):
+
+        self.authenticate()
+        headers = self.getAuthHeader()
+        headers["Content-Type"]="application/json"
+        last_uploaded = None
+
+        try:
+            # send each prescriptions individually
+            for i, prescription in enumerate(prescriptions):
+                response = requests.post(self.prescription_url, data=json.dumps(prescription["prescription"]), headers=headers)
+                
+                if response.status_code == 200:
+                    last_uploaded=i
+                    print("Uploaded prescription: \n"+str(i))
+                    time.sleep(1)
+                else:
+                    raise Exception("Failed to upload prescription \n"+str(response.text))
+                
+            return prescriptions[last_uploaded];
+        except Exception as e:
+            if last_uploaded != None:
+                print("Failed to upload prescription "+str(prescriptions[last_uploaded]) +"\n"+ e)
+                return prescriptions[last_uploaded];
+            
+            
+
+
+""" Sample auth object:
 {
     "user": {
         "id": 10,
