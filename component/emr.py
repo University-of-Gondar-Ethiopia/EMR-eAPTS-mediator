@@ -50,17 +50,17 @@ class EMR:
         # headers.append(("Content-Type", "application/json"))
 
         # # Sending the post request
-        # response = requests.get(f"{self.url}/prescription?lastOrder={lastOrder}&size={size}", headers=headers)
+        # response = requests.get(f"{self.url}&orderNumber={lastOrder}&limit={size}", headers=headers)
 
         # # Handling the response
         # if response.status_code == 200:
-        #     return {"status": "success", "response": response.json()}
+              # return response.json();
         # else:
-        #     return {"status": "failure", "response": response.text}
+        #     raise Exception("Failed to load the prescription.\n"+response.text)
 
         sample_result = []
         
-        for i in range(100):
+        for i in range(1):
             sample_result.append( {
             "prescriptionDate": "2024-07-22 17:17:16.000000",
             "rowGuid": "c13b4ad1-50bc-4839-b341-7cf79fc53c80",
@@ -69,15 +69,15 @@ class EMR:
             "orderNumber": 38952+i,
             "additionalNote": "{\"instructions\":\"At bedtime\"}",
             "quantity": 70.0,
-            "patient_id": 1045865,
+            "patient_id": 1045869,
             "frequencyTypeId": "d015b73b-35d5-428f-beaa-6d1afc1cf38a",
             "administrationId": "76469973-0f21-4a9d-9684-713f67437374",
             "itemUnitId": "05492370-cada-48c2-81e8-1bb7734c3ea2",
             "duration_units": 93,
             "prescriber_registrationNumber": 123,
-            "prescriber_firstName": "Selamsew",
-            "prescriber_lastName": "Tesfaye",
-            "prescriber_middleName": "",
+            "prescriber_firstName": "Redet",
+            "prescriber_lastName": "Assefa",
+            "prescriber_middleName": "G.",
             "precriber_role": "SuperAdmin",
             "prescriber_rowGuid": "910c309c-e0f9-48ef-bf3a-b4cd793c2117",
             "patient_rowGuid": "0941faf2-c300-4c66-a50b-4da605957f64",
@@ -91,8 +91,8 @@ class EMR:
             "houseNumber": "112233",
             "cardNumber": "000000003",
             "paymentType": "8371c688-436c-4f45-bd13-5f6a8afa5e39",
-            "phoneNumber": "0912345678",
-            "person_id": 1045865,
+            "phoneNumber": "{0912345679+i}",
+            "person_id": 1045869,
             "sponserName": "Simada",
             "patientTypeId": "51784ec0-0967-40e3-b01f-822a67c1ab36",
             "weight": "",
