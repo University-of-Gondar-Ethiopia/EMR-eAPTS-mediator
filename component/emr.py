@@ -35,8 +35,11 @@ class EMR:
         # Get auth header
         headers = self.getAuthHeader()
 
+        # disable ssl verification
+        requests.packages.urllib3.disable_warnings()
+
         # Sending the post request
-        response = requests.get(self.url, headers=headers)
+        response = requests.get(self.url, headers=headers, verify=False)
 
         # Handling the response
         if response.status_code == 200:
