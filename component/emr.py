@@ -39,7 +39,7 @@ class EMR:
         requests.packages.urllib3.disable_warnings()
         
         # Sending the post request
-        response = requests.get(self.url, headers=headers)
+        response = requests.get(self.url, headers=headers, verify=False)
 
         # Handling the response
         if response.status_code == 200:
