@@ -3,6 +3,7 @@ import requests
 import os
 from dotenv import load_dotenv
 import base64
+import urllib3
 
 load_dotenv()
 
@@ -36,10 +37,13 @@ class EMR:
         headers = self.getAuthHeader()
 
         # disable ssl verification
-        requests.packages.urllib3.disable_warnings()
+
+        urllib3.disable_warnings(
+            urllib3.exceptions.InsecureRequestWarning
+        )
         
         # Sending the post request
-        response = requests.get(self.url, headers=headers)
+        response = requests.get(self.url, headers=headers, verify=False)
 
         # Handling the response
         if response.status_code == 200:
