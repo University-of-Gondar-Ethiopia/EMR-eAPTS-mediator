@@ -4,7 +4,7 @@ SELECT
     do.dose AS dose,
     do.duration AS numberOfDuration,
     ord.order_id AS orderNumber,
-    do.dosing_instructions AS additionalNote,
+    SUBSTRING_INDEX(SUBSTRING_INDEX(do.dosing_instructions, ':"', -1), '"}', 1) AS additionalNote,
     do.quantity AS quantity,
     ord.patient_id,
     (
