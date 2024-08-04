@@ -12,6 +12,9 @@ class EMR:
         self.password = os.getenv("EMR_PASSWORD")
         self.url = os.getenv("EMR_AUTH_ENDPOINT")
         self.prescription_url = os.getenv("EMR_PRESCRIPTION_ENDPOINT")
+        self.conceptManagement_url = os.getenv("EMR_CONCEPT_MANAGEMENT_ENDPOINT")
+        self.getConceptByName_url = os.getenv("EMR_GET_CONCEPT_BY_NAME_ENDPOINT")
+        self.drugManagement_url = os.getenv("EMR_DRUG_MANAGEMENT_ENDPOINT")
         
     def getAuthHeader(self):
 

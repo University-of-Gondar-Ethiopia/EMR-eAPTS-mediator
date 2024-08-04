@@ -11,6 +11,7 @@ from component.openhim.heartbeat import Heartbeat
 from apscheduler.schedulers.background import BackgroundScheduler
 from component.openhim.openhim import Openhim
 from services.prescription import Prescription
+from services.drugSync import DrugSync
 
 app = FastAPI()
 load_dotenv()
@@ -29,6 +30,10 @@ def read_item(item_id: int, q: Union[str, None] = None):
 def sync_presecription():
     return Prescription().sync()
     return {"route": "syncPrescription"}
+
+@app.get("/syncDrug")
+def sync_drug():
+    return DrugSync().create_drug()
 
 def testAuthenticateEMR():
     emr = EMR()
