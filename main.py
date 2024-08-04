@@ -35,24 +35,29 @@ def sync_presecription():
 def sync_drug():
     return DrugSync().create_drug()
 
+@app.get("/test/authenicateEMR")
 def testAuthenticateEMR():
     emr = EMR()
     return emr.authenticate();
 
+@app.get("/test/authenicateEAPTS")
 def testAuthenticateEAPTS():
     eapts = EAPTS()
     return  eapts.authenticate();
 
+@app.get("/test/openhimauth")
 def testOpenHIMauth():
     auth2 = auth()
     auth2.authenticate()
     return auth2.gen_auth_headers()
 
+@app.get("/test/heartbeat")
 def testHeartbeat():
     bgscheduler = BackgroundScheduler()
     hb = Heartbeat(auth(), options = {"verify_cert": False,"urn":"urn:uuid:emr-eapts-interoperability new"}, scheduler = bgscheduler)
     return hb.activate()
 
+@app.get("/test/register")
 def testOpenhimRegistration():
     openhim = Openhim(options = {"verify_cert": False})
     return openhim.register()

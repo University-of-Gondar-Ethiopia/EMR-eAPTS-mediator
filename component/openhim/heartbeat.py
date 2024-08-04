@@ -35,7 +35,7 @@ class Heartbeat:
             headers=self.auth.gen_auth_headers()
         )
 
-        if response.status_code is not 200:
+        if response.status_code != 200:
             raise Exception(
                 "Heartbeat unsuccessful, received status code of {}".format(response.status_code)
             )
