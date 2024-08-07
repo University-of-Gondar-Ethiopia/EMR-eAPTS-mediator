@@ -13,6 +13,7 @@ class EAPTS:
         self.password = os.getenv("EAPTS_PASSWORD")
         self.url = os.getenv("EAPTS_AUTH_ENDPOINT")
         self.prescription_url = os.getenv("EAPTS_PRESCRIPTION_ENDPOINT")
+        self.DuItems_url = os.getenv("EAPTS_DUITEMS_ENDPOINT")
 
     def getAuthHeader(self):
         if self.auth is None:
