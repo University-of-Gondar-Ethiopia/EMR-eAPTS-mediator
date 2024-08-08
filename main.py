@@ -31,6 +31,7 @@ def sync_presecription():
     return Prescription().sync()
     return {"route": "syncPrescription"}
 
+
 @app.get("/syncDrug")
 def sync_drug():
     return DrugSync().create_drug()
