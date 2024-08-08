@@ -1,6 +1,6 @@
 from typing import Union
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from dotenv import load_dotenv
 import requests
 import os
@@ -29,13 +29,18 @@ def read_item(item_id: int, q: Union[str, None] = None):
 @app.get("/syncPrescription")
 def sync_presecription():
     return Prescription().sync()
-    return {"route": "syncPrescription"}
 
-
-@app.get("/syncDrug")
-def sync_drug():
-    return DrugSync().create_drug()
-
+@app.post("/syncDrugs")
+async def sync_drugs():
+    manager = DrugSync()
+    try:
+        fetched_drugs = manager.fetch_drugs_from_eapts()
+        drugs_to_process = manager.filter_drugs(fetched_drugs)
+        manager.check_and_update_emr(drugs_to_process)
+        return {"status": "success", "message": "Drugs have been registered and updated"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
 @app.get("/test/authenicateEMR")
 def testAuthenticateEMR():
     emr = EMR()
