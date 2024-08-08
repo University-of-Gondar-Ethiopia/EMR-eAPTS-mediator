@@ -124,7 +124,10 @@ class DrugSync:
                 created_dosageConcept = self.create_concept(drug['dosage'])  # Create the dosageForm
                 dosage_form = created_dosageConcept['uuid']
             else:
-                dosage_form = dosage_list[0]['uuid']
+                if dosage_list[0]['name'] == 'None':
+                    dosage_form = ""
+                else:
+                    dosage_form = dosage_list[0]['uuid']
                 
         
             if len(concept_list) == 0:  # If the concept doesn't exist
