@@ -4,6 +4,8 @@ from fastapi import FastAPI
 from dotenv import load_dotenv
 import requests
 import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from component.emr import EMR
 from component.eapts import EAPTS
 from component.openhim.auth import auth
@@ -127,7 +129,7 @@ class Prescription:
                 ],
                 "prescriptionDate": prescription["prescriptionDate"],
                 "rowGuid": prescription["rowGuid"],
-                "institutionId": "5a9306b7-8cb5-43e9-9013-341d2087a918",
+                "institutionId": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
                 },
                 "last_order_id": prescription_last_order
             }

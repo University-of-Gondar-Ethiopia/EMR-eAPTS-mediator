@@ -30,14 +30,20 @@ def read_item(item_id: int, q: Union[str, None] = None):
 def sync_presecription():
     return Prescription().sync()
 
-@app.post("/syncDrugs")
+@app.get("/syncDrugs")
 async def sync_drugs():
     manager = DrugSync()
     try:
         fetched_drugs = manager.fetch_drugs_from_eapts()
         drugs_to_process = manager.filter_drugs(fetched_drugs)
-        manager.check_and_update_emr(drugs_to_process)
-        return {"status": "success", "message": "Drugs have been registered and updated"}
+        if len(drugs_to_process) == 0:
+            return {"status": "success", "message": "Drug Items are up-to-date and consistent between the EMR and eAPTS systems."}
+        else:
+            try:
+                manager.check_and_update_emr(drugs_to_process)
+                return {"status": "success", "message": "Drugs have been registered and updated"}
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     

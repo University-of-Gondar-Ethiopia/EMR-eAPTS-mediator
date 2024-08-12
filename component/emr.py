@@ -12,7 +12,7 @@ class EMR:
         self.username = os.getenv("EMR_USERNAME")
         self.password = os.getenv("EMR_PASSWORD")
         self.url = os.getenv("EMR_AUTH_ENDPOINT")
-        self.prescription_url = os.getenv("EMR_PRESCRIPTION_ENDPOINT")
+        self.prescription_url = os.getenv("EMR_PRESCRIPTION_SYNC_ENDPOINT")
         self.conceptManagement_url = os.getenv("EMR_CONCEPT_MANAGEMENT_ENDPOINT")
         self.getConceptByName_url = os.getenv("EMR_GET_CONCEPT_BY_NAME_ENDPOINT")
         self.drugManagement_url = os.getenv("EMR_DRUG_MANAGEMENT_ENDPOINT")
@@ -52,71 +52,73 @@ class EMR:
         else:
             return {"status": "failure", "response": response.text}
         
-    def loadPrescription(self,lastOrder, size, recursive=False):
+    def loadPrescription(self, lastOrder, size, recursive=False):
         
         headers = self.getAuthHeader()
-        headers.append(("Content-Type", "application/json"))
+        # headers.append(("Content-Type", "application/json"))
 
         # Sending the post request
-        response = requests.get(f"{self.prescription_url}&orderNumber={lastOrder}&limit={size}", headers=headers, verify=False)
+        response = requests.get(f"{self.prescription_url}&orderNumber={lastOrder}", headers=headers, verify=False)
+
 
         # Handling the response
         if response.status_code == 200:
               return response.json();
         else:
-            raise Exception("Failed to load the prescription.\n"+response.text);
+            raise Exception("Failed to load the prescription.\n"+response.text)
 
-        sample_result = []
+
+        # sample_result = []
         
-        for i in range(1):
-            sample_result.append( {
-            "prescriptionDate": "2024-07-22 17:17:16.000000",
-            "rowGuid": "c13b4ad1-50bc-4839-b341-7cf79fc53c80",
-            "dose": 500.0,
-            "numberOfDuration": 1,
-            "orderNumber": 38952+i,
-            "additionalNote": "{\"instructions\":\"At bedtime\"}",
-            "quantity": 70.0,
-            "patient_id": 1045869,
-            "frequencyTypeId": "d015b73b-35d5-428f-beaa-6d1afc1cf38a",
-            "administrationId": "76469973-0f21-4a9d-9684-713f67437374",
-            "itemUnitId": "05492370-cada-48c2-81e8-1bb7734c3ea2",
-            "duration_units": 93,
-            "prescriber_registrationNumber": 123,
-            "prescriber_firstName": "Redet",
-            "prescriber_lastName": "Assefa",
-            "prescriber_middleName": "G.",
-            "precriber_role": "SuperAdmin",
-            "prescriber_rowGuid": "910c309c-e0f9-48ef-bf3a-b4cd793c2117",
-            "patient_rowGuid": "0941faf2-c300-4c66-a50b-4da605957f64",
-            "sex": "Male",
-            "age": 25,
-            "region": "d7d22bf4-219e-48f7-ae0a-db4dea505db5",
-            "zone": "980f0d44-b7b5-4a0c-a11a-cea1e81d5c04",
-            "dose_units": "ml",
-            "woredaId": "9c29e345-7d9a-4d09-ae95-4feee784a214",
-            "kebele": "04",
-            "houseNumber": "112233",
-            "cardNumber": "000000003",
-            "paymentType": "8371c688-436c-4f45-bd13-5f6a8afa5e39",
-            "phoneNumber": "{0912345679+i}",
-            "person_id": 1045869,
-            "sponserName": "Simada",
-            "patientTypeId": "51784ec0-0967-40e3-b01f-822a67c1ab36",
-            "weight": "",
-            "encounter_id": 90210,
-            "firstName": "DemoOne",
-            "middleName": "DemoOne",
-            "lastName": "DemoOne",
-            "diagnosisID": 14260,
-            "diagnosisUUID": "2ec60d0c-0c82-45f9-b3dc-9a41492b0025",
-            "diagnosisName": "1F54.0- - - - Visceral leishmaniasis",
-            "additionalInfo": "this is aditional infomration",
-            "numberOfOrders": 1
-        })
+        # for i in range(1):
+        #     sample_result.append( {
+        #     "prescriptionDate": "2024-07-22 17:17:16.000000",
+        #     "rowGuid": "c13b4ad1-50bc-4839-b341-7cf79fc53c80",
+        #     "dose": 500.0,
+        #     "numberOfDuration": 1,
+        #     "orderNumber": 38952+i,
+        #     "additionalNote": "{\"instructions\":\"At bedtime\"}",
+        #     "quantity": 70.0,
+        #     "patient_id": 1045869,
+        #     "frequencyTypeId": "d015b73b-35d5-428f-beaa-6d1afc1cf38a",
+        #     "administrationId": "76469973-0f21-4a9d-9684-713f67437374",
+        #     "itemUnitId": "05492370-cada-48c2-81e8-1bb7734c3ea2",
+        #     "duration_units": 93,
+        #     "prescriber_registrationNumber": 123,
+        #     "prescriber_firstName": "Redet",
+        #     "prescriber_lastName": "Assefa",
+        #     "prescriber_middleName": "G.",
+        #     "precriber_role": "SuperAdmin",
+        #     "prescriber_rowGuid": "910c309c-e0f9-48ef-bf3a-b4cd793c2117",
+        #     "patient_rowGuid": "0941faf2-c300-4c66-a50b-4da605957f64",
+        #     "sex": "Male",
+        #     "age": 25,
+        #     "region": "d7d22bf4-219e-48f7-ae0a-db4dea505db5",
+        #     "zone": "980f0d44-b7b5-4a0c-a11a-cea1e81d5c04",
+        #     "dose_units": "ml",
+        #     "woredaId": "9c29e345-7d9a-4d09-ae95-4feee784a214",
+        #     "kebele": "04",
+        #     "houseNumber": "112233",
+        #     "cardNumber": "000000003",
+        #     "paymentType": "8371c688-436c-4f45-bd13-5f6a8afa5e39",
+        #     "phoneNumber": "{0912345679+i}",
+        #     "person_id": 1045869,
+        #     "sponserName": "Simada",
+        #     "patientTypeId": "51784ec0-0967-40e3-b01f-822a67c1ab36",
+        #     "weight": "",
+        #     "encounter_id": 90210,
+        #     "firstName": "DemoOne",
+        #     "middleName": "DemoOne",
+        #     "lastName": "DemoOne",
+        #     "diagnosisID": 14260,
+        #     "diagnosisUUID": "2ec60d0c-0c82-45f9-b3dc-9a41492b0025",
+        #     "diagnosisName": "1F54.0- - - - Visceral leishmaniasis",
+        #     "additionalInfo": "this is aditional infomration",
+        #     "numberOfOrders": 1
+        # })
         
         
-        return sample_result;
+        # return sample_result;
 """
 {
   "prescriber": {
@@ -165,7 +167,7 @@ class EMR:
   "prescriptionDate": "2024-07-24T13:22:10.586Z",
   "prescriptionNumber": "154536",
   "rowGuid": "5a9306b7-8cb5-43e9-9013-341d2087a968",
-  "institutionId": "5a9306b7-8cb5-43e9-9013-341d2087a918",
+  "institutionId": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
   "prsecriptionUUID": "5a9306b7-8cb5-43e9-9013-341d2087a911"
 }
 

@@ -140,7 +140,8 @@ SELECT
     diag.uuid AS diagnosisUUID,
     diag.name AS diagnosisName,
     o.comments AS additionalInfo,
-    enc_count.order_count AS numberOfOrders
+    enc_count.order_count AS numberOfOrders,
+    em.entity2_uuid as institutionID
 FROM
     orders ord
     JOIN drug_order do ON do.order_id = ord.order_id
@@ -150,6 +151,7 @@ FROM
     JOIN encounter en ON ord.encounter_id = en.encounter_id
     JOIN visit v ON en.visit_id = v.visit_id
     JOIN visit_type vt ON v.visit_type_id = vt.visit_type_id
+    JOIN entity_mapping em ON vt.uuid = em.entity1_uuid
     JOIN patient p ON ord.patient_id = p.patient_id
     JOIN person_name pn ON p.patient_id = pn.person_id
     JOIN patient_identifier pi ON p.patient_id = pi.patient_id
@@ -170,7 +172,7 @@ FROM
         FROM
             person_attribute_type
         WHERE
-            name = 'PatientPhoneNumber'
+            name = 'PhoneNumber'
     )
     LEFT JOIN person_attribute pat_credit ON pat_credit.person_id = pe.person_id
     AND pat_credit.person_attribute_type_id IN (
@@ -224,4 +226,4 @@ FROM
 WHERE
     do.order_id > ${orderNumber} 
 limit
-    100
+    100;
