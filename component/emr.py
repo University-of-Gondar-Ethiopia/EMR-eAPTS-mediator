@@ -60,11 +60,13 @@ class EMR:
         # Sending the post request
         response = requests.get(f"{self.prescription_url}&orderNumber={lastOrder}", headers=headers, verify=False)
 
+
         # Handling the response
         if response.status_code == 200:
               return response.json();
         else:
             raise Exception("Failed to load the prescription.\n"+response.text)
+
 
         # sample_result = []
         
