@@ -54,17 +54,17 @@ class EMR:
         
     def loadPrescription(self,lastOrder, size, recursive=False):
         
-        # headers = self.getAuthHeader()
-        # headers.append(("Content-Type", "application/json"))
+        headers = self.getAuthHeader()
+        headers.append(("Content-Type", "application/json"))
 
-        # # Sending the post request
-        # response = requests.get(f"{self.url}&orderNumber={lastOrder}&limit={size}", headers=headers)
+        # Sending the post request
+        response = requests.get(f"{self.prescription_url}&orderNumber={lastOrder}&limit={size}", headers=headers, verify=False)
 
-        # # Handling the response
-        # if response.status_code == 200:
-              # return response.json();
-        # else:
-        #     raise Exception("Failed to load the prescription.\n"+response.text)
+        # Handling the response
+        if response.status_code == 200:
+              return response.json();
+        else:
+            raise Exception("Failed to load the prescription.\n"+response.text);
 
         sample_result = []
         
