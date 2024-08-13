@@ -129,7 +129,8 @@ class Prescription:
                 ],
                 "prescriptionDate": prescription["prescriptionDate"],
                 "rowGuid": prescription["rowGuid"],
-                "institutionId": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+                "prsecriptionUUID": prescription["rowGuid"],
+                "institutionId": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f"
                 },
                 "last_order_id": prescription_last_order
             }
