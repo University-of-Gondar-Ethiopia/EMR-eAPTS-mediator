@@ -40,11 +40,7 @@ class Prescription:
             return self.prescriptions
 
         result = self.transform()
-        
-        return result
-        
-        print(result, result)
-
+                
         last_uploded = self.eapts.uploadPrescription(result)
 
         self.lastOrder = last_uploded["last_order_id"]
