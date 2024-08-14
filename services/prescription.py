@@ -114,7 +114,7 @@ class Prescription:
                     "cardNumber": prescription["cardNumber"],
                     "kebele": prescription["kebele"],
                     "rowGuid": prescription["patient_rowGuid"],
-                    "sponserName": prescription["sponserName"],
+                    "sponsorName": prescription["sponserName"],
                     "paymentTypeId": prescription["paymentType"],
                     "patientTypeId": prescription["patientTypeId"],
                     "weight": prescription["weight"],

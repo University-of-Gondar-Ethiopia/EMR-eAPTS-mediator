@@ -48,7 +48,7 @@ class EAPTS:
 
         self.authenticate()
         headers = self.getAuthHeader()
-        # headers["Content-Type"]="application/json"
+        headers["Content-Type"]="application/json"
         last_uploaded = None
 
         try:
