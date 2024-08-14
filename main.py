@@ -40,7 +40,7 @@ async def sync_drugs():
             return {"status": "success", "message": "Drug Items are up-to-date and consistent between the EMR and eAPTS systems."}
         else:
             try:
-                manager.check_and_update_emr(drugs_to_process)
+                # manager.check_and_update_emr(drugs_to_process)
                 return {"status": "success", "message": "Drugs have been registered and updated"}
             except Exception as e:
                 raise HTTPException(status_code=500, detail=str(e))

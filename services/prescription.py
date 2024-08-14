@@ -40,15 +40,15 @@ class Prescription:
             return self.prescriptions
 
         result = self.transform()
+        
+        return result
+        
+        print(result, result)
 
         last_uploded = self.eapts.uploadPrescription(result)
 
-        print("uploaded prescriptions", last_uploded)
-
         self.lastOrder = last_uploded["last_order_id"]
         
-        print("lastOrder: ", self.lastOrder)
-
         #write lastOrderId.json
         with open('services/lastOrderId.json', 'w') as file:
             json.dump({"last_order_id": self.lastOrder}, file)
@@ -158,3 +158,4 @@ class Prescription:
                 "dose_units": order["dose_units"],
                 "duration_units": order["duration_units"]
             }
+Prescription().sync()
