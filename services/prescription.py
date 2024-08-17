@@ -154,4 +154,3 @@ class Prescription:
                 "dose_units": order["dose_units"],
                 "duration_units": order["duration_units"]
             }
-Prescription().sync()
