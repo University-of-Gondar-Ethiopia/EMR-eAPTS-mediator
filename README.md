@@ -7,7 +7,6 @@ This project serves as a mediator using the FastAPI Python framework to enable i
 ## Features
 
 - Endpoint to retrieve patient information from EMR system
-- Endpoint to schedule appointments in the eAPTS system
 - Data transformation and mapping between EMR and eAPTS formats
 - Error handling and logging mechanisms
 
