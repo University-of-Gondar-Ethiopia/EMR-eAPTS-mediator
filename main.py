@@ -18,7 +18,7 @@ load_dotenv()
 
 @app.get("/")
 def read_root():
-    return testHeartbeat()
+    # return testHeartbeat()
     return {"Hello": "World"}
 
 
