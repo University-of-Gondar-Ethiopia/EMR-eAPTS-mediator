@@ -21,8 +21,7 @@ class DrugSync:
         self.DuItems_url = self.eapts.DuItems_url
         self.token =None
         self.eamr_headers = self.emr.getAuthHeader()
-        self.ca_bundle_path = '/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem'
-   
+        
     def fetch_drugs_from_eapts(self) -> List[dict]:
         if self.token is None:
             auth_response = self.eapts.authenticate()
