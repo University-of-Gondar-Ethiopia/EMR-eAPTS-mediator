@@ -114,7 +114,7 @@ SELECT
         FROM
             concept
         WHERE
-            concept_id = pat_payment.value
+            concept_id = COALESCE(pat_payment.value, pat_fallback.value)
         LIMIT
             1
     ) AS paymentType,
@@ -151,7 +151,7 @@ FROM
     JOIN encounter en ON ord.encounter_id = en.encounter_id
     JOIN visit v ON en.visit_id = v.visit_id
     JOIN visit_type vt ON v.visit_type_id = vt.visit_type_id
-    JOIN entity_mapping em ON vt.uuid = em.entity1_uuid
+    LEFT JOIN entity_mapping em ON vt.uuid = em.entity1_uuid AND em.entity_mapping_type_id = 5
     JOIN patient p ON ord.patient_id = p.patient_id
     JOIN person_name pn ON p.patient_id = pn.person_id
     JOIN patient_identifier pi ON p.patient_id = pi.patient_id
@@ -163,7 +163,22 @@ FROM
         FROM
             person_attribute_type
         WHERE
+            name = 'CreditType'
+            OR name = 'FreePaymentDetails'
+        LIMIT
+            1
+    )
+    AND pat_payment.value != 25452
+    LEFT JOIN person_attribute pat_fallback ON pat_fallback.person_id = pe.person_id
+    AND pat_fallback.person_attribute_type_id = (
+        SELECT
+            person_attribute_type_id
+        FROM
+            person_attribute_type
+        WHERE
             name = 'PaymentMethod'
+            LIMIT
+            1
     )
     LEFT JOIN person_attribute pat_phone ON pat_phone.person_id = pe.person_id
     AND pat_phone.person_attribute_type_id = (
@@ -174,15 +189,20 @@ FROM
         WHERE
             name = 'PhoneNumber'
     )
-    LEFT JOIN person_attribute pat_credit ON pat_credit.person_id = pe.person_id
-    AND pat_credit.person_attribute_type_id IN (
+    LEFT JOIN (
         SELECT
             person_attribute_type_id
         FROM
             person_attribute_type
         WHERE
-            name = 'Sponsor'
-    )
+            name = 'CreditCompany'
+            OR name = 'CBHIAgreedWoreda'
+        LIMIT
+            1
+    ) limited_pat_credit ON TRUE
+    LEFT JOIN person_attribute pat_credit ON pat_credit.person_id = pe.person_id
+    AND pat_credit.person_attribute_type_id = limited_pat_credit.person_attribute_type_id
+    AND pat_credit.value != 25452
     LEFT JOIN person_address pa ON pe.person_id = pa.person_id
     LEFT JOIN obs o ON en.encounter_id = o.encounter_id
     AND o.concept_id = (
@@ -221,9 +241,8 @@ FROM
             orders
         GROUP BY
             encounter_id 
-    
     ) enc_count ON enc_count.encounter_id = en.encounter_id
 WHERE
     do.order_id > ${orderNumber} 
-limit
+LIMIT
     100;
