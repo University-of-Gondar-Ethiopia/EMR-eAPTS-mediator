@@ -1,5 +1,5 @@
 from typing import List, Dict
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from dotenv import load_dotenv
 import requests
 import os
@@ -150,11 +150,18 @@ class DrugSync:
 
             elif concept_list and concept_list[0].get('class') == "Drug":  # If the concept exists and class is "Drug"
                 self.create_drug(concept_list[0].get('uuid'), dosage_form, drug)  # Create the drug
-
-
-
-
-# manager = DrugSync()
-# fetched_drugs = manager.fetch_drugs_from_eapts()
-# drugs_to_process = manager.filter_drugs(fetched_drugs)
-# manager.check_and_update_emr(drugs_to_process)
+    
+    def drugSyncManager(self):
+        try:
+            fetched_drugs = self.fetch_drugs_from_eapts()
+            drugs_to_process = self.filter_drugs(fetched_drugs)
+            if len(drugs_to_process) == 0:
+                return {"status": "success", "message": "Drug Items are up-to-date and consistent between the EMR and eAPTS systems."}
+            else:
+                try:
+                    self.check_and_update_emr(drugs_to_process)
+                    return {"status": "success", "message": "Drugs have been registered and updated"}
+                except Exception as e:
+                    raise HTTPException(status_code=500, detail=str(e))
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e))
