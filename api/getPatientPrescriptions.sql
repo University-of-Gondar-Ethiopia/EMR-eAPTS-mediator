@@ -4,7 +4,7 @@ SELECT
     do.dose AS dose,
     do.duration AS numberOfDuration,
     ord.order_id AS orderNumber,
-    SUBSTRING_INDEX(SUBSTRING_INDEX(do.dosing_instructions, ':"', -1), '"}', 1) AS additionalNote,
+    SUBSTRING_INDEX( SUBSTRING_INDEX(do.dosing_instructions, ':"', -1), '"}', 1 ) AS additionalNote,
     do.quantity AS quantity,
     ord.patient_id,
     (
@@ -114,7 +114,7 @@ SELECT
         FROM
             concept
         WHERE
-            concept_id = COALESCE(pat_payment.value, pat_fallback.value)
+            concept_id = COALESCE(pat_credit_payment.value, pat_free_payment.value, pat_fallback_cash.value)
         LIMIT
             1
     ) AS paymentType,
@@ -126,7 +126,8 @@ SELECT
         FROM
             concept_name
         WHERE
-            concept_id = pat_credit.value
+            concept_id = COALESCE(pat_cbhi.value, pat_credit.value)
+            AND concept_name.concept_name_type = 'FULLY_SPECIFIED'
         LIMIT
             1
     ) AS sponserName,
@@ -151,33 +152,45 @@ FROM
     JOIN encounter en ON ord.encounter_id = en.encounter_id
     JOIN visit v ON en.visit_id = v.visit_id
     JOIN visit_type vt ON v.visit_type_id = vt.visit_type_id
-    LEFT JOIN entity_mapping em ON vt.uuid = em.entity1_uuid AND em.entity_mapping_type_id = 5
+    LEFT JOIN entity_mapping em ON vt.uuid = em.entity1_uuid
+    AND em.entity_mapping_type_id = 5
     JOIN patient p ON ord.patient_id = p.patient_id
     JOIN person_name pn ON p.patient_id = pn.person_id
     JOIN patient_identifier pi ON p.patient_id = pi.patient_id
     JOIN person pe ON p.patient_id = pe.person_id
-    LEFT JOIN person_attribute pat_payment ON pat_payment.person_id = pe.person_id
-    AND pat_payment.person_attribute_type_id = (
+    LEFT JOIN person_attribute pat_credit_payment ON pat_credit_payment.person_id = pe.person_id
+    AND pat_credit_payment.person_attribute_type_id = (
         SELECT
             person_attribute_type_id
         FROM
             person_attribute_type
         WHERE
             name = 'CreditType'
-            OR name = 'FreePaymentDetails'
         LIMIT
             1
     )
-    AND pat_payment.value != 25452
-    LEFT JOIN person_attribute pat_fallback ON pat_fallback.person_id = pe.person_id
-    AND pat_fallback.person_attribute_type_id = (
+    AND pat_credit_payment.value != 25452
+    LEFT JOIN person_attribute pat_free_payment ON pat_free_payment.person_id = pe.person_id
+    AND pat_free_payment.person_attribute_type_id = (
+        SELECT
+            person_attribute_type_id
+        FROM
+            person_attribute_type
+        WHERE
+            name = 'FreePaymentDetails'
+        LIMIT
+            1
+    )
+    AND pat_free_payment.value != 25452
+    LEFT JOIN person_attribute pat_fallback_cash ON pat_fallback_cash.person_id = pe.person_id
+    AND pat_fallback_cash.person_attribute_type_id = (
         SELECT
             person_attribute_type_id
         FROM
             person_attribute_type
         WHERE
             name = 'PaymentMethod'
-            LIMIT
+        LIMIT
             1
     )
     LEFT JOIN person_attribute pat_phone ON pat_phone.person_id = pe.person_id
@@ -189,20 +202,30 @@ FROM
         WHERE
             name = 'PhoneNumber'
     )
-    LEFT JOIN (
+    LEFT JOIN person_attribute pat_credit ON pat_credit.person_id = pe.person_id
+    AND pat_credit.person_attribute_type_id = (
         SELECT
             person_attribute_type_id
         FROM
             person_attribute_type
         WHERE
             name = 'CreditCompany'
-            OR name = 'CBHIAgreedWoreda'
         LIMIT
             1
-    ) limited_pat_credit ON TRUE
-    LEFT JOIN person_attribute pat_credit ON pat_credit.person_id = pe.person_id
-    AND pat_credit.person_attribute_type_id = limited_pat_credit.person_attribute_type_id
+    )
     AND pat_credit.value != 25452
+    LEFT JOIN person_attribute pat_cbhi ON pat_cbhi.person_id = pe.person_id
+    AND pat_cbhi.person_attribute_type_id = (
+        SELECT
+            person_attribute_type_id
+        FROM
+            person_attribute_type
+        WHERE
+            name = 'CBHIAgreedWoreda'
+        LIMIT
+            1
+    )
+    AND pat_cbhi.value != 25452
     LEFT JOIN person_address pa ON pe.person_id = pa.person_id
     LEFT JOIN obs o ON en.encounter_id = o.encounter_id
     AND o.concept_id = (
@@ -240,9 +263,9 @@ FROM
         FROM
             orders
         GROUP BY
-            encounter_id 
+            encounter_id
     ) enc_count ON enc_count.encounter_id = en.encounter_id
 WHERE
-    do.order_id > ${orderNumber} 
+    do.order_id > ${orderNumber}
 LIMIT
     100;
