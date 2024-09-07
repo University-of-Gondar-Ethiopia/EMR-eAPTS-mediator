@@ -27,8 +27,6 @@ class Prescription:
 
     def sync(self, recursive=False):
         #read lastOrderId.json
-        absolute_path = os.path.abspath('../lastOrderId.json')
-        print(f"Absolute path to lastOrderId.json: {absolute_path}")
         with open('../lastOrderId.json') as file:
             lastOrderObject = json.load(file)
             self.lastOrder = lastOrderObject['last_order_id']
