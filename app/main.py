@@ -24,7 +24,7 @@ def read_root():
 def sync_presecription():
     return Prescription().sync()
 
-@app.get("/syncDrugs")
+@app.get("/drugSync")
 async def sync_drugs():
     return DrugSync().drugSyncManager()
     
