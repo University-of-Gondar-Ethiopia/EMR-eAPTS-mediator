@@ -16,6 +16,9 @@ class EMR:
         self.conceptManagement_url = os.getenv("EMR_CONCEPT_MANAGEMENT_ENDPOINT")
         self.getConceptByName_url = os.getenv("EMR_GET_CONCEPT_BY_NAME_ENDPOINT")
         self.drugManagement_url = os.getenv("EMR_DRUG_MANAGEMENT_ENDPOINT")
+        self.dtpCases_url = os.getenv("EMR_GET_UPLOADED_DTPCASES_ENDPOINT")
+        self.orderDetail_url = os.getenv("EMR_GET_ORDERS_DETAIL_ENDPOINT")
+        self.obs_url = os.getenv("EMR_OBSERVATION_ENDPOINT")
         
     def getAuthHeader(self):
 

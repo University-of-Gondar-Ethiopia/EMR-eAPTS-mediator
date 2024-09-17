@@ -12,6 +12,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from component.openhim.openhim import Openhim
 from services.prescription import Prescription
 from services.drugSync import DrugSync
+from services.dtpCase import DtpCase
 
 app = FastAPI()
 load_dotenv()
@@ -27,6 +28,10 @@ def sync_presecription():
 @app.get("/drugSync")
 async def sync_drugs():
     return DrugSync().drugSyncManager()
+
+@app.get("/dtpCase")
+async def dtp_case():
+    return DtpCase().dtpCaseManager()
     
 @app.get("/test/authenicateEMR")
 def testAuthenticateEMR():
