@@ -92,9 +92,10 @@ class DtpCase:
             except json.JSONDecodeError:
                 return set()
 
-    def check_and_update_emr(self, dtpCases: List[Dict], file_path: str):
+    def check_and_update_emr(self, dtpCases: List[Dict], file_path: str) -> bool:
         fetched_dtpCases = dtpCases.get('model', [])
         stored_order_ids = self.read_stored_order_ids_from_json(file_path)
+        new_case_uploaded = False  # Track if a new case is uploaded
 
         for dtpCase in fetched_dtpCases:
             order_number = dtpCase['prescriptionDetails'][0]['orderNumber']
@@ -102,23 +103,25 @@ class DtpCase:
             if order_number in stored_order_ids:
                 # Skip processing for already uploaded cases
                 continue
-          
+
             uploaded_dtpCase = self.isDtpCaseUploadedToEMRBefore(order_number)
-            
-            if uploaded_dtpCase[0]['status'] == 0:  # If the dtpCase is not uploaded before
+
+            if uploaded_dtpCase[0]['status'] == 0:  # If the DTP case is not uploaded before
                 order_detail = self.getOrderDetail(order_number)
-                
+
                 self.uploadDtpCase(
-                    order_detail[0]['order_number'], 
-                    order_detail[0]['encounter_uuid'], 
-                    order_detail[0]['person_uuid'], 
+                    order_detail[0]['order_number'],
+                    order_detail[0]['encounter_uuid'],
+                    order_detail[0]['person_uuid'],
                     dtpCase['codeOfDtps'][0]['dtp']['name']
                 )  # Upload the DTP case
-                
+
                 # Append to JSON file after successful upload
                 self.storeUploadedOrderID(order_number, file_path)
-            else:
-                return {"status": "success", "message": "This DTP case is already uploaded"}
+                new_case_uploaded = True  # Mark that a new case was uploaded
+
+        return new_case_uploaded  # Return whether a new case was uploaded
+
 
     def dtpCaseManager(self):
         try:
@@ -129,9 +132,13 @@ class DtpCase:
                 try:
                     self.uploaded_file_path = os.path.join(os.path.dirname(__file__), '../../' 'uploadedDtpCaseOrderIds.json')
                     self.uploaded_file_path = os.path.abspath(self.uploaded_file_path)
+
+                    new_case_uploaded = self.check_and_update_emr(fetched_dtpCases, self.uploaded_file_path)
                     
-                    self.check_and_update_emr(fetched_dtpCases, self.uploaded_file_path)
-                    return {"status": "success", "message": "DTP Cases are uploaded Successfully!"}
+                    if new_case_uploaded:
+                        return {"status": "success", "message": "DTP Cases are uploaded Successfully!"}
+                    else:
+                        return {"status": "success", "message": "No new DTP cases to upload."}
                 except Exception as e:
                     raise HTTPException(status_code=500, detail=str(e))
         except Exception as e:
