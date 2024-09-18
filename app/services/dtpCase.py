@@ -63,7 +63,7 @@ class DtpCase:
        
         return response.json()
 
-    def storeUploadedOrderID(self, order_id: int, file_path: str):
+    def store_uploaded_order_id(self, order_id: int, file_path: str):
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
         if os.path.exists(file_path):
@@ -71,9 +71,12 @@ class DtpCase:
                 try:
                     data = json.load(file)
                 except json.JSONDecodeError:
-                    data = {"order_ids": []}
+                    data = {"order_ids": [], "timestamp": None}
         else:
-            data = {"order_ids": []}
+            data = {"order_ids": [], "timestamp": None}
+        
+        if "timestamp" not in data or data["timestamp"] is None:
+            data["timestamp"] = datetime.now().isoformat()
 
         if order_id not in data["order_ids"]:
             data["order_ids"].append(order_id)
@@ -88,10 +91,22 @@ class DtpCase:
         with open(file_path, 'r') as file:
             try:
                 data = json.load(file)
+
+                # Check if a timestamp exists and calculate the time difference
+                if "timestamp" in data:
+                    stored_time = datetime.fromisoformat(data["timestamp"])
+                    time_difference = datetime.now() - stored_time
+
+                    # If the difference is >= 24 hours delete the file and return an empty set
+                    if time_difference > timedelta(minutes=1440):
+                        file.close()  # Ensure the file is closed before removing it
+                        os.remove(file_path)
+                        return set()
+                    
                 return set(data.get("order_ids", []))
             except json.JSONDecodeError:
                 return set()
-
+            
     def check_and_update_emr(self, dtpCases: List[Dict], file_path: str) -> bool:
         fetched_dtpCases = dtpCases.get('model', [])
         stored_order_ids = self.read_stored_order_ids_from_json(file_path)
@@ -117,11 +132,10 @@ class DtpCase:
                 )  # Upload the DTP case
 
                 # Append to JSON file after successful upload
-                self.storeUploadedOrderID(order_number, file_path)
+                self.store_uploaded_order_id(order_number, file_path)
                 new_case_uploaded = True  # Mark that a new case was uploaded
 
-        return new_case_uploaded  # Return whether a new case was uploaded
-
+        return new_case_uploaded
 
     def dtpCaseManager(self):
         try:
