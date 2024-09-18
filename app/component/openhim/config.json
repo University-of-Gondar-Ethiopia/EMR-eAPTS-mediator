@@ -17,7 +17,7 @@
       "routes": [
         {
           "name": "EMR Eapts Interoperability Route",
-          "host": "host.docker.internal",
+          "host": "10.139.8.28",
           "port": "3005",
           "primary": true,
           "type": "http",
@@ -40,7 +40,7 @@
       "routes": [
         {
           "name": "EMR Eapts Interoperability DTP Route",
-          "host": "host.docker.internal",
+          "host": "10.139.8.28",
           "port": "3006",
           "primary": true,
           "type": "http",
@@ -63,7 +63,7 @@
       "routes": [
         {
           "name": "EMR Eapts Interoperability Drug Sync Route",
-          "host": "host.docker.internal",
+          "host": "10.139.8.28",
           "port": "3007",
           "primary": true,
           "type": "http",
@@ -86,7 +86,7 @@
       "routes": [
         {
           "name": "EMR Eapts Interoperability Dispense Drug Route",
-          "host": "host.docker.internal",
+          "host": "10.139.8.28",
           "port": "3008",
           "primary": true,
           "type": "http",
@@ -109,7 +109,7 @@
       "routes": [
         {
           "name": "EMR Eapts Interoperability Address Route",
-          "host": "host.docker.internal",
+          "host": "10.139.8.28",
           "port": "3009",
           "primary": true,
           "type": "http",
@@ -123,7 +123,7 @@
   "endpoints": [
     {
       "name": "EMR Eapts Interoperability Route",
-      "host": "host.docker.internal",
+      "host": "10.139.8.28",
       "path": "/syncPrescription",
       "port": "3005",
       "primary": true,
@@ -131,7 +131,7 @@
     },
     {
       "name": "EMR Eapts Interoperability DTP Route",
-      "host": "host.docker.internal",
+      "host": "10.139.8.28",
       "path": "/dtpCase",
       "port": "3006",
       "primary": true,
@@ -139,7 +139,7 @@
     },
     {
       "name": "EMR Eapts Interoperability Drug Sync Route",
-      "host": "host.docker.internal",
+      "host": "10.139.8.28",
       "path": "/drugSync",
       "port": "3007",
       "primary": true,
@@ -147,7 +147,7 @@
     },
     {
       "name": "EMR Eapts Interoperability Dispense Drug Route",
-      "host": "host.docker.internal",
+      "host": "10.139.8.28",
       "path": "/dispenseDrug",
       "port": "3008",
       "primary": true,
@@ -155,7 +155,7 @@
     },
     {
       "name": "EMR Eapts Interoperability Address Route",
-      "host": "host.docker.internal",
+      "host": "10.139.8.28",
       "path": "/addressSync",
       "port": "3009",
       "primary": true,
