@@ -14,7 +14,8 @@ This project serves as a mediator using the FastAPI Python framework to enable i
 
 1. Clone the repository
 2. Install dependencies using `pip install -r requirements.txt`
-3. Run the FastAPI server using `uvicorn main:app --reload`
+3. Navigate to app directory `cd app`
+4. Run the FastAPI server using `uvicorn main:app --reload`
 
 ## Usage
 
