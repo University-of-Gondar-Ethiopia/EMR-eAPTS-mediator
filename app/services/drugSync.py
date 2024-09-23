@@ -82,7 +82,11 @@ class DrugSync:
         response = requests.post(f'{self.emr.conceptManagement_url}/{concept['uuid']}', headers=self.eamr_headers, json=data, verify=False)
         response.raise_for_status()
        
-    def create_concept(self, concept_name: str):
+    def create_concept(self, concept_name: str, concept_type: str):
+        if concept_type == 'drug':
+            conceptClass = os.getenv("EMR_DRUG_CONCEPT_CLASS_UUID")
+        else:
+            conceptClass = os.getenv("EMR_MISC_CONCEPT_CLASS_UUID")
         data = {
             "names": [
                 {
@@ -94,7 +98,7 @@ class DrugSync:
             ],
             "datatype": os.getenv("EMR_DRUG_CONCEPT_DATATYPE_UUID"),
             "version": "1.2.2",
-            "conceptClass": os.getenv("EMR_DRUG_CONCEPT_CLASS_UUID"),
+            "conceptClass": conceptClass,
             "mappings": [],
             "descriptions": []
         }
@@ -127,18 +131,18 @@ class DrugSync:
             dosage_list = self.check_existing_concept(drug['dosage'])
             concept_list = self.check_existing_concept(drug['genericName'])
            
-            if len(dosage_list) == 0:  # If the dosageForm concept doesn't exist
-                created_dosageConcept = self.create_concept(drug['dosage'])  # Create the dosageForm
+            if dosage_list and len(dosage_list) == 0:  # If the dosageForm concept doesn't exist
+                created_dosageConcept = self.create_concept(drug['dosage'], "misc")  # Create the dosageForm
                 dosage_form = created_dosageConcept['uuid']
             else:
-                if dosage_list[0]['name'] == 'None':
+                if dosage_list and dosage_list[0]['name'] == 'None':
                     dosage_form = ""
                 else:
                     dosage_form = dosage_list[0]['uuid']
                
        
-            if len(concept_list) == 0:  # If the concept doesn't exist
-                created_concept = self.create_concept(drug['genericName'])  # Create the concept
+            if concept_list and len(concept_list) == 0:  # If the concept doesn't exist
+                created_concept = self.create_concept(drug['genericName'], 'drug')  # Create the concept
                 self.create_drug(created_concept["uuid"], dosage_form, drug)  # Create the drug
            
             elif concept_list and concept_list[0].get('class') != "Drug":  # If the concept exists but class is not "Drug"
