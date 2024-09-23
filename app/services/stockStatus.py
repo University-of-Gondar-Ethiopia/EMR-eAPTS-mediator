@@ -12,8 +12,6 @@ from component.eapts import EAPTS
 
 load_dotenv()
 
-CACHE_DURATION_MINUTES = 10  # Cache duration in minutes
-
 # Module-level cache shared across all requests
 cache = {}
 
@@ -21,7 +19,6 @@ class StockStatus:
     def __init__(self):
         self.emr = EMR()
         self.eapts = EAPTS()
-        self.token = None
         self.emr_headers = self.emr.getAuthHeader()
 
     def is_cache_valid(self, institutionId: str) -> bool:
@@ -29,7 +26,7 @@ class StockStatus:
         if institutionId in cache:
             cache_entry = cache[institutionId]
             now = datetime.now(timezone.utc)
-            if now - cache_entry['timestamp'] < timedelta(minutes=CACHE_DURATION_MINUTES):
+            if now - cache_entry['timestamp'] < timedelta(minutes=int(os.getenv("STOCK_STATUS_CACHE_DURATION_MINUTES", 10))):
                 return True
         return False
 
@@ -38,15 +35,13 @@ class StockStatus:
         if self.is_cache_valid(institutionId):
             return cache[institutionId]['data']
         
-        # Ensure token is fetched or refreshed
-        if self.token is None:
-            auth_response = self.eapts.authenticate()
-            if auth_response["status"] == "success":
-                self.token = auth_response["response"]["token"]["access_token"]
-            else:
-                raise Exception("Failed to authenticate with EAPTS")
-
-        headers = {'Authorization': f'Bearer {self.token}'}
+        # Ensure auth header is valid
+        try:
+            headers = self.eapts.getAuthHeader()  # Fetch the latest auth header
+            headers["Content-Type"]="application/json"
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e))
+        
         response = requests.get(f'{self.eapts.stockStatus_url}?institutionId={institutionId}', headers=headers)
         response.raise_for_status()
 
