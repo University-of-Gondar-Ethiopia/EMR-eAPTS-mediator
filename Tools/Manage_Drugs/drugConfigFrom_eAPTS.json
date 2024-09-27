@@ -1,0 +1,3636 @@
+{
+    "model": [
+        {
+            "genericName": "Acetazolamide",
+            "productName": "Acetazolamide - 250mg in(Tablet)",
+            "strength": "250mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "4419d16e-3f7d-4da7-acd2-953ae0f80d79"
+        },
+        {
+            "genericName": "Acyclovir",
+            "productName": "Acyclovir - 200mg in(capsule)",
+            "strength": "200mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "da7edfc0-a7fb-4dd4-934d-cb0de7bdc656"
+        },
+        {
+            "genericName": "Amoxicillin",
+            "productName": "Amoxicillin - 500mg in(capsule)",
+            "strength": "500mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "f2685d28-267c-4899-99b2-d7580546ba00"
+        },
+        {
+            "genericName": "Amoxicillin + Clavulanic Acid",
+            "productName": "Amoxicillin + Clavulanic Acid - 500mg + 125mg in(Tablet)",
+            "strength": "500mg + 125mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "d902f73b-7658-47d0-84b9-f110fe1cfeca"
+        },
+        {
+            "genericName": "Atropine Sulphate",
+            "productName": "Atropine Sulphate - 1% in(3.5gm)",
+            "strength": "1%",
+            "dosage": "Eye Ointment",
+            "unit": "3.5gm",
+            "itemUuid": "862bff83-5fa1-48af-897f-c8e07904e822"
+        },
+        {
+            "genericName": "Ceftriaxone",
+            "productName": "Ceftriaxone - 1gm in Vial in(Each)",
+            "strength": "1gm in Vial",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "411bc34e-ec1b-4d7b-8ce5-ccb9239b1505"
+        },
+        {
+            "genericName": "Chloramphenicol + Dexamethasone",
+            "productName": "Chloramphenicol + Dexamethasone - (0.5% + 0.1%) in(10ml)",
+            "strength": "(0.5% + 0.1%)",
+            "dosage": "Eye Drop",
+            "unit": "10ml",
+            "itemUuid": "d9507f33-b759-40a9-8e51-3089af2df404"
+        },
+        {
+            "genericName": "Chloramphenicol",
+            "productName": "Chloramphenicol - 1% in(Tube)",
+            "strength": "1%",
+            "dosage": "Eye Drop",
+            "unit": "Tube",
+            "itemUuid": "90a0020d-94cb-46f1-8b6f-caf4f6e28ee5"
+        },
+        {
+            "genericName": "Ciprofloxacin",
+            "productName": "Ciprofloxacin - 0.30% in(5ml)",
+            "strength": "0.30%",
+            "dosage": "Eye/Ear drop",
+            "unit": "5ml",
+            "itemUuid": "5405c70f-aa27-4d38-b0c6-e7c2b9fdf628"
+        },
+        {
+            "genericName": "Cimetidine",
+            "productName": "Cimetidine - 200mg/ml in 2ml ampoule in(Ampoule)",
+            "strength": "200mg/ml in 2ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "ba0c7310-e03c-447a-9b8a-e5b5db105fbf"
+        },
+        {
+            "genericName": "Dexamethasone",
+            "productName": "Dexamethasone - 0.10% in(10ml)",
+            "strength": "0.10%",
+            "dosage": "Eye Drop",
+            "unit": "10ml",
+            "itemUuid": "4cf1ac12-9683-4602-b6cc-311dd55b7acb"
+        },
+        {
+            "genericName": "Dexamethasone",
+            "productName": "Dexamethasone - 0.10% in(10ml)",
+            "strength": "0.10%",
+            "dosage": "Eye/Ear drop",
+            "unit": "10ml",
+            "itemUuid": "a627544e-070e-498d-9ec2-874392206c87"
+        },
+        {
+            "genericName": "Dexamethasone",
+            "productName": "Dexamethasone - 4mg/ml in(Ampoule)",
+            "strength": "4mg/ml",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "ea383b1d-a86e-489a-90cf-6fe6b19a7b0e"
+        },
+        {
+            "genericName": "Diclofenac Sodium",
+            "productName": "Diclofenac Sodium - 25mg/ml in 3ml ampoule in(Ampoule)",
+            "strength": "25mg/ml in 3ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "32e586b5-174a-4690-970e-9e40599ff2ba"
+        },
+        {
+            "genericName": "Diclofenac Sodium",
+            "productName": "Diclofenac Sodium - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "c8c0d27d-6f22-49c3-a4e2-3e73a2d8cbff"
+        },
+        {
+            "genericName": "Doxycycline",
+            "productName": "Doxycycline - 100mg in(capsule)",
+            "strength": "100mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "3f1c8c5a-beac-4f25-8576-0d03559c0bcb"
+        },
+        {
+            "genericName": "Flurbiprofen",
+            "productName": "Flurbiprofen - 0.03% in(5ml)",
+            "strength": "0.03%",
+            "dosage": "Eye Drop",
+            "unit": "5ml",
+            "itemUuid": "7d786a16-5bb7-4200-9b61-363ce166c980"
+        },
+        {
+            "genericName": "Gentamicin",
+            "productName": "Gentamicin -  in(Tube)",
+            "strength": null,
+            "dosage": "Eye Drop",
+            "unit": "Tube",
+            "itemUuid": "dfe8f952-d7e5-484e-bdff-c346c5909385"
+        },
+        {
+            "genericName": "Gentamicin",
+            "productName": "Gentamicin - 40mg/2ml in 2ml Ampoule in(Each)",
+            "strength": "40mg/2ml in 2ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "1752b70c-0e10-462f-bdc9-90ca590531d8"
+        },
+        {
+            "genericName": "Lidocaine HCL",
+            "productName": "Lidocaine HCL - 2% in 20ml in(Vial)",
+            "strength": "2% in 20ml",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "35911190-c26c-4d5e-9428-9af949edbff7"
+        },
+        {
+            "genericName": "Lidocaine HCL + Adrenaline",
+            "productName": "Lidocaine HCL + Adrenaline - (2%+1:200,000IU) in 20ml vial in(Vial)",
+            "strength": "(2%+1:200,000IU) in 20ml vial",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "746136e8-b223-47bd-927a-93e6b195cd37"
+        },
+        {
+            "genericName": "Metoclopramide",
+            "productName": "Metoclopramide - 5mg/ml in 2ml ampoule in(Ampoule)",
+            "strength": "5mg/ml in 2ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "3936941d-d678-4b87-858f-5ab03a6ed122"
+        },
+        {
+            "genericName": "Metronidazole",
+            "productName": "Metronidazole - 250mg in(Tablet)",
+            "strength": "250mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "6b61ddba-466c-436b-9e9a-df96bcab4bd7"
+        },
+        {
+            "genericName": "Metronidazole",
+            "productName": "Metronidazole - 5mg/ml in(100ml)",
+            "strength": "5mg/ml",
+            "dosage": "Intarvenous Infusion",
+            "unit": "100ml",
+            "itemUuid": "089ac445-a53a-4415-b7ae-0c706c43e902"
+        },
+        {
+            "genericName": "Omeperazole",
+            "productName": "Omeperazole - 20 mg in(Tablet)",
+            "strength": "20 mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "74a93332-e880-457d-9528-5882032b3a6d"
+        },
+        {
+            "genericName": "Oxytetracycline HCl + Hydrocortisone Acetate + Polymixin B Sulphate",
+            "productName": "Oxytetracycline HCl + Hydrocortisone Acetate + Polymixin B Sulphate - 10mg + 5mg +10,000U/ml in each ml susp. in(4 ml)",
+            "strength": "10mg + 5mg +10,000U/ml in each ml susp.",
+            "dosage": "Eye/Ear drop",
+            "unit": "4 ml",
+            "itemUuid": "825dc0c3-4434-44a9-ad95-41538c2659bd"
+        },
+        {
+            "genericName": "Paracetamol",
+            "productName": "Paracetamol - 500mg in(Tablet)",
+            "strength": "500mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "f3387f1a-e77a-493d-bc59-8b88539439f5"
+        },
+        {
+            "genericName": "Pilocarpine HCL",
+            "productName": "Pilocarpine HCL - 4% in(Tube)",
+            "strength": "4%",
+            "dosage": "Eye Drop",
+            "unit": "Tube",
+            "itemUuid": "11a9fabc-00df-4a1b-a2ff-36bd289999f9"
+        },
+        {
+            "genericName": "Pilocarpine HCL",
+            "productName": "Pilocarpine HCL - 2% in(15ml)",
+            "strength": "2%",
+            "dosage": "Eye Drop",
+            "unit": "15ml",
+            "itemUuid": "5a73e92e-7bf5-4429-882e-486277894493"
+        },
+        {
+            "genericName": "Prednisolone",
+            "productName": "Prednisolone - 5 mg in(Tablet)",
+            "strength": "5 mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "cf98e6fe-b7cd-4d80-8aa7-1dfe3fbd1840"
+        },
+        {
+            "genericName": "Sodium Cromoglycate",
+            "productName": "Sodium Cromoglycate - 0.02 in(10ml)",
+            "strength": "0.02",
+            "dosage": "Eye drop (Solution)",
+            "unit": "10ml",
+            "itemUuid": "0e9e0a46-36e8-4ee5-afa9-a4c6ec4b0c66"
+        },
+        {
+            "genericName": "Timolol Maleate",
+            "productName": "Timolol Maleate - 0.5 % in(Each)",
+            "strength": "0.5 %",
+            "dosage": "Eye Drop",
+            "unit": "Each",
+            "itemUuid": "6ea12c7c-e878-424e-aec0-3617a88e1df2"
+        },
+        {
+            "genericName": "Tramadol HCl",
+            "productName": "Tramadol HCl - 50mg/ml in 2ml ampoule in(Ampoule)",
+            "strength": "50mg/ml in 2ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "b093d92f-48d4-477a-8d47-aa498a743fe5"
+        },
+        {
+            "genericName": "Triamcinolone Acetonide",
+            "productName": "Triamcinolone Acetonide - 40mg/ml in Vial in(Each)",
+            "strength": "40mg/ml in Vial",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "1cfff254-ecf9-4dca-b573-0a9f5bc3c574"
+        },
+        {
+            "genericName": "Tropicamide",
+            "productName": "Tropicamide - 1% in(15 ml)",
+            "strength": "1%",
+            "dosage": "Eye Drop",
+            "unit": "15 ml",
+            "itemUuid": "c391dd9d-4343-452e-9519-e55dbb32181f"
+        },
+        {
+            "genericName": "Vitamin A (Retinol)",
+            "productName": "Vitamin A (Retinol) - 100,000 IU in(capsule)",
+            "strength": "100,000 IU",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "0ed5534d-b776-4e39-b6c1-31945371424d"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 4.0(0) 75cm on 30mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 4.0(0) 75cm on 30mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "e68ce89c-5b5a-4a7a-b8a1-a6a396b417db"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 3.5(2/0) 75cm on 27mm ½  Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 3.5(2/0) 75cm on 27mm ½  Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "6dc5764f-ceac-4696-a4a3-bf284dbf6025"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 6.0(2) 75cm on 35mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 6.0(2) 75cm on 35mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "1750b56b-2f62-4a77-a675-e2542c1074b3"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 3.5(2/0) 70cm on 26mm 1/2 Circle Round Bodied Needle in(Dozen)",
+            "strength": "Gauge 3.5(2/0) 70cm on 26mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "fac97b8f-3614-4e1e-b919-13c788c686b7"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 3.0(3/0) 75cm on 32mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 3.0(3/0) 75cm on 32mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "5fdb239f-4c7a-4355-a7d2-810f2426ec9f"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 2.0(4/0) 75cm on 15mm 1/2 Circle Round Bodied Needle in(Dozen)",
+            "strength": "Gauge 2.0(4/0) 75cm on 15mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "19006b9e-5843-4343-ae48-49e9d94b584d"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 3.5(0) 75cm on 32 mm ½  Circle Round Bodied Needle in(Dozen)",
+            "strength": "Gauge 3.5(0) 75cm on 32 mm ½  Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "9cd73452-a500-45cf-9b71-9d0c463e218c"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 3.5(0) 75cm on 32mm 1/2 circle cutting tapper Needle in(Dozen)",
+            "strength": "Gauge 3.5(0) 75cm on 32mm 1/2 circle cutting tapper Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "f86a84c3-aa5f-4c2d-a582-8b7fa3228109"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 4.0(1) 75cm on 30mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 4.0(1) 75cm on 30mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "7e48dbc0-9912-45f6-8b0a-dc2ab0c61cbf"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 4.0(1) 75cm on 30mm 1/2 circle reverse cutting needle in(Dozen)",
+            "strength": "Gauge 4.0(1) 75cm on 30mm 1/2 circle reverse cutting needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "ae727252-1851-4923-9f5a-8ed3686b7d08"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 2.0(3/0)75cm on 26mm 1/2 circle rounded bodied  needle in(Dozen)",
+            "strength": "Gauge 2.0(3/0)75cm on 26mm 1/2 circle rounded bodied  needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "4d4e5f53-f3fd-4c03-8fe7-346558fcded0"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 2.0(3/0) 100cm on 35mm 3/8 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 2.0(3/0) 100cm on 35mm 3/8 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "6981f5e2-5441-4b56-a261-1946b9f465c1"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 1.5(4/0) 75cm on 20mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 1.5(4/0) 75cm on 20mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "27c9f68f-5ec7-4f73-ab82-777d5f6884bf"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 1.5(4/0) 75cm on 20mm 1/2 Circle Reverse Cutting Needle in(Dozen)",
+            "strength": "Gauge 1.5(4/0) 75cm on 20mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "fe131c7a-59b9-4d84-9093-d4ee87f661dd"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 3.5(0) 75cm on 48mm 1/2 Circle Round Bodied Needle in(Dozen)",
+            "strength": "Gauge 3.5(0) 75cm on 48mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "08e9ce3f-b63e-485c-9f4a-648323254739"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 4.0(1) 75 cm on 45 mm ½  Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 4.0(1) 75 cm on 45 mm ½  Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "f4fb3f9a-0d4d-4014-812e-9967bd474085"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 4.0(1) 75cm on 45mm 1/2 Circle cutting taper needle in(Each)",
+            "strength": "Gauge 4.0(1) 75cm on 45mm 1/2 Circle cutting taper needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "aca0b78c-2c93-4ad7-9e4c-026385757029"
+        },
+        {
+            "genericName": "Ceftriaxone",
+            "productName": "Ceftriaxone - 0.5g in(Vial)",
+            "strength": "0.5g",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "8224005b-d71f-43f3-9898-f7a72548181f"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 5.0(2) 75cm on 40mm 1/2 circle cutting tapper needle in(Each)",
+            "strength": "Gauge 5.0(2) 75cm on 40mm 1/2 circle cutting tapper needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "c6750033-e96d-42e2-ae49-6721201a4d1f"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 3.0(2/0) 75cm on 26mm 3/8 Circle Reverse cutting needle in(Each)",
+            "strength": "Gauge 3.0(2/0) 75cm on 26mm 3/8 Circle Reverse cutting needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "317b80e6-e3b0-440d-9f45-e49565f6390e"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 3.0(2/0) 75cm on 27mm 1/2 Circle Round Bodied Needle in(Dozen)",
+            "strength": "Gauge 3.0(2/0) 75cm on 27mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "96ac7f30-74c8-4e4c-aaed-48315c6bcc34"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 1.5(4/0) 75cm on 15mm 1/2 circle  reverse cutting needle in(Each)",
+            "strength": "Gauge 1.5(4/0) 75cm on 15mm 1/2 circle  reverse cutting needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "cf172d08-81f2-42ef-b8cb-94afc9bbb60f"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 1.5(4/0) 75cm on 15mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 1.5(4/0) 75cm on 15mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "51864b5b-3142-4e0b-a415-a16767605a8a"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 1.0(5/0) 45cm on 13mm 1/2 Circle Reverse Cutting Needle in(Dozen)",
+            "strength": "Gauge 1.0(5/0) 45cm on 13mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "f3b2457c-1f50-43e9-8623-65cf5bf397d3"
+        },
+        {
+            "genericName": "Polyamide Monofilament",
+            "productName": "Polyamide Monofilament - Gauge 0.2 (10/0) 38cm on 6mm 1/3 Circle Spatula Double Armed Rounded Needle in(Dozen)",
+            "strength": "Gauge 0.2 (10/0) 38cm on 6mm 1/3 Circle Spatula Double Armed Rounded Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "ac12cbf7-d327-4552-bb39-972abec5ac19"
+        },
+        {
+            "genericName": "Dextrose",
+            "productName": "Dextrose - 40% in 20ml in(Vial)",
+            "strength": "40% in 20ml",
+            "dosage": "Iv Infusion",
+            "unit": "Vial",
+            "itemUuid": "b8183d98-2b7e-403a-a8ea-eb3026be6fd5"
+        },
+        {
+            "genericName": "Sodium Chloride (Normal Saline)",
+            "productName": "Sodium Chloride (Normal Saline) - 0.009 in(1000ml)",
+            "strength": "0.009",
+            "dosage": "Intravenous Infusion with Giving Set",
+            "unit": "1000ml",
+            "itemUuid": "e2af1aa7-c37b-41f7-b12e-9c4f555d8d81"
+        },
+        {
+            "genericName": "Ringer’s Lactate Solution",
+            "productName": "Ringer’s Lactate Solution - Each contains; K+ 5.4mEq + Na+ 130.7mEq + Ca++ in(1000ml)",
+            "strength": "Each contains; K+ 5.4mEq + Na+ 130.7mEq + Ca++",
+            "dosage": "Intravenous Infusion with Giving Set",
+            "unit": "1000ml",
+            "itemUuid": "2a2e6ef6-eb07-427b-9da2-df9e0b55f052"
+        },
+        {
+            "genericName": "Glove Surgical  Latex Sterile",
+            "productName": "Glove Surgical  Latex Sterile - No.7.5 in(Pair)",
+            "strength": "No.7.5",
+            "dosage": null,
+            "unit": "Pair",
+            "itemUuid": "a25ae000-03a3-413b-bb20-5e6297b19385"
+        },
+        {
+            "genericName": "Haloperidol",
+            "productName": "Haloperidol - 1.5mg in(Tablet)",
+            "strength": "1.5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "8cf74d9c-70b0-4f8e-97c8-29113b6e7564"
+        },
+        {
+            "genericName": "Cannula Intravenous Set",
+            "productName": "Cannula Intravenous Set - 20G  in(Each)",
+            "strength": "20G ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "75250064-1265-4ade-acee-fbdc38990375"
+        },
+        {
+            "genericName": "Cannula Intravenous Set (IV Cannula) ",
+            "productName": "Cannula Intravenous Set (IV Cannula)  - 24G in(Each)",
+            "strength": "24G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "e1208ad9-12d7-4ddd-87e3-ff937db836ec"
+        },
+        {
+            "genericName": "Cannula Intravenous Set (IV Cannula) ",
+            "productName": "Cannula Intravenous Set (IV Cannula)  - 18G  in(Each)",
+            "strength": "18G ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "4f2a8105-d8f8-4dcc-822d-6dd5f9296c82"
+        },
+        {
+            "genericName": "Cannula Intravenous Set (IV Cannula) ",
+            "productName": "Cannula Intravenous Set (IV Cannula)  - 20G  in(Each)",
+            "strength": "20G ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "c18e30f1-2e9c-470b-aae3-ca40c80e0fc9"
+        },
+        {
+            "genericName": "Syringe (Disposable)",
+            "productName": "Syringe (Disposable) - 20ml with Needle 20G in(Each)",
+            "strength": "20ml with Needle 20G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "0c0fc143-753b-4460-8a2a-7d453d78793d"
+        },
+        {
+            "genericName": "Syringe (Disposable)",
+            "productName": "Syringe (Disposable) - 10ml with needle 21G in(Each)",
+            "strength": "10ml with needle 21G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "97742d44-8971-4860-b611-ee6414132b3b"
+        },
+        {
+            "genericName": "Syringe (Disposable)",
+            "productName": "Syringe (Disposable) - 5ml with needle 21G  in(Each)",
+            "strength": "5ml with needle 21G ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "70071b9f-8ce6-4bcd-9f7d-8623f9529dc1"
+        },
+        {
+            "genericName": "Syringe Insulin (Disposable)",
+            "productName": "Syringe Insulin (Disposable) - 1ml on 6mm with Fixed Needle 30G in(Each)",
+            "strength": "1ml on 6mm with Fixed Needle 30G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "fb30f50f-0643-49b0-88e1-82316391a9ae"
+        },
+        {
+            "genericName": "Disposable Syringe",
+            "productName": "Disposable Syringe - 50ml with Needle  in(Each)",
+            "strength": "50ml with Needle ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "cb5e0ba5-3129-4960-8b24-1b3d251a5218"
+        },
+        {
+            "genericName": "Urine Collecting Bag PVC Latex Product",
+            "productName": "Urine Collecting Bag PVC Latex Product - 2000ml in(Each)",
+            "strength": "2000ml",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "9e28e796-1c8a-43af-a807-506cb12a19fd"
+        },
+        {
+            "genericName": "Catheter Foley Silconized Latex Three Ways",
+            "productName": "Catheter Foley Silconized Latex Three Ways - 30-50ml Balloon 18CH in(Each)",
+            "strength": "30-50ml Balloon 18CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "96d36fbe-2a09-4b51-8e6b-25f1bbeecf4a"
+        },
+        {
+            "genericName": "Catheter Foley Silconized Latex Three Ways",
+            "productName": "Catheter Foley Silconized Latex Three Ways - 30-50ml Balloon 16CH in(Each)",
+            "strength": "30-50ml Balloon 16CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "0551241f-bffa-4682-b3ea-d024e444b61e"
+        },
+        {
+            "genericName": "Naso Gastric Tube Sterile",
+            "productName": "Naso Gastric Tube Sterile - 18CH in(Each)",
+            "strength": "18CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "a9c31ca9-38d7-485d-b55d-6e43b0279730"
+        },
+        {
+            "genericName": "Thyroxine Sodium",
+            "productName": "Thyroxine Sodium - 0.1mg in(Tablet)",
+            "strength": "0.1mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "8cce452e-b77b-4001-b08b-71affcef846d"
+        },
+        {
+            "genericName": "Adhesive Plaster Zinc Oxide",
+            "productName": "Adhesive Plaster Zinc Oxide - 7.5cmx5m in(Each)",
+            "strength": "7.5cmx5m",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "7aa78d63-968c-4c87-aa84-a6063b93ebae"
+        },
+        {
+            "genericName": "Adhesive Plaster Zinc Oxide",
+            "productName": "Adhesive Plaster Zinc Oxide - 7.5cm x 10m in(Each)",
+            "strength": "7.5cm x 10m",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "276eed2d-a149-448f-999d-fdc92d035da5"
+        },
+        {
+            "genericName": "Adhesive Plaster Zinc Oxide",
+            "productName": "Adhesive Plaster Zinc Oxide - 12.5cmx10m in(Each)",
+            "strength": "12.5cmx10m",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "4c080554-584d-4ccd-9200-d8990a68fd5c"
+        },
+        {
+            "genericName": "Benzhexol (Trihexyphenidyl HCL)",
+            "productName": "Benzhexol (Trihexyphenidyl HCL) - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "50150551-02c1-4ae6-bf45-4264033cb79c"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 2.0(3/0) 75cm on 26mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 2.0(3/0) 75cm on 26mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "dac829d4-e567-41e6-b2eb-3eee18602425"
+        },
+        {
+            "genericName": "Phenytoin (Diphenhydantoin) Sodium",
+            "productName": "Phenytoin (Diphenhydantoin) Sodium - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "b71f133a-c8fd-4b35-b425-4e8a632650cd"
+        },
+        {
+            "genericName": "Lactulose",
+            "productName": "Lactulose - 10g/15ml in(200ml)",
+            "strength": "10g/15ml",
+            "dosage": "Solution",
+            "unit": "200ml",
+            "itemUuid": "5df78254-7203-4184-ae13-fbc75bcf345e"
+        },
+        {
+            "genericName": "Allopurinol",
+            "productName": "Allopurinol - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "f5d40fdf-33ba-4977-ba8f-aa69bf3c59b2"
+        },
+        {
+            "genericName": "Amoxicillin",
+            "productName": "Amoxicillin - 250mg in(capsule)",
+            "strength": "250mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "8dd8a15a-e2c1-41c5-a9d0-288f17dbb175"
+        },
+        {
+            "genericName": "Ceftriaxone",
+            "productName": "Ceftriaxone - 1gm with 10ml diluents in(Vial)",
+            "strength": "1gm with 10ml diluents",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "7f6c5fd7-4773-4d83-8cf3-ea24f38e46e7"
+        },
+        {
+            "genericName": "Metronidazole",
+            "productName": "Metronidazole - 250mg in(capsule)",
+            "strength": "250mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "ff86fa82-ed59-4ccd-a3ea-3a0303f1643c"
+        },
+        {
+            "genericName": "Dexachloropheniramine Malate + Betamethasone",
+            "productName": "Dexachloropheniramine Malate + Betamethasone - 2mg + 0.25mg in(Tablet)",
+            "strength": "2mg + 0.25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "ffa5491b-4f06-405d-867e-57df9888281b"
+        },
+        {
+            "genericName": "Ampicillin Sodium",
+            "productName": "Ampicillin Sodium - 250mg in Vial in(Vial)",
+            "strength": "250mg in Vial",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "2ba18625-3f09-4554-8f63-980931a19965"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 3.0(2/0) 75cm on 27mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 3.0(2/0) 75cm on 27mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "0756218c-c555-4d60-8748-2efa1d37849e"
+        },
+        {
+            "genericName": "Mersilk Braided Black",
+            "productName": "Mersilk Braided Black - Gauge 3.0(2/0) 75cm on 33 mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 3.0(2/0) 75cm on 33 mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "1be1c3b5-96d8-41c0-94fe-f2096ef6fe26"
+        },
+        {
+            "genericName": "Ceftriaxone",
+            "productName": "Ceftriaxone - 0.5g in Vial in(Each)",
+            "strength": "0.5g in Vial",
+            "dosage": "Powder for Injection with Diluent",
+            "unit": "Each",
+            "itemUuid": "84dcfc9c-e970-4945-92c1-a88becb83676"
+        },
+        {
+            "genericName": "Prednisolone",
+            "productName": "Prednisolone - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "4f665cf1-e8e8-4c33-89c3-ad195ab9185f"
+        },
+        {
+            "genericName": "Paracetamol",
+            "productName": "Paracetamol - 1g/100ml in(100ml)",
+            "strength": "1g/100ml",
+            "dosage": "Intravenous Infusion",
+            "unit": "100ml",
+            "itemUuid": "cad1dc79-8d95-4179-bd6e-5a18a3c6a7ba"
+        },
+        {
+            "genericName": "Fluconazole",
+            "productName": "Fluconazole - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "19facbfe-6165-4766-8502-ed902c3c3198"
+        },
+        {
+            "genericName": "Sodium Bicarbonate",
+            "productName": "Sodium Bicarbonate - 8.4% in 10ml ampoule in(Ampoule)",
+            "strength": "8.4% in 10ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "88ff7cec-fd5c-4940-953a-59f3bf284e77"
+        },
+        {
+            "genericName": "Carbamazepine",
+            "productName": "Carbamazepine - 200mg in(Tablet)",
+            "strength": "200mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "68c439e5-8b02-4268-a974-6cd8ab54c85b"
+        },
+        {
+            "genericName": "Oral Rehydration Salt",
+            "productName": "Oral Rehydration Salt - 20.5g for 1 Littre Preparation in(Sachet)",
+            "strength": "20.5g for 1 Littre Preparation",
+            "dosage": "Powder",
+            "unit": "Sachet",
+            "itemUuid": "3484fd5e-a8df-4c70-addb-d2a1d69c29ba"
+        },
+        {
+            "genericName": "Mebendazole",
+            "productName": "Mebendazole - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "d37a00af-7079-410d-91f4-25ccaa796ded"
+        },
+        {
+            "genericName": "Tetracycline",
+            "productName": "Tetracycline - 0.03 in(15gm)",
+            "strength": "0.03",
+            "dosage": "Skin Ointment ",
+            "unit": "15gm",
+            "itemUuid": "09fbd4c1-498d-4fcb-ac69-17375d876204"
+        },
+        {
+            "genericName": "Vitamin C (Ascorbic Acid)",
+            "productName": "Vitamin C (Ascorbic Acid) - 250mg in(Tablet)",
+            "strength": "250mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "d0a45876-8d43-462e-8e45-df6268181ad6"
+        },
+        {
+            "genericName": "Plaster Of Paris (P.O.P) ",
+            "productName": "Plaster Of Paris (P.O.P)  - 10cm x 3m in(Each)",
+            "strength": "10cm x 3m",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "41b972fa-8bbf-4999-9b76-f6ec0826a9a1"
+        },
+        {
+            "genericName": "Amoxicillin + Clavulanic Acid",
+            "productName": "Amoxicillin + Clavulanic Acid - (125mg + 31.25mg)/5ml in(100ml)",
+            "strength": "(125mg + 31.25mg)/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "100ml",
+            "itemUuid": "05ea04bc-27fd-4c8b-af26-eb3ea4930439"
+        },
+        {
+            "genericName": "Cisatracurium",
+            "productName": "Cisatracurium - 2mg/ml in 10 ml Ampoule in(Each)",
+            "strength": "2mg/ml in 10 ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "76609ad8-1f85-4526-ab4b-770d29b7a12c"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Guage 3.0(2/0) 75cm on 36mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Guage 3.0(2/0) 75cm on 36mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "7f51b01c-98ec-4f76-a976-1ab92b589f8f"
+        },
+        {
+            "genericName": "Mebendazole",
+            "productName": "Mebendazole - 100mg in(40x6)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "40x6",
+            "itemUuid": "124bcd41-f2d9-43f8-bbf8-3bb55b1c3e3a"
+        },
+        {
+            "genericName": "Captopril",
+            "productName": "Captopril - 25mg in(Tablet)",
+            "strength": "25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "cd6bc93f-a55c-45e4-b7d8-e49313c250da"
+        },
+        {
+            "genericName": "Tenofovir Disproxil Fumerate",
+            "productName": "Tenofovir Disproxil Fumerate - 300mg in(Tablet)",
+            "strength": "300mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "b19052ac-6863-4544-b999-a866db95890c"
+        },
+        {
+            "genericName": "Tamsulosin",
+            "productName": "Tamsulosin - 0.4mg in(Tablet)",
+            "strength": "0.4mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "3ecbe266-feae-4878-9a60-6ffe1b0b42e6"
+        },
+        {
+            "genericName": "Zinc Acetate ",
+            "productName": "Zinc Acetate  - 20mg in(Tablet)",
+            "strength": "20mg",
+            "dosage": "Tablet (Scored & Dispersable)",
+            "unit": "Tablet",
+            "itemUuid": "f789340d-1b24-431b-80d0-4cc1e9ccb7e9"
+        },
+        {
+            "genericName": "Chemical - Barium Sulphate",
+            "productName": "Chemical - Barium Sulphate -  in(175gm)",
+            "strength": null,
+            "dosage": "Powder",
+            "unit": "175gm",
+            "itemUuid": "dcba7680-a1de-4dea-a573-7ab43c676f5d"
+        },
+        {
+            "genericName": "Ringer's Solution",
+            "productName": "Ringer's Solution - Each contains Na+ 147mEq + K+ 4mEq Cl-155mEq in(1000ml)",
+            "strength": "Each contains Na+ 147mEq + K+ 4mEq Cl-155mEq",
+            "dosage": "Intravenous Infusion with Giving Set",
+            "unit": "1000ml",
+            "itemUuid": "0f77d4c2-9eba-4749-87df-7a0cba14698d"
+        },
+        {
+            "genericName": "Dextrose in Normal Saline",
+            "productName": "Dextrose in Normal Saline - (5%  + 0.9%) in(1000ml)",
+            "strength": "(5%  + 0.9%)",
+            "dosage": "Intravenous Infusion with Giving Set",
+            "unit": "1000ml",
+            "itemUuid": "b628f292-3d28-4986-96dd-0bf9d1d844ff"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 5.0(2) 75cm on 40mm ½  Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 5.0(2) 75cm on 40mm ½  Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "034d7045-b851-4661-91e8-f4f8ab6389f9"
+        },
+        {
+            "genericName": "Ephedrine Hydrochloride",
+            "productName": "Ephedrine Hydrochloride - 50mg/ml in 1ml ampoule in(Ampoule)",
+            "strength": "50mg/ml in 1ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "33934b91-2d92-46c2-a3d8-7e90a9c2d234"
+        },
+        {
+            "genericName": "Griseofulvin",
+            "productName": "Griseofulvin - 250mg in(Tablet)",
+            "strength": "250mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "fe94593c-5304-49d2-b0f1-f328d35625ad"
+        },
+        {
+            "genericName": "Artemether + Lumefanthrine",
+            "productName": "Artemether + Lumefanthrine - 20mg + 120mg (6x1) in(Tablet)",
+            "strength": "20mg + 120mg (6x1)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "f679cc04-7e5a-4092-8f2e-2de1c343e6be"
+        },
+        {
+            "genericName": "Artemether + Lumefanthrine",
+            "productName": "Artemether + Lumefanthrine - 20mg + 120mg (6x2) in(Tablet)",
+            "strength": "20mg + 120mg (6x2)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "c870ab92-22ee-40ac-8e36-87c0d6698964"
+        },
+        {
+            "genericName": "Artemether + Lumefanthrine",
+            "productName": "Artemether + Lumefanthrine - 20mg + 120mg (6x3) in(Tablet)",
+            "strength": "20mg + 120mg (6x3)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "b86ac96b-778b-4501-9b5a-924cd810063c"
+        },
+        {
+            "genericName": "Acyclovir",
+            "productName": "Acyclovir - 400mg in(Tablet)",
+            "strength": "400mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "0eb899ed-b39f-4d96-891d-afdea7b4bab6"
+        },
+        {
+            "genericName": "Tetracycline",
+            "productName": "Tetracycline - 1% in(Each)",
+            "strength": "1%",
+            "dosage": "Eye Ointment",
+            "unit": "Each",
+            "itemUuid": "780abd30-83a2-4dd3-8593-8f0d96c67d9b"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - gauge 3.0 (3/0) 75cm on 25mm 1/2 circle round bodied needle in(Each)",
+            "strength": "gauge 3.0 (3/0) 75cm on 25mm 1/2 circle round bodied needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "df1f99da-65b9-43f9-9976-b071c1bdd4dc"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 3.0(3/0) 75cm on 25mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 3.0(3/0) 75cm on 25mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "159c2952-4133-4156-b4af-ffa9458ba0aa"
+        },
+        {
+            "genericName": "Cannula Intravenous Set",
+            "productName": "Cannula Intravenous Set - 18G  in(Each)",
+            "strength": "18G ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "88463fdc-68be-457e-8e43-d329ea9c2ab5"
+        },
+        {
+            "genericName": "Adrenaline (Epinephrine)",
+            "productName": "Adrenaline (Epinephrine) - 0.1% in 1ml ampoule in(Each)",
+            "strength": "0.1% in 1ml ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "8c690c34-0324-4a81-914e-4668f539d152"
+        },
+        {
+            "genericName": "Aminophyline",
+            "productName": "Aminophyline - 250mg/10ml in 10ml Ampoule in(Ampoule)",
+            "strength": "250mg/10ml in 10ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "0abedf98-c890-47f4-b493-9420e5cf04e5"
+        },
+        {
+            "genericName": "Cloxacillin Sodium",
+            "productName": "Cloxacillin Sodium - 500 mg in(capsule)",
+            "strength": "500 mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "20a02e2c-2c9a-42aa-9065-2981c34fb119"
+        },
+        {
+            "genericName": "Diazepam",
+            "productName": "Diazepam - 5 mg/ml in 2ml ampoule in(Ampoule)",
+            "strength": "5 mg/ml in 2ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "7191326b-7bad-4c5c-ba91-00c6c7d46f44"
+        },
+        {
+            "genericName": "Acetylsalicylic Acid",
+            "productName": "Acetylsalicylic Acid - 81mg in(Tablet)",
+            "strength": "81mg",
+            "dosage": "Tablet( Enteric Coated)",
+            "unit": "Tablet",
+            "itemUuid": "e92963f9-755b-4d19-8ab4-d1ac3f7e97fe"
+        },
+        {
+            "genericName": "Albendazole",
+            "productName": "Albendazole - 400mg in(Tablet)",
+            "strength": "400mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "0e77cc78-2967-4073-9b7f-40d641259af6"
+        },
+        {
+            "genericName": "Amoxicillin",
+            "productName": "Amoxicillin - 250mg/5ml in(100ml)",
+            "strength": "250mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "100ml",
+            "itemUuid": "40f84a4f-de54-4b08-9024-2a9380ced280"
+        },
+        {
+            "genericName": "Atropine Sulphate",
+            "productName": "Atropine Sulphate - 1mg/ml in 1ml ampoule in(Ampoule)",
+            "strength": "1mg/ml in 1ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "d21d85ee-4c10-49b4-8c59-5e0b30b5e526"
+        },
+        {
+            "genericName": "Disposable Syringe",
+            "productName": "Disposable Syringe - 5ml with needle 21G  in(Each)",
+            "strength": "5ml with needle 21G ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "653346e5-3d57-4fab-b07b-e9e420fd0fa1"
+        },
+        {
+            "genericName": "Beclometasone Dipropionate",
+            "productName": "Beclometasone Dipropionate - 100mcg/dose in(200metered dose)",
+            "strength": "100mcg/dose",
+            "dosage": "Aerosol (Oral Inhalation)",
+            "unit": "200metered dose",
+            "itemUuid": "9ec191f3-755f-44eb-b671-9e869ee1f67f"
+        },
+        {
+            "genericName": "Disposable Syringe",
+            "productName": "Disposable Syringe - 3 parts , 3ml  with 21G needle  in(Each)",
+            "strength": "3 parts , 3ml  with 21G needle ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "d5f60201-c630-452a-a3a1-a43ce79f84d5"
+        },
+        {
+            "genericName": "Bisacodyl",
+            "productName": "Bisacodyl - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "49e297b4-6f01-4b71-8ffb-bc014bb806f4"
+        },
+        {
+            "genericName": "Calcium Gluconate",
+            "productName": "Calcium Gluconate - 10% in 10ml ampoule in(Ampoule)",
+            "strength": "10% in 10ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "ca643cff-f2eb-4943-9591-3b4b79feaf7f"
+        },
+        {
+            "genericName": "Frusemide",
+            "productName": "Frusemide - 10mg/ml in 2ml ampoule in(Ampoule)",
+            "strength": "10mg/ml in 2ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "bab78997-5923-4677-89b5-0e6aa8983fa2"
+        },
+        {
+            "genericName": "Hydralazine",
+            "productName": "Hydralazine - 20mg/ml in 1ml ampoule in(Ampoule)",
+            "strength": "20mg/ml in 1ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "23a65aaa-f67b-45b4-a241-0176e689be02"
+        },
+        {
+            "genericName": "Cannula Intravenous Set",
+            "productName": "Cannula Intravenous Set - 24G in(Each)",
+            "strength": "24G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "bc89c02c-0ec9-4763-a355-4e3fd73f32c2"
+        },
+        {
+            "genericName": "Hydrocortisone Sodium Succinate",
+            "productName": "Hydrocortisone Sodium Succinate - 100mg in vial in(Each)",
+            "strength": "100mg in vial",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "d03556c3-84eb-42dc-b002-8242737631ef"
+        },
+        {
+            "genericName": "Castor Oil",
+            "productName": "Castor Oil -  in(60ml)",
+            "strength": null,
+            "dosage": "Oral Solution",
+            "unit": "60ml",
+            "itemUuid": "c9157409-5461-4a65-8d9b-6f01ed0bd56f"
+        },
+        {
+            "genericName": "Ibuprofen",
+            "productName": "Ibuprofen - 400mg in(Tablet)",
+            "strength": "400mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "6092bf43-269a-44bb-8eca-b83079ec2ee8"
+        },
+        {
+            "genericName": "Insulin Syringe ",
+            "productName": "Insulin Syringe  - ,100iu/ml, 1ml with 29G needle, disposable in(Each)",
+            "strength": ",100iu/ml, 1ml with 29G needle, disposable",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "8869f7bb-c8d7-49a5-bf0e-46615538e593"
+        },
+        {
+            "genericName": "Magnesium Sulphate",
+            "productName": "Magnesium Sulphate - 50% in 10ml ampoule in(Ampoule)",
+            "strength": "50% in 10ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "33d0ff7e-2a04-478e-bd77-5d57d60945b1"
+        },
+        {
+            "genericName": "Methyldopa",
+            "productName": "Methyldopa - 250mg in(Tablet)",
+            "strength": "250mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "a0cc558d-3cba-483a-99aa-90765fb86f63"
+        },
+        {
+            "genericName": "Catheter Foley Silconized Latex Two Ways",
+            "productName": "Catheter Foley Silconized Latex Two Ways - 30-50ml Balloon 16CH in(Each)",
+            "strength": "30-50ml Balloon 16CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "35685984-3ef0-47f1-b152-3be394d75327"
+        },
+        {
+            "genericName": "Metoclopramide",
+            "productName": "Metoclopramide - 10mg in(Tablet)",
+            "strength": "10mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "cd672380-b5da-4192-b722-6a90db1112ca"
+        },
+        {
+            "genericName": "Catheter Foley Silconized Latex Three Ways",
+            "productName": "Catheter Foley Silconized Latex Three Ways - 5-15ml Balloon 14CH in(Each)",
+            "strength": "5-15ml Balloon 14CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "730f92fb-8005-4aaa-8f81-9d82ee9414f5"
+        },
+        {
+            "genericName": "Catheter Foley Silconized Latex Three Ways",
+            "productName": "Catheter Foley Silconized Latex Three Ways - 5-15ml Balloon 12CH in(Each)",
+            "strength": "5-15ml Balloon 12CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "7fdb6875-a6cf-4775-8664-6f52ae2981f5"
+        },
+        {
+            "genericName": "Cefazolin Sodium",
+            "productName": "Cefazolin Sodium - 1gm  in(Vial)",
+            "strength": "1gm ",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "dbd05565-31d9-439c-a3b0-92a89c4a1084"
+        },
+        {
+            "genericName": "Morphine Sulphate",
+            "productName": "Morphine Sulphate - 10mg/ml in(Ampoule)",
+            "strength": "10mg/ml",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "f551352a-af5d-415d-9faa-7a7a2ef11fee"
+        },
+        {
+            "genericName": "Nifedipine",
+            "productName": "Nifedipine - 20mg in(Tablet)",
+            "strength": "20mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "fcd5e9bb-26f6-4a9f-98b9-48c0f7f97e92"
+        },
+        {
+            "genericName": "Oxytocin",
+            "productName": "Oxytocin - 10 Units/ml in 1ml Ampoule in(Ampoule)",
+            "strength": "10 Units/ml in 1ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "34d13384-9ba1-41bc-8798-b7854e389bd3"
+        },
+        {
+            "genericName": "Chlordiazepoxide + Clindnium Bromide",
+            "productName": "Chlordiazepoxide + Clindnium Bromide - (5mg + 2.5mg) in(Tablet)",
+            "strength": "(5mg + 2.5mg)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "39ad9da4-9ed3-45d5-b5ce-3d07b2226d4f"
+        },
+        {
+            "genericName": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicon",
+            "productName": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicon - (225mg + 200mg + 50mg)/5ml in(200ml)",
+            "strength": "(225mg + 200mg + 50mg)/5ml",
+            "dosage": "Suspension",
+            "unit": "200ml",
+            "itemUuid": "c72bcc10-54ba-434d-8957-7ee1ebf224e4"
+        },
+        {
+            "genericName": "Pethidine HCL",
+            "productName": "Pethidine HCL - 50mg/ml in 2ml ampoule in(Ampoule)",
+            "strength": "50mg/ml in 2ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "2a41ac9c-cc72-45ad-9922-b63c26d541d2"
+        },
+        {
+            "genericName": "Amitriptyline",
+            "productName": "Amitriptyline - 25mg in(Tablet)",
+            "strength": "25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "3735c2b1-42a0-452e-8e5c-7b98490fd429"
+        },
+        {
+            "genericName": "Ciprofloxacin",
+            "productName": "Ciprofloxacin - 500mg in(Tablet)",
+            "strength": "500mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "2e7bf8ac-7fb8-4e91-ac91-d46bbea6ca27"
+        },
+        {
+            "genericName": "Ciprofloxacin",
+            "productName": "Ciprofloxacin - 2mg/ml in 100ml in(Each)",
+            "strength": "2mg/ml in 100ml",
+            "dosage": "Intravenous Infusion (as lactate)",
+            "unit": "Each",
+            "itemUuid": "d05ba038-08e0-4fb9-8cbd-8e676f0718dc"
+        },
+        {
+            "genericName": "Clarithromycin",
+            "productName": "Clarithromycin - 500mg in(Tablet)",
+            "strength": "500mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "81e909de-53cf-408b-a2a9-7bfa9e09ffd0"
+        },
+        {
+            "genericName": "Amlodipine",
+            "productName": "Amlodipine - 10mg in(Tablet)",
+            "strength": "10mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "375de188-bd26-43cc-a113-dfbb0932ce71"
+        },
+        {
+            "genericName": "Cloxacillin Sodium",
+            "productName": "Cloxacillin Sodium - 125 mg/5 ml in(Bottle)",
+            "strength": "125 mg/5 ml",
+            "dosage": "Syrup",
+            "unit": "Bottle",
+            "itemUuid": "1e170402-40ad-4210-9d5d-b25027add348"
+        },
+        {
+            "genericName": "Aluminium Hydroxide + Magnesium Trisilicate",
+            "productName": "Aluminium Hydroxide + Magnesium Trisilicate - 120mg + 250mg in(Tablet)",
+            "strength": "120mg + 250mg",
+            "dosage": "Tablet (Chewable)",
+            "unit": "Tablet",
+            "itemUuid": "22d40505-e112-4878-b8d2-579d094214d7"
+        },
+        {
+            "genericName": "Clotrimazole",
+            "productName": "Clotrimazole - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet (Vaginal)",
+            "unit": "Tablet",
+            "itemUuid": "cc3e9f2d-9ce0-4cfe-8eae-6a2f5406c8b6"
+        },
+        {
+            "genericName": "Cotton Absorbent Wool",
+            "productName": "Cotton Absorbent Wool - 100gm in(Each)",
+            "strength": "100gm",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "34e48986-ace7-439c-a565-d4c6bf825cdb"
+        },
+        {
+            "genericName": "Anti-Rho (D) Immune Globulin",
+            "productName": "Anti-Rho (D) Immune Globulin - 300mcg in 2ml Vial in(Vial)",
+            "strength": "300mcg in 2ml Vial",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "620b1e27-8c75-4077-9107-c26c11b63cd5"
+        },
+        {
+            "genericName": "Atenolol",
+            "productName": "Atenolol - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "88054c4c-1e75-46f6-95fc-7f22154adbdf"
+        },
+        {
+            "genericName": "Atenolol",
+            "productName": "Atenolol - 25mg in(Tablet)",
+            "strength": "25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "3692a4e2-c6d8-4157-bd7a-0ac905d298fc"
+        },
+        {
+            "genericName": "Dextromethorphan Hydrobromide",
+            "productName": "Dextromethorphan Hydrobromide - 15mg/5ml in(125ml)",
+            "strength": "15mg/5ml",
+            "dosage": "Syrup",
+            "unit": "125ml",
+            "itemUuid": "9556162c-3f51-4625-9c00-55213c7621d6"
+        },
+        {
+            "genericName": "Surgical Scalpel Blade ",
+            "productName": "Surgical Scalpel Blade  - No.24 in(Each)",
+            "strength": "No.24",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "14ba04e8-360e-4e5c-bcdf-821a734acf45"
+        },
+        {
+            "genericName": "Surgical Scalpel Blade ",
+            "productName": "Surgical Scalpel Blade  - No.15 in(Each)",
+            "strength": "No.15",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "b56509a4-4cfb-4388-ade3-a98f2db93da4"
+        },
+        {
+            "genericName": "Diazepam",
+            "productName": "Diazepam - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "f23f599c-548f-4579-bbc3-4e10496e28c2"
+        },
+        {
+            "genericName": "Surgical Scalpel Blade ",
+            "productName": "Surgical Scalpel Blade  - No.20 in(Each)",
+            "strength": "No.20",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "9ce9b024-d7e5-4adb-82f8-72be15007c37"
+        },
+        {
+            "genericName": "Surgical Scalpel Blade ",
+            "productName": "Surgical Scalpel Blade  - No.22 in(Each)",
+            "strength": "No.22",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "31cf7e00-b1ca-48d6-9f84-b17c79a2141b"
+        },
+        {
+            "genericName": "Surgical Scalpel Blade ",
+            "productName": "Surgical Scalpel Blade  - No.23 in(Each)",
+            "strength": "No.23",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "5d47631c-422a-49c7-8397-72f520047785"
+        },
+        {
+            "genericName": "Digoxin",
+            "productName": "Digoxin - 0.25mg in(Tablet)",
+            "strength": "0.25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "d81cb6aa-503e-47f8-9c6c-c4cf6fff0894"
+        },
+        {
+            "genericName": "Tranexamic acid",
+            "productName": "Tranexamic acid - 100mg/ml in 10ml Ampoule in(Ampoule)",
+            "strength": "100mg/ml in 10ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "a96c2af4-aba6-445d-a38c-c84ee0a0ba15"
+        },
+        {
+            "genericName": "Tramadol HCl",
+            "productName": "Tramadol HCl - 50mg in(capsule)",
+            "strength": "50mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "1735bb05-8092-4a43-82de-70e7619e3d04"
+        },
+        {
+            "genericName": "Azithromycine",
+            "productName": "Azithromycine - 250mg in(Tablet)",
+            "strength": "250mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "5b9a63de-e8a3-4d49-b6a9-f87253eab97e"
+        },
+        {
+            "genericName": "Bandage Elastic",
+            "productName": "Bandage Elastic - 8cm x 5m in(Each)",
+            "strength": "8cm x 5m",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "a145ffb6-dba4-4bfc-861b-39834a4693f5"
+        },
+        {
+            "genericName": "Enoxaparine",
+            "productName": "Enoxaparine - 6000IU/0.6ml in PFS in(Each)",
+            "strength": "6000IU/0.6ml in PFS",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "abbf117b-e981-4284-ba64-c28379aaef74"
+        },
+        {
+            "genericName": "Digoxin",
+            "productName": "Digoxin - 0.25mg/ml in 2ml ampoule in(Ampoule)",
+            "strength": "0.25mg/ml in 2ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "ef2cd6cc-d89c-4a17-81b9-91c704e0bb58"
+        },
+        {
+            "genericName": "Dimenhydrinate",
+            "productName": "Dimenhydrinate - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "9c232bd2-74f8-448a-9a5a-fb7021726eba"
+        },
+        {
+            "genericName": "Zidovudine",
+            "productName": "Zidovudine - 10mg/ml in(100ml)",
+            "strength": "10mg/ml",
+            "dosage": "Oral Solution",
+            "unit": "100ml",
+            "itemUuid": "dc14ffdd-4529-4111-9f22-171df0c22e3d"
+        },
+        {
+            "genericName": "Gauze Bandage",
+            "productName": "Gauze Bandage - 7.5cm x 5m in(Each)",
+            "strength": "7.5cm x 5m",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "03279593-6d8c-452f-bee6-833ea0fe24c2"
+        },
+        {
+            "genericName": "Dobutamine",
+            "productName": "Dobutamine - 250mg/20ml in 20ml Vial in(Each)",
+            "strength": "250mg/20ml in 20ml Vial",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "6eac91be-1093-4f36-b86b-7f8a1fe2ef7c"
+        },
+        {
+            "genericName": "Azithromycin ",
+            "productName": "Azithromycin  - 500mg in(Tablet)",
+            "strength": "500mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "5b14a966-1db6-4ec2-b504-2bda9035b66a"
+        },
+        {
+            "genericName": "Bupivacaine ",
+            "productName": "Bupivacaine  - 0.5% in 10ml ampoule in(Each)",
+            "strength": "0.5% in 10ml ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "bac38dde-212f-4979-9281-30802fd0e50f"
+        },
+        {
+            "genericName": "Bupivacaine Hydrochloride",
+            "productName": "Bupivacaine Hydrochloride - 0.5% in 10ml ampoule in(Each)",
+            "strength": "0.5% in 10ml ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "40e8fd81-ba64-4867-a98d-778d971afa8f"
+        },
+        {
+            "genericName": "Enalapril Maleate",
+            "productName": "Enalapril Maleate - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "897cb91e-d33b-4a97-81d4-f35ada6e301d"
+        },
+        {
+            "genericName": "Erythromycin",
+            "productName": "Erythromycin - 200mg/5ml in(100ml)",
+            "strength": "200mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "100ml",
+            "itemUuid": "3f130339-2f34-4850-b88b-94de606df3a1"
+        },
+        {
+            "genericName": "Hydrochlorothiazide",
+            "productName": "Hydrochlorothiazide - 25mg in(Tablet)",
+            "strength": "25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "48247f48-061d-4e74-88dc-9580762e2b49"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 5.0(1) 75cm on 30mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 5.0(1) 75cm on 30mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "056cf756-3c31-45f1-83a4-6740e159cf58"
+        },
+        {
+            "genericName": "Cannula Intravenous Set",
+            "productName": "Cannula Intravenous Set - 22G in(Each)",
+            "strength": "22G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "3fd46571-21ef-46e5-9c64-a8d9ec2eb978"
+        },
+        {
+            "genericName": "Urine Collecting Bag PVC Latex Product",
+            "productName": "Urine Collecting Bag PVC Latex Product - 1000ml in(Each)",
+            "strength": "1000ml",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "38961ff4-c182-4197-96a4-1d93699e1f03"
+        },
+        {
+            "genericName": "Fluconazole",
+            "productName": "Fluconazole - 200mg in(Tablet)",
+            "strength": "200mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "126657c7-71d4-4eb2-ba0b-3602d0b45412"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 4.0(0) 75cm on 30mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 4.0(0) 75cm on 30mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "0d549285-56e3-4c46-af41-9cbe1aa851c8"
+        },
+        {
+            "genericName": "Enalapril Maleate",
+            "productName": "Enalapril Maleate - 10mg in(Tablet)",
+            "strength": "10mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "8e089cd5-bd9b-443a-89fe-493febd0e69c"
+        },
+        {
+            "genericName": "Cannula Intravenous Set (IV Cannula) ",
+            "productName": "Cannula Intravenous Set (IV Cannula)  - 22G in(Each)",
+            "strength": "22G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "96d184f4-814d-47bf-9be2-54c8534610ac"
+        },
+        {
+            "genericName": "Folic Acid",
+            "productName": "Folic Acid - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "e2ec78c3-a56a-474a-a0cc-e51426f3d990"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 3.0(2/0) 75cm on 27mm  1/2 Circle Reverse Cutting Needle in(Dozen)",
+            "strength": "Gauge 3.0(2/0) 75cm on 27mm  1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "6ee3bd74-3c16-4146-becb-180f26534117"
+        },
+        {
+            "genericName": "Frusemide",
+            "productName": "Frusemide - 40mg in(Tablet)",
+            "strength": "40mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "528036a0-39e7-4d20-86ba-3b7ee5cd4a83"
+        },
+        {
+            "genericName": "Indomethacin",
+            "productName": "Indomethacin - 25mg in(capsule)",
+            "strength": "25mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "48645f5a-0d7e-4fad-b13c-790181f67bb4"
+        },
+        {
+            "genericName": "Mannitol",
+            "productName": "Mannitol - 20% in250ml Ampoule in(500ml)",
+            "strength": "20% in250ml Ampoule",
+            "dosage": "Intravenous Infusion",
+            "unit": "500ml",
+            "itemUuid": "fae67bfb-d08b-4def-b775-a6ce5a0b42f8"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 5.0(1) 75cm on 48mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 5.0(1) 75cm on 48mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "849d4c3c-ee52-49fc-944c-adcb5fdce7e2"
+        },
+        {
+            "genericName": "Metronidazole",
+            "productName": "Metronidazole - 125mg/5ml in(100ml)",
+            "strength": "125mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "100ml",
+            "itemUuid": "e7459e43-0eae-41cb-970c-37164959efd3"
+        },
+        {
+            "genericName": "Miconazole Nitrate",
+            "productName": "Miconazole Nitrate - 200mg in(Tablet)",
+            "strength": "200mg",
+            "dosage": "Tablet (Vaginal)",
+            "unit": "Tablet",
+            "itemUuid": "ce7b06dd-0087-43a7-9ff5-7bebfaafed85"
+        },
+        {
+            "genericName": "Naso Gastric Tube Sterile",
+            "productName": "Naso Gastric Tube Sterile - 16CH in(Each)",
+            "strength": "16CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "ffcdbe59-5e20-4ab9-8ddc-b01429593e89"
+        },
+        {
+            "genericName": "Naso Gastric Tube Sterile",
+            "productName": "Naso Gastric Tube Sterile - 4CH in(Each)",
+            "strength": "4CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "6a724c11-1002-487b-a7da-b29541f7f465"
+        },
+        {
+            "genericName": "Naso Gastric Tube Sterile",
+            "productName": "Naso Gastric Tube Sterile - 8CH in(Each)",
+            "strength": "8CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "761204df-16de-4c33-80d5-e0380f72ad89"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 6.0(2) 75cm on 35mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 6.0(2) 75cm on 35mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "7b2ec5e2-ae59-45c5-a654-47a142bf4410"
+        },
+        {
+            "genericName": "Naso Gastric Tube Sterile",
+            "productName": "Naso Gastric Tube Sterile - 6CH in(Each)",
+            "strength": "6CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "fe3aea57-f32a-42dc-92da-6f70e436529e"
+        },
+        {
+            "genericName": "Naso Gastric Tube Sterile",
+            "productName": "Naso Gastric Tube Sterile - 12CH in(Each)",
+            "strength": "12CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "c3d70c03-1211-48a0-9c27-ef1487be9083"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 2.0(4/0) 75cm on 38mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 2.0(4/0) 75cm on 38mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "79604214-a42b-4d35-bd30-0ea715271b1a"
+        },
+        {
+            "genericName": "Colostomy Bag Adhesive  Regulator Closed",
+            "productName": "Colostomy Bag Adhesive  Regulator Closed - 30mm Opening, adult opec medium in(Each)",
+            "strength": "30mm Opening, adult opec medium",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "56f78f06-2e5c-41db-8aa5-9b9b6578e3f1"
+        },
+        {
+            "genericName": "Catheter Condom Latex Medium",
+            "productName": "Catheter Condom Latex Medium - 28mm in(Each)",
+            "strength": "28mm",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "7065a0ca-7e32-4829-a8c8-b2ded79b8f38"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 7.0(3) 75cm on 48mm 1/2 Circle Round Bodied Needle    in(Each)",
+            "strength": "Gauge 7.0(3) 75cm on 48mm 1/2 Circle Round Bodied Needle   ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "56da9ab6-32f1-43f6-a55d-06f408a23449"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 6.5(3) 75cm on 48mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 6.5(3) 75cm on 48mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "0f3d31b3-992e-427e-a917-c8db4ec53a3e"
+        },
+        {
+            "genericName": "Dexamethasone",
+            "productName": "Dexamethasone - 4mg in(Tablet)",
+            "strength": "4mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "eee8bc53-c573-4ffa-86d1-0d2c01efe688"
+        },
+        {
+            "genericName": "Nitrofurazone",
+            "productName": "Nitrofurazone - 0.002 in(30gm)",
+            "strength": "0.002",
+            "dosage": "Ointment",
+            "unit": "30gm",
+            "itemUuid": "fc8d4f2a-f8c0-4913-9f8f-fe6173044699"
+        },
+        {
+            "genericName": "Omeperazole",
+            "productName": "Omeperazole - 20 mg in(capsule)",
+            "strength": "20 mg",
+            "dosage": "Capsule (Enclosing Enteric Coated Granules)",
+            "unit": "capsule",
+            "itemUuid": "d54abcb1-1953-445b-9c9e-b1971c98408f"
+        },
+        {
+            "genericName": "Omeperazole",
+            "productName": "Omeperazole - 4mg/ml in 10ml in(Each)",
+            "strength": "4mg/ml in 10ml",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "304cab00-91be-4fc3-a5da-37a424421809"
+        },
+        {
+            "genericName": "Pantoprazole",
+            "productName": "Pantoprazole - 40mg in(Tablet)",
+            "strength": "40mg",
+            "dosage": "Tablet (enteric coated)",
+            "unit": "Tablet",
+            "itemUuid": "e517a033-bf43-4d9d-9cf2-ca067e3fb941"
+        },
+        {
+            "genericName": "Paracetamol",
+            "productName": "Paracetamol - 120mg/5ml in(60ml)",
+            "strength": "120mg/5ml",
+            "dosage": "Syrup",
+            "unit": "60ml",
+            "itemUuid": "ae74d1c0-fdfe-477e-9353-3ae853a6b272"
+        },
+        {
+            "genericName": "Paracetamol",
+            "productName": "Paracetamol - 125mg in(Suppository)",
+            "strength": "125mg",
+            "dosage": "Suppository ",
+            "unit": "Suppository",
+            "itemUuid": "a0d47d93-a3dc-46f2-8717-bc6465bba6ee"
+        },
+        {
+            "genericName": "Paracetamol",
+            "productName": "Paracetamol - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "17a4b343-a9a0-4a97-9f51-daca18685b79"
+        },
+        {
+            "genericName": "Penicillin G, Benzanthin",
+            "productName": "Penicillin G, Benzanthin - 2.4  MIU in(Vial)",
+            "strength": "2.4  MIU",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "6f8583e0-f2fd-4d7c-9ad3-fd329d5e1f48"
+        },
+        {
+            "genericName": "Potassium Chloride",
+            "productName": "Potassium Chloride - 150mg/ml in 10ml ampoule in(Ampoule)",
+            "strength": "150mg/ml in 10ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "d73a2e2a-ab23-4fe9-9780-973786f8715a"
+        },
+        {
+            "genericName": "Potassium Chloride",
+            "productName": "Potassium Chloride - 600mg in(Tablet)",
+            "strength": "600mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "5ab494f1-bfb7-4980-a74f-157f2644601d"
+        },
+        {
+            "genericName": "Chlorpheniramine Maleate",
+            "productName": "Chlorpheniramine Maleate - 4mg in(Tablet)",
+            "strength": "4mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "0554d85e-9973-4c75-80f7-66b09edc35a7"
+        },
+        {
+            "genericName": "Promethazine HCL",
+            "productName": "Promethazine HCL - 25mg/ml in 2ml  in(Ampoule)",
+            "strength": "25mg/ml in 2ml ",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "7329a963-fe6c-461e-a855-edbb726559c2"
+        },
+        {
+            "genericName": "Praziquantel",
+            "productName": "Praziquantel - 600mg in(Tablet)",
+            "strength": "600mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "e1239202-65c9-41e9-b6e2-e2a3432d4680"
+        },
+        {
+            "genericName": "Salbutamol (Albuterol)",
+            "productName": "Salbutamol (Albuterol) - 0.1mg/dose in(200metered doses)",
+            "strength": "0.1mg/dose",
+            "dosage": "Aerosol (Oral Inhalation)",
+            "unit": "200metered doses",
+            "itemUuid": "80daa25a-d28c-45a0-9816-2adbd9374975"
+        },
+        {
+            "genericName": "Cloxacillin Sodium",
+            "productName": "Cloxacillin Sodium - 250mg in(capsule)",
+            "strength": "250mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "02021418-af9b-449b-996e-b35dd78e1955"
+        },
+        {
+            "genericName": "Spironolactone",
+            "productName": "Spironolactone - 25mg in(Tablet)",
+            "strength": "25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "0e09edd4-a194-461c-a010-aa44bd1c50db"
+        },
+        {
+            "genericName": "Sulphamethoxazole + Trimethoprim",
+            "productName": "Sulphamethoxazole + Trimethoprim - (200mg + 40mg)/5ml in(Bottle)",
+            "strength": "(200mg + 40mg)/5ml",
+            "dosage": "Mixture",
+            "unit": "Bottle",
+            "itemUuid": "4965ee63-ff82-4af4-ab89-692958991be4"
+        },
+        {
+            "genericName": "Ampicillin Sodium",
+            "productName": "Ampicillin Sodium - 500mg in Vial in(Vial)",
+            "strength": "500mg in Vial",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "96453d23-20f0-4b36-bc91-15a7090a197d"
+        },
+        {
+            "genericName": "Amoxicillin",
+            "productName": "Amoxicillin - 250mg in(Tablet)",
+            "strength": "250mg",
+            "dosage": "Tablet (Dispersible)",
+            "unit": "Tablet",
+            "itemUuid": "17d7e632-2653-4837-9a5a-e49de2ac0630"
+        },
+        {
+            "genericName": "Dopamine Hydrochloride",
+            "productName": "Dopamine Hydrochloride - 40mg/ml in 5ml Ampoule in(Ampoule)",
+            "strength": "40mg/ml in 5ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "9a84cb32-2104-4674-94d8-973dbc621438"
+        },
+        {
+            "genericName": "Theophylline + Ephedrine",
+            "productName": "Theophylline + Ephedrine - (120mg + 11mg) in(Tablet)",
+            "strength": "(120mg + 11mg)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "27afe117-425b-4cf2-b47d-9ea742966d06"
+        },
+        {
+            "genericName": "Tinidazole",
+            "productName": "Tinidazole - 500 mg in(Tablet)",
+            "strength": "500 mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "d2799411-029b-4f84-a955-4a2156d6379c"
+        },
+        {
+            "genericName": "Drainage Chest Tube",
+            "productName": "Drainage Chest Tube - 28FG in(Each)",
+            "strength": "28FG",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "a8cdd087-12de-4745-b44b-87626ecc57f2"
+        },
+        {
+            "genericName": "Vancomycine",
+            "productName": "Vancomycine - 1gm in Vial in(Each)",
+            "strength": "1gm in Vial",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "382c9bfc-18d9-46b5-9ec4-b37b8468d271"
+        },
+        {
+            "genericName": "Drainage Chest Tube",
+            "productName": "Drainage Chest Tube - 32FG in(Each)",
+            "strength": "32FG",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "e70dfbf3-7cc9-4940-8541-5709710e9120"
+        },
+        {
+            "genericName": "Vitamin B Complex Preparations",
+            "productName": "Vitamin B Complex Preparations -  in(Ampoule)",
+            "strength": null,
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "cf6fa0b5-1c03-4d0b-9fbf-b0f6906b3885"
+        },
+        {
+            "genericName": "Vitamin B1 + Vitamin B6 + Vitamin B12",
+            "productName": "Vitamin B1 + Vitamin B6 + Vitamin B12 - (100mg + 200mg + 1000mcg) in(Ampoule)",
+            "strength": "(100mg + 200mg + 1000mcg)",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "54ce56d0-b212-49e7-997c-c19bbdf9fd8b"
+        },
+        {
+            "genericName": "Fluphenazine Decanoate",
+            "productName": "Fluphenazine Decanoate - 25 mg/ml in 2ml Ampoule in(Ampoule)",
+            "strength": "25 mg/ml in 2ml Ampoule",
+            "dosage": "Injection (Depot.oily)",
+            "unit": "Ampoule",
+            "itemUuid": "6a4103ad-6dcc-4019-b102-ea4ff03d063e"
+        },
+        {
+            "genericName": "Vitamin K1 (Phytomenadione)",
+            "productName": "Vitamin K1 (Phytomenadione) - 10mg/ml in 1ml ampoule in(Ampoule)",
+            "strength": "10mg/ml in 1ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "2199ac27-83ac-4f82-98a7-cee0f87a6128"
+        },
+        {
+            "genericName": "Warfarin Sodium",
+            "productName": "Warfarin Sodium - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "67df59f2-0f33-47aa-8875-88021049b31e"
+        },
+        {
+            "genericName": "Auto Disposable Syringe",
+            "productName": "Auto Disposable Syringe - 2ml with Needle 21G of 100 in(Each)",
+            "strength": "2ml with Needle 21G of 100",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "10cb9c7e-d2b2-4357-b272-4b32ec625c31"
+        },
+        {
+            "genericName": "Gauze Bandage",
+            "productName": "Gauze Bandage - 12.5cm x 5m in(Each)",
+            "strength": "12.5cm x 5m",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "6157c65f-164d-44a4-a7e4-6d7796b256de"
+        },
+        {
+            "genericName": "Sodium Bicarbonate",
+            "productName": "Sodium Bicarbonate - 8.4% in 20ml ampoule  in(Ampoule)",
+            "strength": "8.4% in 20ml ampoule ",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "e4d65541-0282-4efd-82c5-aadc760bd178"
+        },
+        {
+            "genericName": "Glibenclamide",
+            "productName": "Glibenclamide - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "dcfe4e7f-1437-4136-b6ae-e26ed0f96b17"
+        },
+        {
+            "genericName": "Haloperidol",
+            "productName": "Haloperidol - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "896b282d-2f1b-4da5-9eda-40dd59e894ac"
+        },
+        {
+            "genericName": "Haloperidol",
+            "productName": "Haloperidol - 5mg/ml in 1ml Ampule in(Ampoule)",
+            "strength": "5mg/ml in 1ml Ampule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "a6a2d361-7f68-4045-bcc9-69a5ec225017"
+        },
+        {
+            "genericName": "Hydrocortisone Sodium Succinate",
+            "productName": "Hydrocortisone Sodium Succinate - 50mg/ml in 2ml ampoule in(Each)",
+            "strength": "50mg/ml in 2ml ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "3bbce688-ebf8-42e0-ad3a-dd7fe181af7f"
+        },
+        {
+            "genericName": "Hyoscine (Scopolamine) Butylbromide",
+            "productName": "Hyoscine (Scopolamine) Butylbromide - 20mg/ml in 1ml ampoule in(Ampoule)",
+            "strength": "20mg/ml in 1ml ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "985eea4a-7d8c-45f3-893c-7bb020bf16c7"
+        },
+        {
+            "genericName": "Hyoscine (Scopolamine) Butylbromide",
+            "productName": "Hyoscine (Scopolamine) Butylbromide - 10mg in(Tablet)",
+            "strength": "10mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "07b06f00-21cd-4ea5-aaed-6e611415372d"
+        },
+        {
+            "genericName": "Insulin Soluble Human",
+            "productName": "Insulin Soluble Human - 100IU/ml in 10ml Vial in(Each)",
+            "strength": "100IU/ml in 10ml Vial",
+            "dosage": "Injection(Solution)",
+            "unit": "Each",
+            "itemUuid": "5f24e64f-7bde-46c1-8811-9f4e955dd459"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 2.0(3/0) 75cm on 35mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 2.0(3/0) 75cm on 35mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "0e070035-7255-4b4e-a06c-ba842086f25c"
+        },
+        {
+            "genericName": "Insulin Isophane Human",
+            "productName": "Insulin Isophane Human - 100IU/ml in 10ml Vial in(Each)",
+            "strength": "100IU/ml in 10ml Vial",
+            "dosage": "Injection(Suspension)",
+            "unit": "Each",
+            "itemUuid": "6deeed5c-1c7a-484a-b88c-c51817cdb617"
+        },
+        {
+            "genericName": "Metformin",
+            "productName": "Metformin - 500mg in(Tablet)",
+            "strength": "500mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "c2273e55-e980-4bb7-83bb-9fd771542bbc"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 6.0(3) 75cm on 38mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 6.0(3) 75cm on 38mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "6bdbcd77-eada-4b79-812c-da219521f71e"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 3.0(2/0) 75cm on 35mm  1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 3.0(2/0) 75cm on 35mm  1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "e44aca7a-cf86-496b-816a-f06809b75ec7"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 1.5(4/0) 75cm on 19mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 1.5(4/0) 75cm on 19mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "9f512179-0667-4341-8016-71ba9958d356"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 4.0(1) 75cm on 35mm 1/2 Circle  Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 4.0(1) 75cm on 35mm 1/2 Circle  Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "d87c279d-eb19-4371-9d5f-5753df6c7080"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 5.0(2) 75cm on 38mm  1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 5.0(2) 75cm on 38mm  1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "18b3d769-a1fc-4342-80fa-376a46c6ace7"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 4.0(1) 75cm on 38mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 4.0(1) 75cm on 38mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "3c4d0309-262b-4e91-847f-758984fe8137"
+        },
+        {
+            "genericName": "Mersilk Black Braided Black",
+            "productName": "Mersilk Black Braided Black - Gauge 3.0 (2/0) 75cm on 35mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 3.0 (2/0) 75cm on 35mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "a225cfcd-ac8d-43d4-bf6d-f3f2e73c5d93"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 3.0(2/0) 75cm on 33mm 1/2 Circle Round Bodied Needle in(Dozen)",
+            "strength": "Gauge 3.0(2/0) 75cm on 33mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "d13b38eb-ba60-4467-8135-de3ef858b1e3"
+        },
+        {
+            "genericName": "Norfloxacin",
+            "productName": "Norfloxacin - 400mg in(Tablet)",
+            "strength": "400mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "28ff157d-d55a-4e52-b63e-bc2d67b18fbc"
+        },
+        {
+            "genericName": "Phenobarbitone (Phenobarbital)",
+            "productName": "Phenobarbitone (Phenobarbital) - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "3b26c0cc-952f-4ac9-8bf7-31be888efa71"
+        },
+        {
+            "genericName": "Phenobarbitone (Phenobarbital)",
+            "productName": "Phenobarbitone (Phenobarbital) - 30mg in(Tablet)",
+            "strength": "30mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "c9c38091-b8de-4f2e-8db6-98ee076c21f4"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 1.0(5/0) 45cm on 13mm 1/2 Circle Round Bodied Needle in(Dozen)",
+            "strength": "Gauge 1.0(5/0) 45cm on 13mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "4e8c0057-b75b-457a-a6c5-fc250cf6640b"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 0.5(7/0) 45cm on 13mm 1/2 Circle Round Bodied taper needle in(Each)",
+            "strength": "Gauge 0.5(7/0) 45cm on 13mm 1/2 Circle Round Bodied taper needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "f813c45e-7902-4b38-b04b-0e2dbdc22209"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 0.7(6/0) 30m on 12mm 1/2 circle  cutting  taper needle in(Each)",
+            "strength": "Gauge 0.7(6/0) 30m on 12mm 1/2 circle  cutting  taper needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "125db0b2-7db4-4ad4-b988-1c50dd577878"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 1.5(4/0) 75cm on 15mm 1/2 Circle Reverse cutting needle in(Each)",
+            "strength": "Gauge 1.5(4/0) 75cm on 15mm 1/2 Circle Reverse cutting needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "0fdca425-8233-4b91-bad2-04af6506d9db"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 4.0(1) 75cm on 45mm 1/2 Circle Cutting Taper Heavy Needle in(Each)",
+            "strength": "Gauge 4.0(1) 75cm on 45mm 1/2 Circle Cutting Taper Heavy Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "a18e7129-641e-4b22-a58a-92903927298b"
+        },
+        {
+            "genericName": "Propofol",
+            "productName": "Propofol - 10mg/ml in 20ml  in(Ampoule)",
+            "strength": "10mg/ml in 20ml ",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "8e9c9b7c-fc52-4051-8839-b5665e9f0183"
+        },
+        {
+            "genericName": "Syringe (Disposable)",
+            "productName": "Syringe (Disposable) - 3ml with Needle 21G in(Each)",
+            "strength": "3ml with Needle 21G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "33e1d3d9-a626-4729-8fbd-60a26f54a147"
+        },
+        {
+            "genericName": "Tetracycline",
+            "productName": "Tetracycline - 0.01 in(4gm)",
+            "strength": "0.01",
+            "dosage": "Eye Ointment",
+            "unit": "4gm",
+            "itemUuid": "7ae1ab58-b0dd-4957-a2b7-58ed171387e6"
+        },
+        {
+            "genericName": "Thiopental Sodium",
+            "productName": "Thiopental Sodium - 0.5 g in(Vial)",
+            "strength": "0.5 g",
+            "dosage": "Powder for injection",
+            "unit": "Vial",
+            "itemUuid": "a960ac50-c8d5-4aee-903d-670a2d78bddd"
+        },
+        {
+            "genericName": "Thiopental Sodium",
+            "productName": "Thiopental Sodium - 1g in vial in(Vial)",
+            "strength": "1g in vial",
+            "dosage": "Powder for injection",
+            "unit": "Vial",
+            "itemUuid": "d7a94c95-92c2-45bf-b8e4-32c07e12e4c5"
+        },
+        {
+            "genericName": "Neostigmine",
+            "productName": "Neostigmine - 2.5mg/ml in 1ml Ampoule in(Ampoule)",
+            "strength": "2.5mg/ml in 1ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "a6f54b0d-e950-4cce-a9de-4cc0e62048d1"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 0.4(8/0) 45cm on 8mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 0.4(8/0) 45cm on 8mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "55faf7b9-5124-44ea-88d8-de27d09250f2"
+        },
+        {
+            "genericName": "Tetanus Antitoxin (TAT), Equine",
+            "productName": "Tetanus Antitoxin (TAT), Equine - 1,500 IU/ml in 1ml Ampoule in(Ampoule)",
+            "strength": "1,500 IU/ml in 1ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "19860e35-2109-4e31-8916-facaed28fcd1"
+        },
+        {
+            "genericName": "Snake Venom Antiserum Polyvalent",
+            "productName": "Snake Venom Antiserum Polyvalent -  in(10ml)",
+            "strength": null,
+            "dosage": "Injection",
+            "unit": "10ml",
+            "itemUuid": "35b36131-5aee-4f14-b907-1ff19dc5af2e"
+        },
+        {
+            "genericName": "Acyclovir",
+            "productName": "Acyclovir - 5% in(10gm)",
+            "strength": "5%",
+            "dosage": "Topical Cream",
+            "unit": "10gm",
+            "itemUuid": "49f07ff1-dd50-4e84-bc76-5671e6d5d061"
+        },
+        {
+            "genericName": "Albendazole",
+            "productName": "Albendazole - 100mg/5ml in(20ml)",
+            "strength": "100mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "20ml",
+            "itemUuid": "84b0391d-62c3-4d43-97ae-934a2dd57c56"
+        },
+        {
+            "genericName": "Albendazole",
+            "productName": "Albendazole - 200mg in(Tablet)",
+            "strength": "200mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "7c56d211-c623-4207-b151-ff1e9c59cd6d"
+        },
+        {
+            "genericName": "Azithromycine",
+            "productName": "Azithromycine - 200mg/5ml in(15ml)",
+            "strength": "200mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "15ml",
+            "itemUuid": "c68801bc-2ad5-4ea5-b007-1de879621fea"
+        },
+        {
+            "genericName": "Amoxicillin + Clavulanic Acid",
+            "productName": "Amoxicillin + Clavulanic Acid - (250mg + 62.5mg)/5ml in(Bottle)",
+            "strength": "(250mg + 62.5mg)/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "Bottle",
+            "itemUuid": "002f0494-c0f0-4118-8184-597c0a4fd895"
+        },
+        {
+            "genericName": "Anti-haemorrhoidal (Betamethasone Valerate + Phenylephrine HCl + Lidocaine HCl)",
+            "productName": "Anti-haemorrhoidal (Betamethasone Valerate + Phenylephrine HCl + Lidocaine HCl) - (0.5mg + 1mg + 25mg) in(20gm)",
+            "strength": "(0.5mg + 1mg + 25mg)",
+            "dosage": "Ointment",
+            "unit": "20gm",
+            "itemUuid": "143f94c0-774f-41f2-9b12-13dc97cffd4f"
+        },
+        {
+            "genericName": "Cloxacillin Sodium",
+            "productName": "Cloxacillin Sodium - 250mg/5ml in(100ml)",
+            "strength": "250mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "100ml",
+            "itemUuid": "6943c039-ba7e-4187-8865-e1eeec9bc1ec"
+        },
+        {
+            "genericName": "Benzyl Benzoate",
+            "productName": "Benzyl Benzoate - 25% in(20gm)",
+            "strength": "25%",
+            "dosage": "Lotion",
+            "unit": "20gm",
+            "itemUuid": "35701ce8-f982-4606-bc71-1ed236ee2b62"
+        },
+        {
+            "genericName": "Betamethosone Diproprionate",
+            "productName": "Betamethosone Diproprionate - 0.05% in(Each)",
+            "strength": "0.05%",
+            "dosage": "Ointment",
+            "unit": "Each",
+            "itemUuid": "23bf1bfa-635c-4978-891f-469c9badd88c"
+        },
+        {
+            "genericName": "Betametasone Valarate",
+            "productName": "Betametasone Valarate - 0.1% in(Each)",
+            "strength": "0.1%",
+            "dosage": "Cream",
+            "unit": "Each",
+            "itemUuid": "9c4743de-59f4-4df7-845d-0b6c9253a8a0"
+        },
+        {
+            "genericName": "Ceftriaxone",
+            "productName": "Ceftriaxone - 1g in vial in(Each)",
+            "strength": "1g in vial",
+            "dosage": "Powder for Injection with Diluent",
+            "unit": "Each",
+            "itemUuid": "74afafc7-7d54-4ae7-8977-00f9c06979ef"
+        },
+        {
+            "genericName": "Cephalexine",
+            "productName": "Cephalexine - 250mg/5ml in(100ml)",
+            "strength": "250mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "100ml",
+            "itemUuid": "c7194562-8f32-4f60-84b6-cf4d3133398b"
+        },
+        {
+            "genericName": "Cephalexine",
+            "productName": "Cephalexine - 125mg/5ml in(100ml)",
+            "strength": "125mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "100ml",
+            "itemUuid": "777302ca-0757-410d-a50c-0faf6883d546"
+        },
+        {
+            "genericName": "Cephalexine",
+            "productName": "Cephalexine - 250mg in(capsule)",
+            "strength": "250mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "5d1f0e71-e698-4c58-b1f7-dee8800b8b51"
+        },
+        {
+            "genericName": "Cephalexine",
+            "productName": "Cephalexine - 500mg in(capsule)",
+            "strength": "500mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "e082ad2f-8efd-4142-83c6-a065b673542e"
+        },
+        {
+            "genericName": "Chloroquine Phosphate",
+            "productName": "Chloroquine Phosphate - 250mg in(Tablet)",
+            "strength": "250mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "a1498308-be70-4f6b-931e-a563e933472f"
+        },
+        {
+            "genericName": "Chlorpheniramine Maleate",
+            "productName": "Chlorpheniramine Maleate - 2mg/5ml in(100ml)",
+            "strength": "2mg/5ml",
+            "dosage": "Syrup",
+            "unit": "100ml",
+            "itemUuid": "b7bba141-2c85-41e8-853b-9f642d06e771"
+        },
+        {
+            "genericName": "Clindamycin",
+            "productName": "Clindamycin - 1%  of 20gm in(Each)",
+            "strength": "1%  of 20gm",
+            "dosage": "Gel",
+            "unit": "Each",
+            "itemUuid": "22308b6c-2f6f-4f57-8a56-1b2259c90352"
+        },
+        {
+            "genericName": "Clomiphene Citrate",
+            "productName": "Clomiphene Citrate - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "2e84ebb1-00d9-4b8f-8987-428a8293cee9"
+        },
+        {
+            "genericName": "Desloratadine",
+            "productName": "Desloratadine - 0.5 mg/mL in(Each)",
+            "strength": "0.5 mg/mL",
+            "dosage": "Syrup",
+            "unit": "Each",
+            "itemUuid": "0e3bacf5-b00f-4855-9a9a-af3a4b4f65f0"
+        },
+        {
+            "genericName": "Diloxanide Furoate",
+            "productName": "Diloxanide Furoate - 500mg in(Tablet)",
+            "strength": "500mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "cbc6c33f-00c2-424d-96a6-b5a008b99ae7"
+        },
+        {
+            "genericName": "Nevirapine",
+            "productName": "Nevirapine - 10mg/ml in(Each)",
+            "strength": "10mg/ml",
+            "dosage": "Oral Suspension",
+            "unit": "Each",
+            "itemUuid": "756c50e5-bb31-4620-ba20-e1f951ee289f"
+        },
+        {
+            "genericName": "Diphenhydramine Hydrochloride",
+            "productName": "Diphenhydramine Hydrochloride - 12.5mg/5ml in(125ml)",
+            "strength": "12.5mg/5ml",
+            "dosage": "Elixir",
+            "unit": "125ml",
+            "itemUuid": "a0b82f1c-61bf-4ef1-9444-52b083f661de"
+        },
+        {
+            "genericName": "Fusidic Acid",
+            "productName": "Fusidic Acid - 2% in(10gm)",
+            "strength": "2%",
+            "dosage": "Cream",
+            "unit": "10gm",
+            "itemUuid": "f5a2fb27-8652-4eda-a46a-23486ffad3af"
+        },
+        {
+            "genericName": "Iopamidol injection solution,370mg/50ml vial",
+            "productName": "Iopamidol injection solution,370mg/50ml vial - 376% iodine in(Each)",
+            "strength": "376% iodine",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "ca07e016-876e-4541-a456-d8225a592965"
+        },
+        {
+            "genericName": "Griseofulvin",
+            "productName": "Griseofulvin - 125mg in(Tablet)",
+            "strength": "125mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "913621d1-f5a9-4339-ad0e-5b90d747c845"
+        },
+        {
+            "genericName": "Hydrocortisone Acetate",
+            "productName": "Hydrocortisone Acetate - 1% in(15gm)",
+            "strength": "1%",
+            "dosage": "Topical Ointment",
+            "unit": "15gm",
+            "itemUuid": "692f23ed-e323-4314-952e-e6d1e53ea6ad"
+        },
+        {
+            "genericName": "Hydrocortisone Acetate",
+            "productName": "Hydrocortisone Acetate - 1% in(15gm)",
+            "strength": "1%",
+            "dosage": "Topical Cream",
+            "unit": "15gm",
+            "itemUuid": "7def4373-e74b-4c76-bb4d-2e2b673517aa"
+        },
+        {
+            "genericName": "Ketoconazole",
+            "productName": "Ketoconazole - 2% in(60ml)",
+            "strength": "2%",
+            "dosage": "Cream",
+            "unit": "60ml",
+            "itemUuid": "b8d75dcf-ca13-417b-855b-e771404b83c5"
+        },
+        {
+            "genericName": "Ketoconazole",
+            "productName": "Ketoconazole - 200mg in(Tablet)",
+            "strength": "200mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "9655c8d2-1220-4c4a-8ff9-92a4d40e92ea"
+        },
+        {
+            "genericName": "Loratadine",
+            "productName": "Loratadine - 10mg in(Tablet)",
+            "strength": "10mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "9e846a31-47f9-491e-b5f3-ee522f210d6a"
+        },
+        {
+            "genericName": "Mebendazole",
+            "productName": "Mebendazole - 100mg/5ml in(30ml)",
+            "strength": "100mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "30ml",
+            "itemUuid": "bd801d9e-9914-49e1-9b72-435298aad7bb"
+        },
+        {
+            "genericName": "Mupirocin",
+            "productName": "Mupirocin - 0.02 in(20gm)",
+            "strength": "0.02",
+            "dosage": "Ointment",
+            "unit": "20gm",
+            "itemUuid": "434eaf78-373c-42f9-a892-c56afddd06b8"
+        },
+        {
+            "genericName": "Sulphamethoxazole + Trimethoprim",
+            "productName": "Sulphamethoxazole + Trimethoprim - (800 mg + 160 mg) in(Tablet)",
+            "strength": "(800 mg + 160 mg)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "20c66d34-5a48-482b-b132-5ba37c7a65e8"
+        },
+        {
+            "genericName": "Oral Rehydration Salt",
+            "productName": "Oral Rehydration Salt - 20.7g for 1 Littre Preparation in(Sachet)",
+            "strength": "20.7g for 1 Littre Preparation",
+            "dosage": "Powder",
+            "unit": "Sachet",
+            "itemUuid": "3d937aba-d915-4f73-ab40-f597c309c1e6"
+        },
+        {
+            "genericName": "Primaquine Phosphate",
+            "productName": "Primaquine Phosphate - 7.5mg base in(Tablet)",
+            "strength": "7.5mg base",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "12c84b53-f884-42df-83a9-14d32808d233"
+        },
+        {
+            "genericName": "Sulphur",
+            "productName": "Sulphur - 0.1 in(50gm)",
+            "strength": "0.1",
+            "dosage": "Ointment",
+            "unit": "50gm",
+            "itemUuid": "83fa0178-fbe3-4a4c-99fe-9885cdd2b668"
+        },
+        {
+            "genericName": "Xylometazoline HCL ",
+            "productName": "Xylometazoline HCL  - 0.0005 in(10ml)",
+            "strength": "0.0005",
+            "dosage": "Solution (Nasal Drops)",
+            "unit": "10ml",
+            "itemUuid": "306eba74-c52c-49f6-9300-3ea96a684e00"
+        },
+        {
+            "genericName": "Zinc Oxide",
+            "productName": "Zinc Oxide - 0.15 in(1Kg)",
+            "strength": "0.15",
+            "dosage": "Ointment",
+            "unit": "1Kg",
+            "itemUuid": "12b71d02-ef23-487d-8202-826c292197f2"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 5.0(2) 75cm on 38mm 1/2 Circle Round Body Needle in(Dozen)",
+            "strength": "Gauge 5.0(2) 75cm on 38mm 1/2 Circle Round Body Needle",
+            "dosage": null,
+            "unit": "Dozen",
+            "itemUuid": "6d952b36-feb5-4d97-80ff-7f207105e145"
+        },
+        {
+            "genericName": "Drainage Chest  Tube",
+            "productName": "Drainage Chest  Tube - 18FG in(Each)",
+            "strength": "18FG",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "cd5e8dad-0cc9-4456-bc73-bdd774300474"
+        },
+        {
+            "genericName": "Fentanyl",
+            "productName": "Fentanyl - 0.05mg/ml in 2ml Ampoule in(Each)",
+            "strength": "0.05mg/ml in 2ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "261d2cc5-1419-481e-b17e-7eea768abd48"
+        },
+        {
+            "genericName": "Poly Diaxone Monofilament Violet",
+            "productName": "Poly Diaxone Monofilament Violet - Gauge 2.0(3/0)70cm on 40mm 1/2 circle Round bodied taper needle in(Each)",
+            "strength": "Gauge 2.0(3/0)70cm on 40mm 1/2 circle Round bodied taper needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "8702d164-f9be-4a61-838d-d3c6671fbb35"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 2.0(3/0) 75cm on 30mm 1/2 Circle Reverse Cutting in(Each)",
+            "strength": "Gauge 2.0(3/0) 75cm on 30mm 1/2 Circle Reverse Cutting",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "6678708b-7c8b-4eb0-9203-ccf574bb38fa"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 2.0(3/0)75cm on 26mm 1/2 circle rounded bodied  needle in(Each)",
+            "strength": "Gauge 2.0(3/0)75cm on 26mm 1/2 circle rounded bodied  needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "2c623e0c-fa10-4b6b-a74a-a4dc66761a5b"
+        },
+        {
+            "genericName": "Salbutamol (Albuterol)",
+            "productName": "Salbutamol (Albuterol) - 2mg in(Tablet)",
+            "strength": "2mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "36721b44-3dc5-4436-8609-a15d3cb1d757"
+        },
+        {
+            "genericName": "Insuline Isophane Biphasic (Soluble/Isophane Mixture)",
+            "productName": "Insuline Isophane Biphasic (Soluble/Isophane Mixture) - (30 + 70)IU/ml in 10ml Vial in(Each)",
+            "strength": "(30 + 70)IU/ml in 10ml Vial",
+            "dosage": "Injection (Suspension)",
+            "unit": "Each",
+            "itemUuid": "02c1c223-6621-4d40-a803-f54adafb00b3"
+        },
+        {
+            "genericName": "Sodium Valproate",
+            "productName": "Sodium Valproate - 200mg in(Tablet)",
+            "strength": "200mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "44091382-20bc-429f-a640-b7d289599bfb"
+        },
+        {
+            "genericName": "Chlorpromazine HCL",
+            "productName": "Chlorpromazine HCL - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "1355e553-f864-4f07-9c09-c9ffd33e45de"
+        },
+        {
+            "genericName": "Chlorpromazine HCL",
+            "productName": "Chlorpromazine HCL - 25mg in(Tablet)",
+            "strength": "25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "6ff826ca-07d0-4c95-9cfb-5496364ea1f8"
+        },
+        {
+            "genericName": "Bromazepam",
+            "productName": "Bromazepam - 3mg in(Tablet)",
+            "strength": "3mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "a10d63d4-cfd9-42d8-ab17-a4588eadd200"
+        },
+        {
+            "genericName": "Olanzapine",
+            "productName": "Olanzapine - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "afad53ec-020d-4e4f-9bdf-25378da6c476"
+        },
+        {
+            "genericName": "Levodopa + Carbidopa",
+            "productName": "Levodopa + Carbidopa - (250mg + 25mg) in(Tablet)",
+            "strength": "(250mg + 25mg)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "522853a3-848b-4085-b627-83aa41587708"
+        },
+        {
+            "genericName": "Imipramine",
+            "productName": "Imipramine - 25mg in(Tablet)",
+            "strength": "25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "617b7281-e4ee-4bd6-87e0-24b516948508"
+        },
+        {
+            "genericName": "Sertaline HCL",
+            "productName": "Sertaline HCL - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "c6a45f7a-df38-448a-8454-c713f62361c6"
+        },
+        {
+            "genericName": "Fluoxetine",
+            "productName": "Fluoxetine - 20mg in(capsule)",
+            "strength": "20mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "3a9116dc-309b-42b5-bb8e-c1a97178f820"
+        },
+        {
+            "genericName": "Suxamethonium Chloride (Succinylcholine)",
+            "productName": "Suxamethonium Chloride (Succinylcholine) - 50 mg/ml in 10ml Vial in(Vial)",
+            "strength": "50 mg/ml in 10ml Vial",
+            "dosage": "Powder for injection",
+            "unit": "Vial",
+            "itemUuid": "d4c9ad8e-3b12-46e4-bda3-561648c5316e"
+        },
+        {
+            "genericName": "Glimepride",
+            "productName": "Glimepride - 1mg in(Tablet)",
+            "strength": "1mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "b71312e9-7c8d-489d-98eb-b963cb9e50a8"
+        },
+        {
+            "genericName": "Glimepride",
+            "productName": "Glimepride - 4mg in(Tablet)",
+            "strength": "4mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "f9461d44-c433-4910-9f39-9479d58d8521"
+        },
+        {
+            "genericName": "Glimepride",
+            "productName": "Glimepride - 2mg in(Tablet)",
+            "strength": "2mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "261f0d7a-5ace-4284-8472-2874b27842b2"
+        },
+        {
+            "genericName": "Amlodipine",
+            "productName": "Amlodipine - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "3b30a543-d717-47e6-aaf1-ac72eac6bac9"
+        },
+        {
+            "genericName": "Propranolol",
+            "productName": "Propranolol - 40mg in(Tablet)",
+            "strength": "40mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "becc772b-5140-4c27-b53c-1910ab6b927c"
+        },
+        {
+            "genericName": "Syringe Insulin (Disposable)",
+            "productName": "Syringe Insulin (Disposable) - 1ml on 8mm with Fixed Needle 30G in(Each)",
+            "strength": "1ml on 8mm with Fixed Needle 30G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "cdc08105-7ca3-475f-9046-b67d1b90c9d3"
+        },
+        {
+            "genericName": "Clopidogrel",
+            "productName": "Clopidogrel - 75mg  in(Tablet)",
+            "strength": "75mg ",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "f8119fbc-5cc0-4c49-95e8-c3e4f375287d"
+        },
+        {
+            "genericName": "Propranolol",
+            "productName": "Propranolol - 10mg in(Tablet)",
+            "strength": "10mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "e6795b4a-f976-4af1-8a1d-54c371644c6d"
+        },
+        {
+            "genericName": "Carbimazole",
+            "productName": "Carbimazole - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "257915ea-653c-440c-8e7f-426a54fceb26"
+        },
+        {
+            "genericName": "Vecuronium Bromide",
+            "productName": "Vecuronium Bromide - 10 mg in vial in(Each)",
+            "strength": "10 mg in vial",
+            "dosage": "Powder for injection",
+            "unit": "Each",
+            "itemUuid": "a00cba44-3f24-4e8c-8bb3-0aa53cd0ecfa"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 5.0(2) 75cm on 38mm 1/2 Circle Round Body Needle in(Each)",
+            "strength": "Gauge 5.0(2) 75cm on 38mm 1/2 Circle Round Body Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "8808df56-c04c-4aec-9487-02a9dd5f9597"
+        },
+        {
+            "genericName": "Propylthiouracil",
+            "productName": "Propylthiouracil - 100mg in(Tablet)",
+            "strength": "100mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "18693ea3-585e-408c-8589-77a2a0abe44f"
+        },
+        {
+            "genericName": "Ketamine HCL",
+            "productName": "Ketamine HCL - 50 mg/ml in 10ml Ampoule in(Each)",
+            "strength": "50 mg/ml in 10ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "657ab055-0a53-4255-97f6-f24831427222"
+        },
+        {
+            "genericName": "Glyceryl Trinitrate (Nitroglycerine)",
+            "productName": "Glyceryl Trinitrate (Nitroglycerine) - 0.5mg in(Tablet)",
+            "strength": "0.5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "0bd0da35-9ddb-453c-8d1e-537bdf0f9e32"
+        },
+        {
+            "genericName": "Artesunate",
+            "productName": "Artesunate - 60mg/ml in 1ml Ampoule in(Each)",
+            "strength": "60mg/ml in 1ml Ampoule",
+            "dosage": "Injection with 5% Sodium Bicarbonate and 0.9% Sodium Chloride",
+            "unit": "Each",
+            "itemUuid": "16cf30d5-24b4-4b3e-88ce-19ec1ea19772"
+        },
+        {
+            "genericName": "Bisoprolol",
+            "productName": "Bisoprolol - 5mg in(Tablet)",
+            "strength": "5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "af44d0ad-fab2-4287-b614-61189ccf40c4"
+        },
+        {
+            "genericName": "Poly Diaxone Monofilament Violet",
+            "productName": "Poly Diaxone Monofilament Violet - Gauge 5.0(2) 90cm on 40mm 1/2 circle round bodied taper needle in(Each)",
+            "strength": "Gauge 5.0(2) 90cm on 40mm 1/2 circle round bodied taper needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "46bd355c-a3c6-4165-bb18-8e418bdb2c5e"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 5.0(2) 75 cm on 50mm1/2 circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 5.0(2) 75 cm on 50mm1/2 circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "46c79f6f-6bcb-4f46-a8f2-6ae79c976a20"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Guage 2.0(3/0)75cm on 26mm, Reverse Cutting Tapper Needle in(Each)",
+            "strength": "Guage 2.0(3/0)75cm on 26mm, Reverse Cutting Tapper Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "ef3bd36c-2c09-4cf6-8051-f4bdf2e098d6"
+        },
+        {
+            "genericName": "Ferrous Sulphate",
+            "productName": "Ferrous Sulphate - 325mg in(Tablet)",
+            "strength": "325mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "c5b8173e-b345-4cd0-b962-8a5b7dc5f0b5"
+        },
+        {
+            "genericName": "Syringe(AD) ",
+            "productName": "Syringe(AD)  - 5ml with needle 21G  in(Each)",
+            "strength": "5ml with needle 21G ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "ae9ddb12-fc4e-48a4-929f-033f1b0f6ad0"
+        },
+        {
+            "genericName": "Syringe(AD) ",
+            "productName": "Syringe(AD)  - 1ml with needle in(Each)",
+            "strength": "1ml with needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "c3a44cda-b6bd-4e03-81ae-d37fca602d64"
+        },
+        {
+            "genericName": "Syringe (Disposable)",
+            "productName": "Syringe (Disposable) - (Sterile) 3 Parts, 20ml Luer fitting with 21G  Needle in(Each)",
+            "strength": "(Sterile) 3 Parts, 20ml Luer fitting with 21G  Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "f94dd5a8-2454-46f1-b1cc-7e2998768ccf"
+        },
+        {
+            "genericName": "Neostigmine",
+            "productName": "Neostigmine - 0.5mg/ml in 1ml Ampoule in(Ampoule)",
+            "strength": "0.5mg/ml in 1ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "9a931775-7834-4583-868e-312ae8280bcb"
+        },
+        {
+            "genericName": "Cetrizine",
+            "productName": "Cetrizine - 10mg in(Tablet)",
+            "strength": "10mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "e33977f1-034e-41b8-9fba-41c6e3763a5e"
+        },
+        {
+            "genericName": "Amoxicillin + Clavulanic Acid",
+            "productName": "Amoxicillin + Clavulanic Acid - 500mg + 125mg in(Tablet)",
+            "strength": "500mg + 125mg",
+            "dosage": "Tablet (Film Coated)",
+            "unit": "Tablet",
+            "itemUuid": "7d80a70e-81ee-4eed-b0d3-eee483506ee8"
+        },
+        {
+            "genericName": "Metoprolol",
+            "productName": "Metoprolol - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "c5481e08-ead5-4902-ad64-9fef16a550be"
+        },
+        {
+            "genericName": "Glove Surgical  Latex Sterile Powder Free",
+            "productName": "Glove Surgical  Latex Sterile Powder Free - No. 7.5 in(Pair)",
+            "strength": "No. 7.5",
+            "dosage": null,
+            "unit": "Pair",
+            "itemUuid": "102e33b2-f59e-4e8e-87fd-868f7e33b832"
+        },
+        {
+            "genericName": "Loperamide HCL",
+            "productName": "Loperamide HCL - 2mg in(capsule)",
+            "strength": "2mg",
+            "dosage": "Capsule",
+            "unit": "capsule",
+            "itemUuid": "36eb39b9-3dee-40e2-8441-ed4bb3e2cf50"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Guage 3.5(0)75cm on 48mm 1/2c Round Bodied  Needle in(Each)",
+            "strength": "Guage 3.5(0)75cm on 48mm 1/2c Round Bodied  Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "bf8f50e2-9836-4342-b8ad-86d329d7a4f9"
+        },
+        {
+            "genericName": "Cat Gut Chromic",
+            "productName": "Cat Gut Chromic - Gauge 5.0(1) 75cm on 48mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 5.0(1) 75cm on 48mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "77d3989a-4594-48c3-8837-812b5f14cf8c"
+        },
+        {
+            "genericName": "Gentamicin",
+            "productName": "Gentamicin - 40mg/ml in 2ml Ampoule in(Ampoule)",
+            "strength": "40mg/ml in 2ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "c6dea830-cfca-4967-9253-571561d92dd6"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 2.0(3/0) 75cm on 19mm reverse cutting Needle in(Each)",
+            "strength": "Gauge 2.0(3/0) 75cm on 19mm reverse cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "9f3fa09c-a070-4417-b954-458f1e6b5c01"
+        },
+        {
+            "genericName": "Plaster Of Paris (P.O.P) ",
+            "productName": "Plaster Of Paris (P.O.P)  - 15 cm x 3m in(Each)",
+            "strength": "15 cm x 3m",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "d6dacd63-0b27-43a6-a5c5-8d6965a4e791"
+        },
+        {
+            "genericName": "Sulphamethoxazole + Trimethoprim",
+            "productName": "Sulphamethoxazole + Trimethoprim - (400mg + 80mg) in(Tablet)",
+            "strength": "(400mg + 80mg)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "724cb7f1-2d81-4339-b16b-bc6eff41b27c"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Gauge 3.5(0) 75cm on 50mm 1/2 Circle Round Bodied needle in(Each)",
+            "strength": "Gauge 3.5(0) 75cm on 50mm 1/2 Circle Round Bodied needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "20356d46-36e5-4a92-a0aa-33ba12af3355"
+        },
+        {
+            "genericName": "Permethrine",
+            "productName": "Permethrine - 0.05 in(30gm)",
+            "strength": "0.05",
+            "dosage": "Cream",
+            "unit": "30gm",
+            "itemUuid": "6511d01e-5e75-446a-96f0-919de5972827"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 3.5(0) 75cm on  27mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 3.5(0) 75cm on  27mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "c0f68995-77e1-4335-b450-d5a2a25a5ba4"
+        },
+        {
+            "genericName": "Mersilk  Braided Black",
+            "productName": "Mersilk  Braided Black - Gauge 3.0(2/0) 75cm on 24mm 1/2 Circle Reverse Cutting Needle in(Each)",
+            "strength": "Gauge 3.0(2/0) 75cm on 24mm 1/2 Circle Reverse Cutting Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "fcc2d8c2-71a4-447c-b255-3e2c45299047"
+        },
+        {
+            "genericName": "Ceftazidime",
+            "productName": "Ceftazidime - 1g in vial in(Each)",
+            "strength": "1g in vial",
+            "dosage": "Powder for injection",
+            "unit": "Each",
+            "itemUuid": "b3a81b94-04fb-421b-b9fb-7b97c4df619b"
+        },
+        {
+            "genericName": "Cefepime",
+            "productName": "Cefepime - 1gm in Vial in(Each)",
+            "strength": "1gm in Vial",
+            "dosage": "Powder for injection",
+            "unit": "Each",
+            "itemUuid": "fc0fd6ed-4b82-4fc0-bb80-6a1d4a00ef72"
+        },
+        {
+            "genericName": "Heparin Sodium",
+            "productName": "Heparin Sodium - 5000IU/ml in 5ml Ampoule in(Each)",
+            "strength": "5000IU/ml in 5ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "7fe61129-ad55-4d1b-ae67-c9a298619d87"
+        },
+        {
+            "genericName": "Indomethacin",
+            "productName": "Indomethacin - 100mg in(Suppository)",
+            "strength": "100mg",
+            "dosage": "Suppository ",
+            "unit": "Suppository",
+            "itemUuid": "acdd2d77-390c-45ac-b161-22b6a9a63db7"
+        },
+        {
+            "genericName": "Dexamethasone",
+            "productName": "Dexamethasone - 0.25% in(20gm)",
+            "strength": "0.25%",
+            "dosage": "Topical Ointment",
+            "unit": "20gm",
+            "itemUuid": "ebbd54e1-d987-41af-a820-507c0a433bab"
+        },
+        {
+            "genericName": "MultiVitamin ",
+            "productName": "MultiVitamin  -  in(120ml)",
+            "strength": null,
+            "dosage": "Syrup",
+            "unit": "120ml",
+            "itemUuid": "2fa70025-264d-42eb-ba34-ff5780cbc4ed"
+        },
+        {
+            "genericName": "Clotrimazole",
+            "productName": "Clotrimazole - 1% in(Tube)",
+            "strength": "1%",
+            "dosage": "Cream",
+            "unit": "Tube",
+            "itemUuid": "dabd4d3a-0d27-48b7-89fd-13a2801efa8e"
+        },
+        {
+            "genericName": "Ampicillin Sodium",
+            "productName": "Ampicillin Sodium - 1gm in Vial in(Each)",
+            "strength": "1gm in Vial",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "53c0ad97-6a3f-44f8-8370-6aff79950fb6"
+        },
+        {
+            "genericName": "Meri Silk Black",
+            "productName": "Meri Silk Black - Gauge 3.0 (2/0) 75cm on 35mm 1/2 Circle Round Bodied Needle in(Each)",
+            "strength": "Gauge 3.0 (2/0) 75cm on 35mm 1/2 Circle Round Bodied Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "2d85b506-2bc3-42a9-bcd8-b34139ab9431"
+        },
+        {
+            "genericName": "Ceftriaxone",
+            "productName": "Ceftriaxone - 250mg in Vial in(Vial)",
+            "strength": "250mg in Vial",
+            "dosage": "Powder for injection",
+            "unit": "Vial",
+            "itemUuid": "6787dadb-c3ae-4394-be38-fff510d6d058"
+        },
+        {
+            "genericName": "Dextrose in Water",
+            "productName": "Dextrose in Water - 5% in(1000ml)",
+            "strength": "5%",
+            "dosage": "Intravenous Infusion with Giving Set",
+            "unit": "1000ml",
+            "itemUuid": "7c83a587-bc3b-4a51-9322-106006bbf9b5"
+        },
+        {
+            "genericName": "Oxytetracycline HCl + Hydrocortisone Acetate + Polymixin B Sulphate",
+            "productName": "Oxytetracycline HCl + Hydrocortisone Acetate + Polymixin B Sulphate - 5mg+15mg+ 10.000 Units in each ml in(4ml)",
+            "strength": "5mg+15mg+ 10.000 Units in each ml",
+            "dosage": "Eye/Ear drop",
+            "unit": "4ml",
+            "itemUuid": "4b24d8f4-d61e-4214-ac2c-20a05a02f88a"
+        },
+        {
+            "genericName": "Cloxacillin Sodium",
+            "productName": "Cloxacillin Sodium - 500mg in Vial in(Vial)",
+            "strength": "500mg in Vial",
+            "dosage": "Powder for injection",
+            "unit": "Vial",
+            "itemUuid": "ca78be18-002b-4342-99f7-63323879b53f"
+        },
+        {
+            "genericName": "Amoxicillin",
+            "productName": "Amoxicillin - 125mg/5ml in(100ml)",
+            "strength": "125mg/5ml",
+            "dosage": "Oral Suspension",
+            "unit": "100ml",
+            "itemUuid": "531330a1-fbdb-407a-9a0f-ee8ddeff3907"
+        },
+        {
+            "genericName": "Phenytoin (Diphenhydantoin) Sodium",
+            "productName": "Phenytoin (Diphenhydantoin) Sodium - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "0f312df0-4cfd-4774-9666-a05f3da7a35d"
+        },
+        {
+            "genericName": "Risperidone",
+            "productName": "Risperidone - 4mg in(Tablet)",
+            "strength": "4mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "b5898672-10f7-40df-b514-38bb377bac22"
+        },
+        {
+            "genericName": "Bromocriptine Mesylate",
+            "productName": "Bromocriptine Mesylate - 2.5mg in(Tablet)",
+            "strength": "2.5mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "7f19afa2-68fa-410f-bc9a-cde9a0349b29"
+        },
+        {
+            "genericName": "Polyglycolic acid absorbable braided violet",
+            "productName": "Polyglycolic acid absorbable braided violet - Guage 5.0(2) 75cm on 48mm 1/2 Circle Round Bodied  Needle in(Each)",
+            "strength": "Guage 5.0(2) 75cm on 48mm 1/2 Circle Round Bodied  Needle",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "0e4717a8-2c4a-47fd-b25b-7ade610b5a52"
+        },
+        {
+            "genericName": "Ciprofloxacin + Dexamethasone",
+            "productName": "Ciprofloxacin + Dexamethasone - 0.3% + 0.1% in(Each)",
+            "strength": "0.3% + 0.1%",
+            "dosage": "Eye Drop",
+            "unit": "Each",
+            "itemUuid": "c1fda8f4-444c-407b-aa10-50af07dc410e"
+        },
+        {
+            "genericName": "Betamethosone Diproprionate",
+            "productName": "Betamethosone Diproprionate - 0.05% in(20gm)",
+            "strength": "0.05%",
+            "dosage": "Topical Cream",
+            "unit": "20gm",
+            "itemUuid": "78974e72-14f8-46f4-b2ef-c059f00b2e37"
+        },
+        {
+            "genericName": "Surgical Glove",
+            "productName": "Surgical Glove - sterile Latex No. 7  in(Pair)",
+            "strength": "sterile Latex No. 7 ",
+            "dosage": null,
+            "unit": "Pair",
+            "itemUuid": "f61312b8-db9b-4ba9-b456-1c66125c5404"
+        },
+        {
+            "genericName": "Chemical - Gadolinium Chelate",
+            "productName": "Chemical - Gadolinium Chelate - 1mmol/ml Solution for Injection in(10ml)",
+            "strength": "1mmol/ml Solution for Injection",
+            "dosage": null,
+            "unit": "10ml",
+            "itemUuid": "2f5c549d-b027-4f08-8ad7-36987a8cfeb3"
+        },
+        {
+            "genericName": "Rectal Tube Rubber With Terminal Size",
+            "productName": "Rectal Tube Rubber With Terminal Size - 30CH in(Each)",
+            "strength": "30CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "88886a8e-8536-42e3-af47-a9ec7d70c70a"
+        },
+        {
+            "genericName": "Chloramphenicol",
+            "productName": "Chloramphenicol - 0.5% in(10 ml)",
+            "strength": "0.5%",
+            "dosage": "Eye Drop",
+            "unit": "10 ml",
+            "itemUuid": "906fcc46-3a6b-46e4-a30f-6910f01930d7"
+        },
+        {
+            "genericName": "Sodium Valproate",
+            "productName": "Sodium Valproate - 200mg/5ml in(300ml)",
+            "strength": "200mg/5ml",
+            "dosage": "Syrup",
+            "unit": "300ml",
+            "itemUuid": "0c78ced3-2ea1-4913-beeb-b172fd5afc87"
+        },
+        {
+            "genericName": "Ibuprofen",
+            "productName": "Ibuprofen - 200mg in(Tablet)",
+            "strength": "200mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "252fb520-589b-48df-82b3-05b6e5bad7d9"
+        },
+        {
+            "genericName": "Gauze Bandage",
+            "productName": "Gauze Bandage - 5cm x 5m  in(Each)",
+            "strength": "5cm x 5m ",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "79f3a45c-23d1-4505-844f-31170c73277b"
+        },
+        {
+            "genericName": "Artemether + Lumefanthrine",
+            "productName": "Artemether + Lumefanthrine - 20mg + 120mg (6x4) in(Tablet)",
+            "strength": "20mg + 120mg (6x4)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "8370d6dc-16bb-42a6-bafa-03f9cd6841a0"
+        },
+        {
+            "genericName": "Ergometrine Maleate",
+            "productName": "Ergometrine Maleate - 0.25 mg/ml in 1ml Ampoule in(Ampoule)",
+            "strength": "0.25 mg/ml in 1ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "0502a4cc-ebec-4a13-ac1b-5ed2b4c9cb5a"
+        },
+        {
+            "genericName": "Cefotaxime Sodium",
+            "productName": "Cefotaxime Sodium - 0.5g in Vial in(Each)",
+            "strength": "0.5g in Vial",
+            "dosage": "Powder for Injection with Diluent",
+            "unit": "Each",
+            "itemUuid": "3d60d6ad-30d7-45b1-8ab0-300bbf3c4545"
+        },
+        {
+            "genericName": "Penicillin G, Sodium Crystalline",
+            "productName": "Penicillin G, Sodium Crystalline - 1 MIU in(Vial)",
+            "strength": "1 MIU",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "c3ed4649-b4b8-4c1a-9c4d-c5b7701c1a51"
+        },
+        {
+            "genericName": "Ibuprofen",
+            "productName": "Ibuprofen - 100mg/5ml in(100ml)",
+            "strength": "100mg/5ml",
+            "dosage": "Syrup",
+            "unit": "100ml",
+            "itemUuid": "ac4bcde4-708d-443b-904e-db7bfbedadb0"
+        },
+        {
+            "genericName": "Vancomycin",
+            "productName": "Vancomycin - 500mg in(Each)",
+            "strength": "500mg",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "b2fd9bb9-b723-4620-9060-034fa9a755b1"
+        },
+        {
+            "genericName": "Nystatin",
+            "productName": "Nystatin - 500,000 IU in(Tablet)",
+            "strength": "500,000 IU",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "bec30e1a-18e5-4a6f-8e70-3075e3161541"
+        },
+        {
+            "genericName": "Amoxicillin + Clavulanic Acid",
+            "productName": "Amoxicillin + Clavulanic Acid - (125mg + 31.5mg) in(Tablet)",
+            "strength": "(125mg + 31.5mg)",
+            "dosage": "Tablet (Chewable)",
+            "unit": "Tablet",
+            "itemUuid": "0f6aa959-2163-4a33-ac32-689e1f7a82af"
+        },
+        {
+            "genericName": "Calamine",
+            "productName": "Calamine - 5% in(Bottle)",
+            "strength": "5%",
+            "dosage": "Lotion",
+            "unit": "Bottle",
+            "itemUuid": "2a1d6cc1-97d3-4e6f-a964-ce177266ae22"
+        },
+        {
+            "genericName": "Miconazole Nitrate",
+            "productName": "Miconazole Nitrate - 0.02 in(30gm)",
+            "strength": "0.02",
+            "dosage": "Cream",
+            "unit": "30gm",
+            "itemUuid": "deee7175-427d-45e7-a351-9a2d2ef5fb92"
+        },
+        {
+            "genericName": "Penicillin G, Benzanthin",
+            "productName": "Penicillin G, Benzanthin - 1.2 MIU in(Vial)",
+            "strength": "1.2 MIU",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "751818ec-22e3-491b-8241-740d3938e00f"
+        },
+        {
+            "genericName": "Ferrous + Folic Acid",
+            "productName": "Ferrous + Folic Acid - (60mg + 400mcg) in(Each)",
+            "strength": "(60mg + 400mcg)",
+            "dosage": "Tablet",
+            "unit": "Each",
+            "itemUuid": "4d5b8364-dad3-4f06-8a79-478169972f35"
+        },
+        {
+            "genericName": "Zinc Sulphate",
+            "productName": "Zinc Sulphate - 20mg in(Tablet)",
+            "strength": "20mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "a87907ad-83f5-4969-80b5-d9466aa2bf3f"
+        },
+        {
+            "genericName": "Risperidone",
+            "productName": "Risperidone - 2mg in(Tablet)",
+            "strength": "2mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "928cef63-caa7-46ae-8e40-26b927afc2b8"
+        },
+        {
+            "genericName": "Atrovastatin",
+            "productName": "Atrovastatin - 20mg in(Tablet)",
+            "strength": "20mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "b1d37c58-827c-4c00-aca4-db147288cb2e"
+        },
+        {
+            "genericName": "Benzhexol (Trihexyphenidyl HCL)",
+            "productName": "Benzhexol (Trihexyphenidyl HCL) - 2mg in(Tablet)",
+            "strength": "2mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "03fd34dc-e2a0-4f0e-bd1d-064d38368f64"
+        },
+        {
+            "genericName": "Noradrenaline",
+            "productName": "Noradrenaline - 1mg/1ml in 1ml in(Ampoule)",
+            "strength": "1mg/1ml in 1ml",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "66156f5c-c852-4089-ad93-c9e5750a762b"
+        },
+        {
+            "genericName": "Amiodarone",
+            "productName": "Amiodarone - 50mg/ml in 3ml Ampoule in(Ampoule)",
+            "strength": "50mg/ml in 3ml Ampoule",
+            "dosage": "Injection",
+            "unit": "Ampoule",
+            "itemUuid": "8f16db74-8e5d-4697-9895-3b364d192a2a"
+        },
+        {
+            "genericName": "meropenem",
+            "productName": "meropenem - 1g in vial in(Vial)",
+            "strength": "1g in vial",
+            "dosage": "Powder for Injection with Diluent",
+            "unit": "Vial",
+            "itemUuid": "fcbf6afe-e22a-4065-80f2-0f4190b16df9"
+        },
+        {
+            "genericName": "Surgical Glove",
+            "productName": "Surgical Glove - Sterial Latex No. 7.5  in(Pair)",
+            "strength": "Sterial Latex No. 7.5 ",
+            "dosage": null,
+            "unit": "Pair",
+            "itemUuid": "4898eb5e-c45d-4e7f-9d4b-fdc08d6a5213"
+        },
+        {
+            "genericName": "Ferrous Sulphate + Folic Acid",
+            "productName": "Ferrous Sulphate + Folic Acid - (60mg + 400mcg) in(Tablet)",
+            "strength": "(60mg + 400mcg)",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "1e5a30ad-627c-4094-904d-eaa6df904d91"
+        },
+        {
+            "genericName": "Surgical Glove",
+            "productName": "Surgical Glove - No.7.5 in(Piece)",
+            "strength": "No.7.5",
+            "dosage": null,
+            "unit": "Piece",
+            "itemUuid": "53cf53aa-deb5-4eef-9d56-907f32ec1e1e"
+        },
+        {
+            "genericName": "Atrovastatin",
+            "productName": "Atrovastatin - 40mg in(Tablet)",
+            "strength": "40mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "be020ada-3b9d-4d82-9976-3314c803be17"
+        },
+        {
+            "genericName": "Ringer's Injection-Solution",
+            "productName": "Ringer's Injection-Solution -  Each 500ml contains; Na+ 147mEq + K+ 4mEq(500ml) with giving set in(500 ml)",
+            "strength": " Each 500ml contains; Na+ 147mEq + K+ 4mEq(500ml) with giving set",
+            "dosage": "IV Infusion (Injection)",
+            "unit": "500 ml",
+            "itemUuid": "531096a5-d126-4718-9d41-85515c12bd00"
+        },
+        {
+            "genericName": "Propylthiouracil",
+            "productName": "Propylthiouracil - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "ee0e5f90-5f1f-4669-be94-73ab538fd258"
+        },
+        {
+            "genericName": "Ankle Support",
+            "productName": "Ankle Support -  in(Each)",
+            "strength": null,
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "5872b78c-4207-4f0e-8cba-4ec3313dc940"
+        },
+        {
+            "genericName": "Clobetasole Propionate ",
+            "productName": "Clobetasole Propionate  - 0.05%w/w in(15gm)",
+            "strength": "0.05%w/w",
+            "dosage": "Ointment",
+            "unit": "15gm",
+            "itemUuid": "5e2b79f4-4232-4129-a9d8-f47534fc8971"
+        },
+        {
+            "genericName": "Fluocinolone Acetonide",
+            "productName": "Fluocinolone Acetonide - 0.025% in(10gm)",
+            "strength": "0.025%",
+            "dosage": "Cream",
+            "unit": "10gm",
+            "itemUuid": "209d60b7-bc5b-426d-8ad0-cbee3a3a948e"
+        },
+        {
+            "genericName": "Acyclovir",
+            "productName": "Acyclovir - 3% in(4.5gm)",
+            "strength": "3%",
+            "dosage": "Eye Ointment",
+            "unit": "4.5gm",
+            "itemUuid": "ace6bc04-2bba-4058-b5c7-21b66a366a37"
+        },
+        {
+            "genericName": "MultiVitamin ",
+            "productName": "MultiVitamin  -  in(Tablet)",
+            "strength": null,
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "951b75e8-16aa-4127-9ff7-139c003994c1"
+        },
+        {
+            "genericName": "Phenytoin (Diphenhydantoin) Sodium",
+            "productName": "Phenytoin (Diphenhydantoin) Sodium - 250mg per 5ml vial liquid in(Each)",
+            "strength": "250mg per 5ml vial liquid",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "64306f7f-cacb-4d4c-980d-4a9a2d727d9b"
+        },
+        {
+            "genericName": "Vitamine B12 (Cyanocobalamine)",
+            "productName": "Vitamine B12 (Cyanocobalamine) - 100mcg/ml in 1ml ampoule in(Each)",
+            "strength": "100mcg/ml in 1ml ampoule",
+            "dosage": "Injection",
+            "unit": "Each",
+            "itemUuid": "eefce713-a877-4430-a05c-e958a9173708"
+        },
+        {
+            "genericName": "Lamotrigine",
+            "productName": "Lamotrigine - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "7862799b-2873-44ad-99f9-5765329b656c"
+        },
+        {
+            "genericName": "Metoprolol succinate",
+            "productName": "Metoprolol succinate - 50mg in(Tablet)",
+            "strength": "50mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "dbb78422-75b7-4b38-a14e-f61bb4e2eba2"
+        },
+        {
+            "genericName": "Syringe (Disposable)",
+            "productName": "Syringe (Disposable) - 5ml with  Needle 23G in(Each)",
+            "strength": "5ml with  Needle 23G",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "a23c7ded-9194-4bed-b216-3c34a3799a12"
+        },
+        {
+            "genericName": "Nevirapine",
+            "productName": "Nevirapine - 10mg/1ml in(240ml)",
+            "strength": "10mg/1ml",
+            "dosage": "Oral Suspension",
+            "unit": "240ml",
+            "itemUuid": "32fdeb40-feae-4a75-b205-90221b7b752a"
+        },
+        {
+            "genericName": "meropenem",
+            "productName": "meropenem - 1gm  in(Vial)",
+            "strength": "1gm ",
+            "dosage": "Injection",
+            "unit": "Vial",
+            "itemUuid": "9fd9236f-68b4-40a5-8c3a-81819dd27935"
+        },
+        {
+            "genericName": "Metoprolol succinate",
+            "productName": "Metoprolol succinate - 25mg in(Tablet)",
+            "strength": "25mg",
+            "dosage": "Tablet",
+            "unit": "Tablet",
+            "itemUuid": "1bfdbc7a-96a5-42e4-9aab-c45b94750949"
+        },
+        {
+            "genericName": "Rectal Tube Rubber With Terminal Size",
+            "productName": "Rectal Tube Rubber With Terminal Size - 28CH in(Each)",
+            "strength": "28CH",
+            "dosage": null,
+            "unit": "Each",
+            "itemUuid": "1e9ccb7b-6d9a-4ffc-88e2-b11afd6f9205"
+        }
+    ]
+}
