@@ -13,6 +13,7 @@ from component.openhim.openhim import Openhim
 from services.prescription import Prescription
 from services.drugSync import DrugSync
 from services.dtpCase import DtpCase
+from services.stockStatus import StockStatus
 
 app = FastAPI()
 load_dotenv()
@@ -32,6 +33,10 @@ async def sync_drugs():
 @app.get("/dtpCase")
 async def dtp_case():
     return DtpCase().dtpCaseManager()
+
+@app.get("/stockStatus")
+async def get_stock_status(institutionId: str):
+    return StockStatus().stockStatusManager(institutionId)
     
 @app.get("/test/authenicateEMR")
 def testAuthenticateEMR():

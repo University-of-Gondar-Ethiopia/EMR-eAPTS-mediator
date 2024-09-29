@@ -82,7 +82,11 @@ class DrugSync:
         response = requests.post(f'{self.emr.conceptManagement_url}/{concept['uuid']}', headers=self.eamr_headers, json=data, verify=False)
         response.raise_for_status()
        
-    def create_concept(self, concept_name: str):
+    def create_concept(self, concept_name: str, concept_type: str):
+        if concept_type == 'drug':
+            conceptClass = os.getenv("EMR_DRUG_CONCEPT_CLASS_UUID")
+        else:
+            conceptClass = os.getenv("EMR_MISC_CONCEPT_CLASS_UUID")
         data = {
             "names": [
                 {
@@ -94,7 +98,7 @@ class DrugSync:
             ],
             "datatype": os.getenv("EMR_DRUG_CONCEPT_DATATYPE_UUID"),
             "version": "1.2.2",
-            "conceptClass": os.getenv("EMR_DRUG_CONCEPT_CLASS_UUID"),
+            "conceptClass": conceptClass,
             "mappings": [],
             "descriptions": []
         }
@@ -119,49 +123,56 @@ class DrugSync:
        
         response = requests.post(f'{self.emr.drugManagement_url}',  headers=self.eamr_headers, json=data, verify=False)
         response.raise_for_status()
+        return response.json()
 
 
     def check_and_update_emr(self, drugs_to_process: List[Dict]):
+        created_drugs = []  # List to track created drugs
+
         for drug in drugs_to_process:
            
             dosage_list = self.check_existing_concept(drug['dosage'])
             concept_list = self.check_existing_concept(drug['genericName'])
            
-            if len(dosage_list) == 0:  # If the dosageForm concept doesn't exist
-                created_dosageConcept = self.create_concept(drug['dosage'])  # Create the dosageForm
+            if dosage_list and len(dosage_list) == 0:  # If the dosageForm concept doesn't exist
+                created_dosageConcept = self.create_concept(drug['dosage'], "misc")  # Create the dosageForm
                 dosage_form = created_dosageConcept['uuid']
             else:
-                if dosage_list[0]['name'] == 'None':
+                if dosage_list and dosage_list[0]['name'] == 'None':
                     dosage_form = ""
                 else:
                     dosage_form = dosage_list[0]['uuid']
                
        
-            if len(concept_list) == 0:  # If the concept doesn't exist
-                created_concept = self.create_concept(drug['genericName'])  # Create the concept
-                self.create_drug(created_concept["uuid"], dosage_form, drug)  # Create the drug
+            if concept_list and len(concept_list) == 0:  # If the concept doesn't exist
+                created_concept = self.create_concept(drug['genericName'], 'drug')  # Create the concept
+                created_drug = self.create_drug(created_concept["uuid"], dosage_form, drug)  # Create the drug
+                created_drugs.append(f"(Generic Name: {created_drug['name']}, uuid: {created_drug['uuid']}, Strength: {created_drug['strength']}, Dosage Form: {created_drug['dosageForm']['display']})")
            
             elif concept_list and concept_list[0].get('class') != "Drug":  # If the concept exists but class is not "Drug"
                 new_name = f"UPDATED_BY_eAPTS_EAMR_MEDIATER_{drug['genericName']}"
                 self.update_concept(concept_list[0], new_name)  # Update the concept
                 created_concept = self.create_concept(drug['genericName'])  # Create the concept
-                self.create_drug(created_concept["uuid"], dosage_form, drug)  # Create the drug
-
+                created_drug = self.create_drug(created_concept["uuid"], dosage_form, drug)  # Create the drug
+                created_drugs.append(f"(Generic Name: {created_drug['name']}, uuid: {created_drug['uuid']}, Strength: {created_drug['strength']}, Dosage Form: {created_drug['dosageForm']['display']})")
 
             elif concept_list and concept_list[0].get('class') == "Drug":  # If the concept exists and class is "Drug"
-                self.create_drug(concept_list[0].get('uuid'), dosage_form, drug)  # Create the drug
+                created_drug = self.create_drug(concept_list[0].get('uuid'), dosage_form, drug)  # Create the drug
+                created_drugs.append(f"(Generic Name: {created_drug['name']}, uuid: {created_drug['uuid']}, Strength: {created_drug['strength']}, Dosage Form: {created_drug['dosageForm']['display']})")
+        return created_drugs  # Return the list of created drugs
     
     def drugSyncManager(self):
         try:
             fetched_drugs = self.fetch_drugs_from_eapts()
             drugs_to_process = self.filter_drugs(fetched_drugs)
-            if len(drugs_to_process) == 0:
+            if not drugs_to_process:
                 return {"status": "success", "message": "Drug Items are up-to-date and consistent between the EMR and eAPTS systems."}
+            
+            updates = self.check_and_update_emr(drugs_to_process)
+            if updates:
+                return {"status": "success", "message": "Created drugs: " + ", ".join(updates)}
             else:
-                try:
-                    self.check_and_update_emr(drugs_to_process)
-                    return {"status": "success", "message": "Drugs have been registered and updated"}
-                except Exception as e:
-                    raise HTTPException(status_code=500, detail=str(e))
+                return {"status": "success", "message": "No new drugs created."}
+            
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
