@@ -1,0 +1,17 @@
+[Unit]
+Description=EMR-eAPTS Mediator
+After=network.target
+
+[Service]
+User=www-data
+WorkingDirectory=/opt/EMR-eAPTS-mediator/app
+ExecStart=/bin/bash -c '/opt/EMR-eAPTS-mediator/start.sh'
+Restart=always
+RestartSec=10
+Environment="PATH=/opt/EMR-eAPTS-mediator/venv/bin"
+StandardOutput=append:/var/log/emr_eapts_mediator.log
+StandardError=append:/var/log/emr_eapts_mediator_error.log
+
+[Install]
+WantedBy=multi-user.target
+
