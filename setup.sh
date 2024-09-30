@@ -13,6 +13,9 @@ pip install -r requirements.txt || handle_error $LINENO
 # Make the start.sh script executable
 sudo chmod +x start.sh || handle_error $LINENO
 
+# Create virtual enviroment for python
+sudo  python3 -m venv /opt/EMR-eAPTS-mediator/venv
+
 # Copy the service file to the systemd directory
 sudo cp -r app/services/emr_eapts-mediator.service /etc/systemd/system/ || handle_error $LINENO
 
