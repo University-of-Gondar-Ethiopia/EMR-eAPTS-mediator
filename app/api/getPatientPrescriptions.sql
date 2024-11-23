@@ -119,6 +119,7 @@ SELECT
             1
     ) AS paymentType,
     pat_phone.value AS phoneNumber,
+    pat_reference.value AS insuranceNumber,
     pa.person_id AS person_id,
     (
         SELECT
@@ -201,6 +202,15 @@ FROM
             person_attribute_type
         WHERE
             name = 'PhoneNumber'
+    )
+    LEFT JOIN person_attribute pat_reference ON pat_reference.person_id = pe.person_id
+    AND pat_reference.person_attribute_type_id = (
+        SELECT
+            person_attribute_type_id
+        FROM
+            person_attribute_type
+        WHERE
+            name = 'Reference Number'
     )
     LEFT JOIN person_attribute pat_credit ON pat_credit.person_id = pe.person_id
     AND pat_credit.person_attribute_type_id = (
