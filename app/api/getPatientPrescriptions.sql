@@ -249,6 +249,7 @@ FROM
             1
     )
     LEFT JOIN obs obs_diagnosis ON obs_diagnosis.person_id = p.patient_id
+    AND obs_diagnosis.voided = 0
     AND obs_diagnosis.concept_id IN (
         SELECT
             concept_id
