@@ -267,5 +267,7 @@ FROM
     ) enc_count ON enc_count.encounter_id = en.encounter_id
 WHERE
     do.order_id > ${orderNumber}
+GROUP BY
+    ord.order_id
 LIMIT
     100;
