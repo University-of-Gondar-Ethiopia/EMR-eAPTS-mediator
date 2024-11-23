@@ -69,7 +69,7 @@ class EAPTS:
             return prescriptions[last_uploaded];
         except Exception as e:
             if last_uploaded != None:
-                print("Failed to upload prescription "+str(prescriptions[last_uploaded]) +"\n"+ e)
+                print("Failed to upload prescription "+str(prescriptions[last_uploaded]) +"\n"+ str(e))
                 return prescriptions[last_uploaded];
             
             
