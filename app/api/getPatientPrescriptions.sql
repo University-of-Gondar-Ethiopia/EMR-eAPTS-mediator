@@ -119,6 +119,7 @@ SELECT
             1
     ) AS paymentType,
     pat_phone.value AS phoneNumber,
+    pat_reference.value AS insuranceNumber,
     pa.person_id AS person_id,
     (
         SELECT
@@ -202,6 +203,15 @@ FROM
         WHERE
             name = 'PhoneNumber'
     )
+    LEFT JOIN person_attribute pat_reference ON pat_reference.person_id = pe.person_id
+    AND pat_reference.person_attribute_type_id = (
+        SELECT
+            person_attribute_type_id
+        FROM
+            person_attribute_type
+        WHERE
+            name = 'Reference Number'
+    )
     LEFT JOIN person_attribute pat_credit ON pat_credit.person_id = pe.person_id
     AND pat_credit.person_attribute_type_id = (
         SELECT
@@ -239,6 +249,7 @@ FROM
             1
     )
     LEFT JOIN obs obs_diagnosis ON obs_diagnosis.person_id = p.patient_id
+    AND obs_diagnosis.voided = 0
     AND obs_diagnosis.concept_id IN (
         SELECT
             concept_id
@@ -267,5 +278,7 @@ FROM
     ) enc_count ON enc_count.encounter_id = en.encounter_id
 WHERE
     do.order_id > ${orderNumber}
+GROUP BY
+    ord.order_id
 LIMIT
     100;

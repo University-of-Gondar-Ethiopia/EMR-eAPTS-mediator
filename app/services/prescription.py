@@ -90,6 +90,16 @@ class Prescription:
                 eapts_orders.append(self.transformOrder(order))
 
             phone_number = len(prescription["phoneNumber"]) > 0 and prescription["phoneNumber"] or "0912345678"
+            insuranceNumber = len(prescription["insuranceNumber"]) > 0 and prescription["insuranceNumber"] or None
+            if len(prescription["diagnosisUUID"]) > 0 and prescription["diagnosisUUID"] != "":
+                prescriptionDiagnosis = [
+                    {
+                        "diagnosisTypeId": prescription["diagnosisUUID"],
+                        "additionalInfo": prescription["additionalInfo"]
+                    }
+                ]
+            else:
+                prescriptionDiagnosis = []
             output_json = { "prescription": {
                 "prescriber": {
                     "firstName": prescription["prescriber_firstName"],
@@ -114,15 +124,10 @@ class Prescription:
                     "paymentTypeId": prescription["paymentType"],
                     "patientTypeId": prescription["patientTypeId"],
                     "weight": prescription["weight"],
-                    "insuranceNumber": None                   
+                    "insuranceNumber": insuranceNumber                   
                 },
                 "prescriptionDetails":eapts_orders,
-                "prescriptionDiagnosis": [
-                    {
-                        "diagnosisTypeId": prescription["diagnosisUUID"],
-                        "additionalInfo": prescription["additionalInfo"]
-                    }
-                ],
+                "prescriptionDiagnosis": prescriptionDiagnosis,
                 "prescriptionDate": prescription["prescriptionDate"],
                 "rowGuid": prescription["rowGuid"],
                 "prsecriptionUUID": prescription["rowGuid"],

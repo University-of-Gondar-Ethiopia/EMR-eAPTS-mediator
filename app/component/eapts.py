@@ -59,17 +59,25 @@ class EAPTS:
             for i, prescription in enumerate(prescriptions):
                 response = requests.post(self.prescription_url, data=json.dumps(prescription["prescription"]), headers=headers)
                 
-                if response.status_code == 200:
+                try:
+                    parsed_response = json.loads(response.text)  # Parse the JSON string
+                    result_value = parsed_response.get("result")  # Safely get the value of 'result'
+                except json.JSONDecodeError:
+                    print("Failed to parse JSON response.")
+                
+                if response.status_code == 200 and result_value == 0:
                     last_uploaded=i
                     print("Uploaded prescription: \n"+str(i))
                     time.sleep(1)
                 else:
+                    with open('../faild_prescription.json', 'w') as file:
+                        json.dump(prescription["prescription"], file, indent=4)
                     raise Exception("Failed to upload prescription \n"+str(response.text))
                 
             return prescriptions[last_uploaded];
         except Exception as e:
             if last_uploaded != None:
-                print("Failed to upload prescription "+str(prescriptions[last_uploaded]) +"\n"+ e)
+                print("Failed to upload prescription "+str(prescriptions[last_uploaded]) +"\n"+ str(e))
                 return prescriptions[last_uploaded];
             
             
