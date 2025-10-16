@@ -4,7 +4,11 @@ SELECT
     do.dose AS dose,
     do.duration AS numberOfDuration,
     ord.order_id AS orderNumber,
-    SUBSTRING_INDEX( SUBSTRING_INDEX(do.dosing_instructions, ':"', -1), '"}', 1 ) AS additionalNote,
+    SUBSTRING_INDEX(
+        SUBSTRING_INDEX(do.dosing_instructions, ':"', -1),
+        '"}',
+        1
+    ) AS additionalNote,
     do.quantity AS quantity,
     ord.patient_id,
     (
@@ -72,7 +76,7 @@ SELECT
             address_hierarchy_entry
         WHERE
             name = pa.state_province
-            AND level_id = 3
+            AND level_id = 1
         LIMIT
             1
     ) AS region,
@@ -94,17 +98,8 @@ SELECT
         WHERE
             concept_id = do.dose_units
             AND concept_name_type = 'FULLY_SPECIFIED'
+            AND locale = 'en' LIMIT 1
     ) AS dose_units,
-    (
-        SELECT
-            uuid
-        FROM
-            address_hierarchy_entry
-        WHERE
-            name = pa.address3
-        LIMIT
-            1
-    ) AS woredaId,
     pa.address2 AS kebele,
     pa.address1 AS houseNumber,
     pi.identifier AS cardNumber,
@@ -114,7 +109,11 @@ SELECT
         FROM
             concept
         WHERE
-            concept_id = COALESCE(pat_credit_payment.value, pat_free_payment.value, pat_fallback_cash.value)
+            concept_id = COALESCE(
+                pat_credit_payment.value,
+                pat_free_payment.value,
+                pat_fallback_cash.value
+            )
         LIMIT
             1
     ) AS paymentType,
@@ -128,11 +127,21 @@ SELECT
             concept_name
         WHERE
             concept_id = COALESCE(pat_cbhi.value, pat_credit.value)
-            AND concept_name.concept_name_type = 'FULLY_SPECIFIED'
+            AND concept_name.concept_name_type = 'FULLY_SPECIFIED' 
+            AND concept_name.locale = 'en'
         LIMIT
             1
     ) AS sponserName,
-    vt.uuid AS patientTypeId,
+    (
+        SELECT
+            uuid
+        FROM
+            concept
+        WHERE
+            concept_id = pat_cbhi.value
+        LIMIT
+            1
+    ) AS woredaId,
     o.value_numeric AS weight,
     en.encounter_id,
     pn.given_name AS firstName,
@@ -143,7 +152,8 @@ SELECT
     diag.name AS diagnosisName,
     o.comments AS additionalInfo,
     enc_count.order_count AS numberOfOrders,
-    em.entity2_uuid as institutionID
+    em.entity2_uuid as institutionID,
+    em2.entity2_uuid AS patientTypeId
 FROM
     orders ord
     JOIN drug_order do ON do.order_id = ord.order_id
@@ -152,9 +162,11 @@ FROM
     JOIN person_name upn ON u.person_id = upn.person_id
     JOIN encounter en ON ord.encounter_id = en.encounter_id
     JOIN visit v ON en.visit_id = v.visit_id
-    JOIN visit_type vt ON v.visit_type_id = vt.visit_type_id
+    JOIN visit_type vt ON v.visit_type_id = vt.visit_type_id AND v.visit_type_id != 10
     LEFT JOIN entity_mapping em ON vt.uuid = em.entity1_uuid
     AND em.entity_mapping_type_id = 5
+    LEFT JOIN entity_mapping em2 ON vt.uuid = em2.entity1_uuid
+    AND em2.entity_mapping_type_id = 6
     JOIN patient p ON ord.patient_id = p.patient_id
     JOIN person_name pn ON p.patient_id = pn.person_id
     JOIN patient_identifier pi ON p.patient_id = pi.patient_id
@@ -170,7 +182,7 @@ FROM
         LIMIT
             1
     )
-    AND pat_credit_payment.value != 25452
+    AND pat_credit_payment.value NOT IN (65282, 53845)
     LEFT JOIN person_attribute pat_free_payment ON pat_free_payment.person_id = pe.person_id
     AND pat_free_payment.person_attribute_type_id = (
         SELECT
@@ -182,7 +194,7 @@ FROM
         LIMIT
             1
     )
-    AND pat_free_payment.value != 25452
+    AND pat_free_payment.value NOT IN (65282, 53845)
     LEFT JOIN person_attribute pat_fallback_cash ON pat_fallback_cash.person_id = pe.person_id
     AND pat_fallback_cash.person_attribute_type_id = (
         SELECT
@@ -223,7 +235,7 @@ FROM
         LIMIT
             1
     )
-    AND pat_credit.value != 25452
+    AND pat_credit.value NOT IN (65282, 53845)
     LEFT JOIN person_attribute pat_cbhi ON pat_cbhi.person_id = pe.person_id
     AND pat_cbhi.person_attribute_type_id = (
         SELECT
@@ -235,7 +247,7 @@ FROM
         LIMIT
             1
     )
-    AND pat_cbhi.value != 25452
+    AND pat_cbhi.value NOT IN (65282, 53845)
     LEFT JOIN person_address pa ON pe.person_id = pa.person_id
     LEFT JOIN obs o ON en.encounter_id = o.encounter_id
     AND o.concept_id = (
@@ -281,4 +293,4 @@ WHERE
 GROUP BY
     ord.order_id
 LIMIT
-    100;
+    10;

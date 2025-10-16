@@ -41,12 +41,12 @@ async def get_stock_status(institutionId: str):
 @app.get("/test/authenicateEMR")
 def testAuthenticateEMR():
     emr = EMR()
-    return emr.authenticate();
+    return emr.authenticate()
 
 @app.get("/test/authenicateEAPTS")
 def testAuthenticateEAPTS():
     eapts = EAPTS()
-    return  eapts.authenticate();
+    return  eapts.authenticate()
 
 @app.get("/test/openhimauth")
 def testOpenHIMauth():

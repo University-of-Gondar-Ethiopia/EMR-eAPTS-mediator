@@ -1,11 +1,12 @@
-# class to handel EAPTS authentication
-import requests
+# Class to handle EAPTS authentication and API interactions
 import os
-from dotenv import load_dotenv
-import base64
 import time
 import json
+import requests
+from dotenv import load_dotenv
+
 load_dotenv()
+
 
 class EAPTS:
     def __init__(self):
@@ -18,67 +19,85 @@ class EAPTS:
         self.stockStatus_url = os.getenv("EAPTS_STOCK_STATUS_ENDPOINT")
         self.auth = None
 
-    def getAuthHeader(self):
+    def get_auth_header(self):
+        """Return the Bearer token header, authenticating if necessary."""
         if self.auth is None:
             self.authenticate()
-        elif self.auth['token']['access_token'] is None:
-            # throw an exception
-            raise Exception("Access token not found");
 
-        # Bearrer token header
-        return {
-            'Authorization': f'Bearer {self.auth['token']['access_token']}'
-        }
-    
+        token = self.auth.get("token", {}).get("access_token")
+        if not token:
+            raise Exception("Access token not found")
+
+        return {"Authorization": f"Bearer {token}"}
+
     def authenticate(self):
+        """Authenticate with EAPTS and store the token."""
+        data = {"username": self.username, "password": self.password}
 
-        data = {
-            "username": self.username,
-            "password": self.password
-        }
+        response = requests.post(
+            self.url, json=data, headers={"Content-Type": "application/json"}
+        )
 
-        # Sending the post request
-        response = requests.post(self.url, json=data, headers={'Content-Type': 'application/json'})
-
-        # Handling the response
         if response.status_code == 200:
-            self.auth = response.json();
+            self.auth = response.json()
             return {"status": "success", "response": self.auth}
-        else:
-            return {"status": "failure", "response": response.text}
 
-    def uploadPrescription(self, prescriptions):
+        return {"status": "failure", "response": response.text}
 
+    def upload_prescriptions(self, prescriptions):
+        """
+        Upload a list of prescriptions to the EAPTS API.
+        Each prescription is uploaded individually.
+        """
         self.authenticate()
-        headers = self.getAuthHeader()
-        headers["Content-Type"]="application/json"
+        headers = self.get_auth_header()
+        headers["Content-Type"] = "application/json"
+
         last_uploaded = None
 
         try:
-            # send each prescriptions individually
             for i, prescription in enumerate(prescriptions):
-                response = requests.post(self.prescription_url, data=json.dumps(prescription["prescription"]), headers=headers)
-                
+                log_entry = {
+                    "url": self.prescription_url,
+                    "data": prescription["prescription"],       # keep dict, not double-encoded JSON
+                    "headers": headers,
+                }
+
+                with open("../failed_response.json", "w") as file:
+                    json.dump(log_entry, file, indent=4)
+
+                response = requests.post(self.prescription_url, json=prescription["prescription"], headers=headers)
+
+                result_value = None
                 try:
-                    parsed_response = json.loads(response.text)  # Parse the JSON string
-                    result_value = parsed_response.get("result")  # Safely get the value of 'result'
+                    parsed_response = response.json()
+                    result_value = parsed_response.get("result")
                 except json.JSONDecodeError:
                     print("Failed to parse JSON response.")
-                
+
                 if response.status_code == 200 and result_value == 0:
-                    last_uploaded=i
-                    print("Uploaded prescription: \n"+str(i))
+                    last_uploaded = i
+                    print(f"Uploaded prescription: {i}")
                     time.sleep(1)
                 else:
-                    with open('../faild_prescription.json', 'w') as file:
+                    with open("../failed_prescription.json", "w") as file:
                         json.dump(prescription["prescription"], file, indent=4)
-                    raise Exception("Failed to upload prescription \n"+str(response.text))
-                
-            return prescriptions[last_uploaded];
+                    raise Exception(
+                        f"Failed to upload prescription \n{response.text}"
+                    )
+
+            if last_uploaded is not None:
+                return prescriptions[last_uploaded]
+            return None
+
         except Exception as e:
-            if last_uploaded != None:
-                print("Failed to upload prescription "+str(prescriptions[last_uploaded]) +"\n"+ str(e))
-                return prescriptions[last_uploaded];
+            if last_uploaded is not None:
+                print(
+                    f"Failed to upload prescription {prescriptions[last_uploaded]}\n{e}"
+                )
+                return prescriptions[last_uploaded]
+            raise
+
             
             
 

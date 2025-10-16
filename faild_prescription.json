@@ -1,0 +1,52 @@
+{
+    "prescriber": {
+        "firstName": "Dr Edework",
+        "middleName": "Aschalew",
+        "lastName": "Haile",
+        "qualification": "Appointments:FullAccess",
+        "registrationNumber": "161",
+        "rowGuid": "49ef186b-5829-4e59-9dde-ead8b341c7cb"
+    },
+    "patient": {
+        "firstName": "ROZA",
+        "middleName": "AMSALU",
+        "lastName": "BIRHANU",
+        "phoneNumber": "0912345678",
+        "age": 21,
+        "sex": "F",
+        "houseNumber": "",
+        "cardNumber": "1242650",
+        "kebele": "02",
+        "rowGuid": "9deebbee-fcd1-460c-a479-1fe254f4c0d9",
+        "sponsorName": "University  of Gondar",
+        "woredaId": "c2232daf-3f10-11e4-adec-0800271c1b75",
+        "paymentTypeId": "c2232daf-3f10-11e4-adec-0800271c1b75",
+        "patientTypeId": "aeccbe66-d424-4c97-b3b5-9e611cfc5bb8",
+        "weight": "",
+        "insuranceNumber": null
+    },
+    "prescriptionDetails": [
+        {
+            "numberOfDuration": 7,
+            "administrationId": "63394b68-2cbd-49af-b359-b9bba3f07e52",
+            "frequencyTypeId": "1942d7a9-0039-4904-94bc-1cc87e9069cf",
+            "itemUnitId": "2e7bf8ac-7fb8-4e91-ac91-d46bbea6ca27",
+            "quantity": 7000.0,
+            "additionalNote": "\"As directed\"",
+            "orderNumber": 68820,
+            "dose": 500.0,
+            "dose_units": "mg",
+            "duration_units": 76
+        }
+    ],
+    "prescriptionDiagnosis": [
+        {
+            "diagnosisTypeId": "93169716-5405-428e-87a8-2c4bbfdce349",
+            "additionalInfo": ""
+        }
+    ],
+    "prescriptionDate": "2024-12-23 15:26:19.000000",
+    "rowGuid": "ef196096-243b-4484-9743-343aee508c3e",
+    "prsecriptionUUID": "ef196096-243b-4484-9743-343aee508c3e",
+    "institutionId": "3aa18c1b-b6d0-427a-bf31-d2be3befc302"
+}

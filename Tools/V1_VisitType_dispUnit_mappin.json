@@ -1,0 +1,897 @@
+[
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "da898189-5e07-11ef-8f7c-0242ac120002",
+        "name": "LAB VISIT"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "54f43754-c6ce-4472-890e-0f28acaeaea6",
+        "name": "OPD"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "b7494a80-fdf9-49bb-bb40-396c47b40343",
+        "name": "IPD"
+    },
+    {
+        "du_uuid": "8a132f71-5e7d-4f1b-9119-af8ec4d7feae",
+        "vt_uuid": "493ebb53-b2bd-4ced-b444-e0965804d771",
+        "name": "Adult ER"
+    },
+    {
+        "du_uuid": "8a132f71-5e7d-4f1b-9119-af8ec4d7feae",
+        "vt_uuid": "f3185c75-2c8c-476a-bf95-c77e8bb42edd",
+        "name": "Special OPD"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "9772f68d-9fc5-4470-9b87-2b6139011cad",
+        "name": "Follow Up"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "6ffb0c3d-7c94-45dd-9629-bb0ac52c4ff1",
+        "name": "Central triage"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "6ff079e1-55f6-4882-b869-3e03cec5a1dd",
+        "name": "Adhoc C OPD"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "764ea4c4-c293-49a7-b6b1-bbe646489729",
+        "name": "Adult MICU"
+    },
+    {
+        "du_uuid": "a6e6bd4c-0e34-4139-ae92-030e56bab386",
+        "vt_uuid": "18c86dec-fc93-4ce1-b43c-d4d85ff59989",
+        "name": "Adult oncology"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "7e485e71-6534-4a9a-96a8-cea773b70366",
+        "name": "ANC consultation"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "a94094c1-9668-4a24-bd45-e6b7aa70a9c4",
+        "name": "ANC OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "a7668d45-a939-4ff1-9b39-d7b7d866f000",
+        "name": "ANC OPD 2"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "167bbd7c-5e83-4ee0-91c0-e3888aee9a97",
+        "name": "ANC OPD 3"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "28e8dde4-1aec-452e-bf32-371c07d48d24",
+        "name": "ANC OPD 4"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "c09ff070-e080-4265-b1f8-97131e35c75c",
+        "name": "ANC OPD 5"
+    },
+    {
+        "du_uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5",
+        "vt_uuid": "b01ccc48-796b-4d9b-9202-d95344e981ee",
+        "name": "ART OPD 1"
+    },
+    {
+        "du_uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5",
+        "vt_uuid": "43a21e9a-9620-4b21-af78-5280b18ef2d5",
+        "name": "ART OPD 2"
+    },
+    {
+        "du_uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5",
+        "vt_uuid": "0d9347ab-d6bf-42c6-ab62-e267b50f4367",
+        "name": "ART OPD 3"
+    },
+    {
+        "du_uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5",
+        "vt_uuid": "535d9b83-1e73-4eaa-88ed-efddc4f1e91b",
+        "name": "ART OPD 4"
+    },
+    {
+        "du_uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5",
+        "vt_uuid": "01f6b214-4695-4668-8240-fd9b08211b83",
+        "name": "ART OPD 5"
+    },
+    {
+        "du_uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5",
+        "vt_uuid": "71f55f28-3ee3-41c7-a473-9e2085dc203a",
+        "name": "ART OPD 7"
+    },
+    {
+        "du_uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5",
+        "vt_uuid": "995d5de6-3eac-420c-952c-b949f9064eee",
+        "name": "ART OPD 8"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "1945a0cd-e204-4438-8697-479392074f3c",
+        "name": "Cardiothoracic Surgery"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "41e4988f-5e5a-48db-8d85-e8082c7f0177",
+        "name": "Central Triage"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "d664ef09-4461-4003-8353-3d47709a930a",
+        "name": "Cervical screening OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "c35e5f03-01c7-431e-9667-9f720ce2adad",
+        "name": "Cervical screening OPD 2"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "d2aacae8-0df0-48ca-8743-63169763b658",
+        "name": "Chronic OPD 1"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "15310d59-e8fe-4346-afdc-81277fcf8b05",
+        "name": "Chronic OPD 10"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "4c1d37cf-b967-4b1f-af99-a7265457013e",
+        "name": "Chronic OPD 11"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "c7d6918d-490c-4494-8dc6-8e00e6abbeea",
+        "name": "Chronic OPD 12"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "d3d0e09c-26e5-49f5-a55b-a77897718922",
+        "name": "Chronic OPD 2"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "83a030b3-9855-4a5a-a2cc-e5879c865d95",
+        "name": "Chronic OPD 3"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "7c696e41-cf52-4f91-b070-cd8b4d08da82",
+        "name": "Chronic OPD 4"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "bfeb9508-ef41-437c-b3c3-87d598f09ee3",
+        "name": "Chronic OPD 5"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "060c59d5-75b8-4d9a-91af-922f5aa88ad6",
+        "name": "Chronic OPD 6"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "363c442c-6782-41c6-b8b0-24c8e46c7c30",
+        "name": "Chronic OPD 7"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "0cafb7ca-8db0-433e-a30f-5f6008bca838",
+        "name": "Chronic OPD 8"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "35ba8c88-ffd0-4c11-9708-1ac2b4fd0c00",
+        "name": "Chronic OPD 9"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "9ec77651-2498-4977-9b00-d9c9082ce33d",
+        "name": "Dental OPD"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "18673e25-fc0c-4e5f-a33c-152b77b0b002",
+        "name": "Dermatology OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "6e895dc0-1e84-42d6-9a79-4bb63caeab7b",
+        "name": "Dermatology OPD 2"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "a0aacce8-731a-423a-b659-2866965b0d97",
+        "name": "Dermatology OPD 3"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "7aa5fd2f-f17e-4162-aef5-d0f19cb23df9",
+        "name": "Dermatology Ward"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "d29c702d-2011-42b1-bb16-5a9f285ac53f",
+        "name": "Dialysis ward"
+    },
+    {
+        "du_uuid": "8a132f71-5e7d-4f1b-9119-af8ec4d7feae",
+        "vt_uuid": "755230ca-af23-4c20-86e6-b00a8db95aa6",
+        "name": "Emergency Triage"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "3ee8e1e7-8bd6-4207-b2ec-a7083b2e8768",
+        "name": "ENT OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "22692f51-b3e0-4511-b152-9eae9d8d122a",
+        "name": "ENT OPD 2"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "005d633d-c1e5-4514-9e3b-423fa8a4dc58",
+        "name": "ENT OPD 3"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "b96395d2-34e7-471a-bede-9c5e0a1a14aa",
+        "name": "ENT Ward"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "a476ec13-7189-443a-b923-ef3c47d60f69",
+        "name": "Female 1"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea1496",
+        "vt_uuid": "2808766f-efeb-49f1-ba1a-e610e108589b",
+        "name": "Female Medical Ward"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "e1db0183-cb96-4345-be75-39dfeff5b00c",
+        "name": "Fetomaternal OPD"
+    },
+    {
+        "du_uuid": "d590a35e-fbfd-4742-bd93-ea12f09821a6",
+        "vt_uuid": "341ba9f5-dfd6-42b0-91eb-367ceb64ac25",
+        "name": "Fetomaternal Ward"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "d98a4403-20f6-4e5a-a1aa-a622d07036b5",
+        "name": "Fistula"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "18458854-c913-4fde-8d83-94204bb36a12",
+        "name": "Gastrointestinal Surgery"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "d9a5c06f-345b-4152-b7a1-b3baeb37dd02",
+        "name": "General Surgery"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "7154c53f-317a-4b60-a5cd-ade050e0b794",
+        "name": "Gynecology Surgery"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "692e7074-c3ee-446f-963a-7c98097dac94",
+        "name": "Gynecology ward"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "f811701c-f67e-483c-ba47-3814d5e1f3bc",
+        "name": "GyniObs Consultation"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "457fe11b-d3e5-41fb-a47d-6fc5cb0d5f56",
+        "name": "GyniObs OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "0bd71122-077c-45c5-8212-7e8cc32b6e31",
+        "name": "GyniObs OPD 2"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "bc12266d-7b7f-425a-a31b-95e85aef44e4",
+        "name": "Hepatobiliary Surgery"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "464c0d11-9c68-41de-8619-4b967a8581e2",
+        "name": "Immunization OPD"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "c65283a8-aeba-467d-a85c-963bf028a979",
+        "name": "Infectious ward"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "65b6a00f-3ce4-4b67-864e-4893fb7518bb",
+        "name": "Infertility OPD"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "61e91612-6752-4e36-8c8b-19c1d0c3ad55",
+        "name": "Kalazar Ward"
+    },
+    {
+        "du_uuid": "d590a35e-fbfd-4742-bd93-ea12f09821a6",
+        "vt_uuid": "5093a82d-0379-46af-9e1e-72ac05f71364",
+        "name": "Labor Ward"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "0f434248-80a4-4dd4-b64a-23a4bc60268b",
+        "name": "Male Medical Ward"
+    },
+    {
+        "du_uuid": "d590a35e-fbfd-4742-bd93-ea12f09821a6",
+        "vt_uuid": "6e099d3e-cafd-4e2c-98f1-bf38105ebd32",
+        "name": "Maternity 2"
+    },
+    {
+        "du_uuid": "d590a35e-fbfd-4742-bd93-ea12f09821a6",
+        "vt_uuid": "be83c8a0-76bd-4e51-bfd6-a761833b73c2",
+        "name": "Maternity 3"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "21f4c26c-511e-4112-aedd-cce319310369",
+        "name": "Maxillofacial OPD"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "e9eb78a8-6077-4b92-91b3-0a30541a3cd3",
+        "name": "Maxillofacial ward"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc30",
+        "vt_uuid": "ccb90536-69d4-4171-9bcd-dd512a098583",
+        "name": "MCH OPD"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "44a8d45c-6e33-4ff0-9d28-b33d67916201",
+        "name": "MDR TB"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "68c33b99-d8eb-4292-9b3f-ec3346a37fe1",
+        "name": "Medical OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "7b6032ac-c299-4d02-8c48-068288d801b1",
+        "name": "Medical OPD 2"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "91f6a6f5-8a43-49a7-a24f-8a6254ca3ce0",
+        "name": "Medical OPD 3"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "eee3c968-9812-465d-a1ae-f5ac6f1dabcf",
+        "name": "Medical OPD 4"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "67c5565b-e809-48bd-97be-21d3a4b08866",
+        "name": "Medical OPD 5"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "af0c9edd-4119-489f-a3f3-54d737270379",
+        "name": "Medical OPD 6"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "c44c9e3a-b06c-4f80-bc39-fa65a2d24687",
+        "name": "Medical OPD 7"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "2311fd9f-85b9-4774-9e79-ff3faff8b33c",
+        "name": "Medical OPD 8"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "2d0476ac-edff-4377-8742-caeb13be4482",
+        "name": "Medical OPD 9"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "03427105-bfa0-4b29-9428-e30909098db2",
+        "name": "Medico-legal"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "67832d47-31e9-4a1e-8cde-64d6254efa24",
+        "name": "Michu Clinic OPD"
+    },
+    {
+        "du_uuid": "d590a35e-fbfd-4742-bd93-ea12f09821a6",
+        "vt_uuid": "d98e83e6-6216-4d1c-9f44-096c26d3028c",
+        "name": "Michu clinic Ward"
+    },
+    {
+        "du_uuid": "52fe496f-07cf-4e35-b2de-9c5a4883991f",
+        "vt_uuid": "06c1918b-331e-4544-8786-6cc9186cf66b",
+        "name": "Minor OR Emergency"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "5581a96b-3d24-450d-8902-fcc20d0a2c91",
+        "name": "Minor OR Referral"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "5baf9027-a439-4fae-9bd9-653e929ccd2a",
+        "name": "MRU"
+    },
+ {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "803df4e7-b521-49ac-814e-25b07da53543",
+        "name": "Neonatology ICU"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "ca3bb4e6-501f-4648-a6f4-31ebcfa018b2",
+        "name": "Neuro Surgery"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "41c02ad1-6887-4274-bc13-0381fa30452b",
+        "name": "Neurology OPD"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "c6608cd8-7ca0-48ef-87cb-24ef0294f983",
+        "name": "Ophthalmic Triage"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "618d4648-6790-4cb1-aa58-2f3eb8b598ea",
+        "name": "Ophthalmology Ward"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "e61eb3f5-ae14-4ee4-8520-4b10724c77d8",
+        "name": "Ophthalmology and Optometry OPD 1"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "ce223607-459d-4c71-90c3-a11574783b79",
+        "name": "Ophthalmology and Optometry Pediatric Refraction Clinic"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "3104e2f2-ea33-42c2-9fbd-d73571a10d79",
+        "name": "Ophthalmology Anterior Segment Clinic"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "342435f3-69f2-4137-b8b3-7e266d68a3e1",
+        "name": "Ophthalmology Diagnostic Room"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "a287f912-4876-442b-8b36-f4ac191bf749",
+        "name": "Ophthalmology Emergency Room"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "fd97d3bc-af32-4c93-ada4-19f0a5334abd",
+        "name": "Ophthalmology Glaucoma Clinic"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "652cc789-3ca7-45f6-bff2-70aafdd07c1a",
+        "name": "Ophthalmology Minor Surgery"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "40f8ec73-347a-4288-ab0b-2f7e9660e3bb",
+        "name": "Ophthalmology Oculoplasty Clinic"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "61b89377-b2db-4dd0-8b77-b436b2e354fa",
+        "name": "Ophthalmology Pediatric Clinic"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "c6213e8e-b913-4773-8cc8-915f7dd8e21e",
+        "name": "Ophthalmology Retina Clinic"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "57fa0046-83d2-494f-8c09-ee1bbf921612",
+        "name": "Ophthalmology Surgery"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "b75517fb-394a-4b06-93d5-9aa9d8a868ae",
+        "name": "Ophthalmology Ward"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "1c7a3d54-9f00-4086-99ac-38e9813b53c7",
+        "name": "Optometry Binocular vision Clinic"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "e59411b9-fe84-4ed7-9426-80642c8eb64a",
+        "name": "Optometry Diagnostic Room"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "1384e821-b3f6-4926-90e2-aed94537532c",
+        "name": "Optometry Low vision Clinic"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "9dec5da2-7525-44dc-baef-f0aec32db260",
+        "name": "Optometry OPD 2"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "168bb7b9-7e35-4807-acc1-f4b9ce8787bb",
+        "name": "Optometry OPD 3"
+    },
+    {
+        "du_uuid": "52fe496f-07cf-4e35-b2de-9c5a4883991f",
+        "vt_uuid": "20dd86a3-58fb-4ce9-b665-4f20676c74c7",
+        "name": "OR Room"
+    },
+    {
+        "du_uuid": "52fe496f-07cf-4e35-b2de-9c5a4883991f",
+        "vt_uuid": "9e6b388a-384e-4132-9f68-ed71b5d5be91",
+        "name": "Orthopedic Surgery"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "d0a549da-a7f9-4b09-b7f8-30885b813d2c",
+        "name": "Orthopedics OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "6e22ee58-c346-477f-b11c-8c2e31bf2bbb",
+        "name": "Orthopedics OPD 2"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "5f1deee7-819f-4d8a-943c-912167f7f378",
+        "name": "Orthopedics ward"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "ec0a02d9-99f6-4cb4-8bdb-fa12feda43d4",
+        "name": "OT"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "551c12c7-20c5-477c-911d-368875be7f0b",
+        "name": "Pediatric chronic OPD"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "95c3dec2-d919-440f-8522-8365fb2471ff",
+        "name": "Pediatric main ward"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "bef3f122-de6d-432d-bfcc-4170a8a7a9db",
+        "name": "Pediatric OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "db9cd57e-3269-4400-b6d8-7a4cf6fdc613",
+        "name": "Pediatric OPD 2"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "8fe8c785-a5dc-45d5-8837-177b483c0704",
+        "name": "Pediatric OPD 3"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "31687b6a-682c-4759-855f-d5cef6c71a7b",
+        "name": "Pediatric OPD 4"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "b96ecbf1-f7de-4f30-bf72-0dfa0389b537",
+        "name": "Pediatric OPD 5"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "11e8cd3d-35f9-4af9-ae17-6e6e5c625f8e",
+        "name": "Pediatric OPD 6"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "833c30bc-9a17-4f9e-8f38-2e167dbee200",
+        "name": "Pediatric OPD 7"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "10bf2005-fa33-46cb-a8b7-86943a2ca9c0",
+        "name": "Pediatric OPD 7"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "aaaf3339-1bac-4716-b0a2-6d10dc6027bf",
+        "name": "Pediatric OPD 8"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "a50ce435-f7a8-4f7b-9bb8-997925a154fa",
+        "name": "Pediatric OPD 9"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "33addd9f-9b34-4330-9f26-8c8932bfecc7",
+        "name": "Pediatric OPD 10"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "0328aa8e-b331-43d1-b04e-76fe6cd5530e",
+        "name": "Pediatric Surgery"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "849c6647-c239-48a6-b08d-7f769ee5022d",
+        "name": "Pediatric surgical ward"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "8d1ea674-2894-47e3-b109-81b3a10ee8f3",
+        "name": "Pediatrics ICU ward"
+    },
+    {
+        "du_uuid": "a6e6bd4c-0e34-4139-ae92-030e56bab386",
+        "vt_uuid": "7cdfab5b-ad71-4431-a41b-673f0c2f1cfd",
+        "name": "Pediatrics oncology ward"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "33d0024c-83fa-4312-9b5d-af7e5269e3ef",
+        "name": "Physiotherapy OPD"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "a433a3eb-e4d5-4e39-85a2-d4e380f63f52",
+        "name": "Plastic Surgery"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "b9386c4e-dc78-4249-af3d-2b736170c806",
+        "name": "Plastic surgery OPD"
+    },
+    {
+        "du_uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5",
+        "vt_uuid": "6adaa643-788f-48b9-b8d6-24252701cc07",
+        "name": "PMTCT OPD"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "65f301da-11f6-4a9b-b3fa-6cc5d641ffa5",
+        "name": "Psychiatry OPD 1"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "cab6c13e-a1bd-45c0-89fa-2389db9ebd2f",
+        "name": "Psychiatry OPD 2"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "ad199c29-0c38-485b-a373-22e0a61f1e7f",
+        "name": "Psychiatry OPD 3"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "896fce73-91cb-4f11-914a-e216060a5bc5",
+        "name": "Psychiatry OPD 4"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "92a85d38-7cbd-4b7d-85c2-44d67ee049bf",
+        "name": "Psychiatry OPD 4"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "d41d0bbf-8c23-4bf8-aaf4-a55565e308e7",
+        "name": "Psychiatry OPD 5"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "9d2ef162-e2de-45c1-b825-1a6239539e2c",
+        "name": "Psychiatry OPD 6"
+    },
+    {
+        "du_uuid": "8a132f71-5e7d-4f1b-9119-af8ec4d7feae",
+        "vt_uuid": "f431b9fb-2a14-42fb-9036-6f4abe1c2a84",
+        "name": "Psychiatry ward"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "02b0ce30-3b1d-458b-9ed8-cd1b015f0fe1",
+        "name": "Recovery Ward"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "fec9a219-d2ee-4e93-9d52-c0bc95ed780f",
+        "name": "Sample room"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "4c1f863d-011f-4d2e-a040-00f7622ef6b7",
+        "name": "Surgical OPD 1"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "285d707f-ee63-4818-ba45-3639e70c4708",
+        "name": "Surgical OPD 2"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "849c9de4-c566-4954-87d9-738e5796214a",
+        "name": "Surgical OPD 3"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "0222c57e-8ff5-479c-9d08-586a1e1505dd",
+        "name": "Surgical OPD 4"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "eae40228-0f49-4692-9404-eb9897eac6ac",
+        "name": "Surgical OPD 5"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "8ab330b1-eaf7-4149-a8a7-d8de5006775a",
+        "name": "Surgical OPD 6"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "54ee66d8-a1f3-4c52-a238-b23ed42dee94",
+        "name": "Surgical OPD 7"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "15a429be-31f4-4651-b778-4430aef0cd9d",
+        "name": "Surgical OPD 8"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "1d403a2e-5e26-4fb7-b9f2-eab1f9e8cd44",
+        "name": "Surgical OPD 9"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "35fce1ed-1aaf-4734-b52a-8c5aaa525a58",
+        "name": "Surgical OPD 10"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "cb125b63-7580-4256-be6c-aeeeaef34bb1",
+        "name": "Surgical ward"
+    },
+    {
+        "du_uuid": "293d26a0-fc5f-48ba-9cc6-ae28e279db54",
+        "vt_uuid": "64485167-e66a-4baa-94b6-a2e7250ca2a1",
+        "name": "TB OPD"
+    },
+    {
+        "du_uuid": "8a132f71-5e7d-4f1b-9119-af8ec4d7feae",
+        "vt_uuid": "f403f079-fefd-4707-ad60-1bdd946d569e",
+        "name": "Trauma unit ward"
+    },
+    {
+        "du_uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1",
+        "vt_uuid": "fad215c5-29bf-4d94-8d6e-920d67dbd886",
+        "name": "Urology Surgery"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "bcc615b0-ca15-468b-b2c6-772f67845c6e",
+        "name": "Vascular Surgery"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "77bebfde-a850-4aa3-bb2a-bc386b9070ea",
+        "name": "Ward A (Nutrition)"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "f5a639a1-72e4-4540-be7a-2e847397de56",
+        "name": "Ward A(pediatrics)"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "05a56d21-a552-4dcf-8764-3d9cc0b521fc",
+        "name": "Ward C (inpatient)"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "9be5529f-e7db-4dba-8f7f-ae9ce2707be2",
+        "name": "Ward D (stroke)"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "4e5f90c9-bc04-4aca-afa9-7126d3f1a748",
+        "name": "Ward E"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "0cbd6582-f51b-4350-95b7-c5a869b18632",
+        "name": "Youth Friendly Service"
+    },
+    {
+        "du_uuid": "d590a35e-fbfd-4742-bd93-ea12f09821a6",
+        "vt_uuid": "4755ba18-4ea4-4d15-920a-409303344e0f",
+        "name": "Maternity 1 down"
+    },
+    {
+        "du_uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f",
+        "vt_uuid": "28bba72b-885a-4955-bb96-f10475904a3d",
+        "name": "Gynecology Emergency"
+    },
+    {
+        "du_uuid": "8a132f71-5e7d-4f1b-9119-af8ec4d7feae",
+        "vt_uuid": "16184c0f-31cb-434e-8804-26bcb029cbec",
+        "name": "Medical ER"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "154d82f7-bc0a-4545-a144-7ad780934598",
+        "name": "Pediatrics ER"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "87b66a81-4e40-44a4-ac07-774a5a2fc1c5",
+        "name": "Urology OPD"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "a836493e-4ea5-4e8d-9993-1184d6403ab7",
+        "name": "UoG Hospital"
+    },
+    {
+        "du_uuid": "26e95323-7b47-4109-881f-0a2e5ea14965",
+        "vt_uuid": "e596eb97-a606-4a3a-b99f-84c52c889368",
+        "name": "ETAT"
+    },
+    {
+        "du_uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de",
+        "vt_uuid": "f8f38a0e-1d5f-4562-ba16-27f84f02242b",
+        "name": "ophthalmology OR"
+    },
+    {
+        "du_uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302",
+        "vt_uuid": "a6a53901-637d-424a-89c5-92acf90060c8",
+        "name": "Surgical OPD 18"
+    }
+]

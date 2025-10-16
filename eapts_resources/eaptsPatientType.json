@@ -1,0 +1,28 @@
+{
+    "result": 0,
+    "message": "",
+    "model": [
+        {
+            "name": "In patient",
+            "code": "IN",
+            "id": 3,
+            "isActive": true,
+            "createdBy": 1,
+            "createdDate": "2019-05-22T12:00:30.577Z",
+            "modifiedBy": 1,
+            "modifiedDate": "2019-05-22T12:00:30.577Z",
+            "rowguid": "1bd1a227-3f8c-4879-88ec-8f3b9c2692d3"
+        },
+        {
+            "name": "Out patient",
+            "code": "OUT",
+            "id": 4,
+            "isActive": true,
+            "createdBy": 1,
+            "createdDate": "2019-05-22T12:00:46.053Z",
+            "modifiedBy": 1,
+            "modifiedDate": "2019-05-22T12:00:46.053Z",
+            "rowguid": "c5129e01-02b6-44e5-8386-7f5c5a7f9266"
+        }
+    ]
+}

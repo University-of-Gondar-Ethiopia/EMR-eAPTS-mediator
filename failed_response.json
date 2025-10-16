@@ -1,0 +1,59 @@
+{
+    "url": "http://192.168.10.11/api/api/Patient/EMRPrescription",
+    "data":{
+            "prescriber": {
+                "firstName": "Super",
+                "middleName": "",
+                "lastName": "Man",
+                "qualification": "Appointments:FullAccess",
+                "registrationNumber": "5",
+                "rowGuid": "d7a67c17-5e07-11ef-8f7c-0242ac120002"
+            },
+            "patient": {
+                "firstName": "TEST",
+                "middleName": "teset",
+                "lastName": "tesetwwww",
+                "phoneNumber": "0912345678",
+                "age": 50,
+                "sex": "M",
+                "houseNumber": "",
+                "cardNumber": "1143306",
+                "kebele": "00",
+                "rowGuid": "6f1dbb74-d9f5-414d-9523-45b3fadf0d01",
+                "sponsorName": "werebabu",
+                "paymentTypeId": "390c4b8b-d206-4a9d-9162-e59ffa183440",
+                "woredaId": "6592d7f9-86ce-e211-9421-22000aaa1cda",
+                "patientTypeId": "c5129e01-02b6-44e5-8386-7f5c5a7f9266",
+                "weight": "",
+                "insuranceNumber": null
+            },
+            "prescriptionDetails": [
+                {
+                    "numberOfDuration": 4,
+                    "administrationId": "63394b68-2cbd-49af-b359-b9bba3f07e52",
+                    "frequencyTypeId": "1942d7a9-0039-4904-94bc-1cc87e9069cf",
+                    "itemUnitId": "2e7bf8ac-7fb8-4e91-ac91-d46bbea6ca27",
+                    "quantity": 8.0,
+                    "additionalNote": "\"As directed\"",
+                    "orderNumber": 2528,
+                    "dose": 1.0,
+                    "dose_units": "Tablet",
+                    "duration_units": 53643
+                }
+            ],
+            "prescriptionDiagnosis": [
+                {
+                    "diagnosisTypeId": "9afe1061-dc34-483f-a730-6f671afb6b90",
+                    "additionalInfo": ""
+                }
+            ],
+            "prescriptionDate": "2025-09-24 18:21:34.000000",
+            "rowGuid": "7db19bf9-d2d3-4909-a21f-fe81249b5357",
+            "prsecriptionUUID": "7db19bf9-d2d3-4909-a21f-fe81249b5357",
+            "institutionId": "82634a7c-7284-44be-b184-77eae70fcda3"
+        },
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdXBlcmFkbWluQGVhcHRzLmNvbSIsImp0aSI6ImEyMjgzYmNmLTlkMTMtNDYwYS05OTYyLTY0ZmM0MzI5OTQ1NyIsImlhdCI6MTc1ODc0NTM5NSwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9wcmltYXJ5c2lkIjoiMSIsIm5iZiI6MTc1ODc0NTM5NSwiZXhwIjoxNzU4Nzg4NTk1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAifQ.KCxajXwvngsldDMvFo1DxPFl_tdtz51b7KHGoAzbRRE",
+        "Content-Type": "application/json"
+    }
+}

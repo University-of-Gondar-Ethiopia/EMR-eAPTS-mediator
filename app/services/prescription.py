@@ -13,7 +13,6 @@ from component.openhim.heartbeat import Heartbeat
 from apscheduler.schedulers.background import BackgroundScheduler
 from component.openhim.openhim import Openhim
 import json
-import os
 import time
 
 load_dotenv()
@@ -24,6 +23,7 @@ class Prescription:
         self.emr = EMR()
         self.eapts = EAPTS()
         self.prescriptionSize = os.getenv("EMR_PRESCRIPTION_LOAD_SIZE") or 100
+        self.defaultCatchmentWoreda = os.getenv("DEFAULT_FACILITY_CATCHMENT_WOREDA")
 
     def sync(self, recursive=False):
         #read lastOrderId.json
@@ -31,7 +31,7 @@ class Prescription:
             lastOrderObject = json.load(file)
             self.lastOrder = lastOrderObject['last_order_id']
 
-        self.lastOrder = self.lastOrder+1
+        self.lastOrder = self.lastOrder
 
         #sync prescription
         self.prescriptions = self.emr.loadPrescription(self.lastOrder, self.prescriptionSize, recursive)
@@ -40,8 +40,11 @@ class Prescription:
             return self.prescriptions
 
         result = self.transform()
+        with open("/opt/EMR-eAPTS-mediator/preparedResult.json", "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=4)
+
                 
-        last_uploded = self.eapts.uploadPrescription(result)
+        last_uploded = self.eapts.upload_prescriptions(result)
 
         self.lastOrder = last_uploded["last_order_id"]
         
@@ -56,13 +59,13 @@ class Prescription:
         return self.prescriptions
     
     def transform(self):
-        result=[];
+        result=[]
 
-        encounter_to_ignore=None;
+        encounter_to_ignore=None
         # check if the prescription is cut off by the limit
         if len(self.prescriptions) == self.prescriptionSize:
             last_prescription = self.prescriptions[self.prescriptionSize-1]['encounter_id']
-            last_order_counts = self.countOrdersWith(last_prescription['encounter_id']);
+            last_order_counts = self.countOrdersWith(last_prescription['encounter_id'])
             if last_order_counts < int(last_prescription["numberOfOrders"]):
                 # the prescription is cut off by the limit
                 encounter_to_ignore = last_prescription["encounter_id"]
@@ -90,8 +93,13 @@ class Prescription:
                 eapts_orders.append(self.transformOrder(order))
 
             phone_number = len(prescription["phoneNumber"]) > 0 and prescription["phoneNumber"] or "0912345678"
+            woredaId = len(prescription["woredaId"]) > 0 and prescription["woredaId"] or self.defaultCatchmentWoreda
             insuranceNumber = len(prescription["insuranceNumber"]) > 0 and prescription["insuranceNumber"] or None
-            if len(prescription["diagnosisUUID"]) > 0 and prescription["diagnosisUUID"] != "":
+            with open("../mappedDiagnosisUuids.json", "r") as f:
+                mapped_uuids = json.load(f)  # list of UUID strings
+
+
+            if len(prescription["diagnosisUUID"]) > 0 and prescription["diagnosisUUID"] != "" and prescription["diagnosisUUID"] in mapped_uuids:
                 prescriptionDiagnosis = [
                     {
                         "diagnosisTypeId": prescription["diagnosisUUID"],
@@ -122,6 +130,7 @@ class Prescription:
                     "rowGuid": prescription["patient_rowGuid"],
                     "sponsorName": prescription["sponserName"],
                     "paymentTypeId": prescription["paymentType"],
+                    "woredaId": woredaId,
                     "patientTypeId": prescription["patientTypeId"],
                     "weight": prescription["weight"],
                     "insuranceNumber": insuranceNumber                   

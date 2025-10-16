@@ -1,0 +1,307 @@
+[
+    {
+        "name": "Doctors Without Borders",
+        "woredaRowGuid": "166579AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "concept_id": 17544
+    },
+    {
+        "name": "Unknown",
+        "woredaRowGuid": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "concept_id": 53845
+    },
+    {
+        "name": "Addis zemen",
+        "woredaRowGuid": "ec8a33af-f25d-420b-8d8c-266e875cc407",
+        "concept_id": 60804
+    },
+    {
+        "name": "Andabet Woreda",
+        "woredaRowGuid": "e3f61a67-a438-4dff-92ff-e2f5e92b8193",
+        "concept_id": 60805
+    },
+    {
+        "name": "Debretabor Town",
+        "woredaRowGuid": "4792d7f9-86ce-e211-9421-22000aaa1cda",
+        "concept_id": 60806
+    },
+    {
+        "name": "Dera",
+        "woredaRowGuid": "50aa907b-a89a-4966-9b6e-400288d02cf4",
+        "concept_id": 60807
+    },
+    {
+        "name": "Ebinat",
+        "woredaRowGuid": "e80b7b3e-ef49-48f8-b0ff-ef95bb9abfea",
+        "concept_id": 60808
+    },
+    {
+        "name": "Estie",
+        "woredaRowGuid": "1ba6f4ce-d8de-4bad-b6b9-9c2c77a41f84",
+        "concept_id": 60809
+    },
+    {
+        "name": "Farta",
+        "woredaRowGuid": "4d63a798-381e-4657-9562-f747981cee62",
+        "concept_id": 60810
+    },
+    {
+        "name": "Fogera",
+        "woredaRowGuid": "726d90e6-d514-4c9d-b029-be3b93d218d2",
+        "concept_id": 60811
+    },
+    {
+        "name": "Guna",
+        "woredaRowGuid": "f4b10ea2-387b-4421-a9a5-77f6110ab697",
+        "concept_id": 60812
+    },
+    {
+        "name": "Guna Begeimidr",
+        "woredaRowGuid": "99743bfc-eea4-47ed-813e-c9a5287f3516",
+        "concept_id": 60813
+    },
+    {
+        "name": "lay Gaynt",
+        "woredaRowGuid": "5b62c662-edb1-479f-b10e-fec66bf08d26",
+        "concept_id": 60814
+    },
+    {
+        "name": "Libokemkem",
+        "woredaRowGuid": "70f825d7-9e52-4719-91d0-29d22ce36181",
+        "concept_id": 60815
+    },
+    {
+        "name": "Meketewa",
+        "woredaRowGuid": "785265ac-13db-4127-bae2-52cc0122cec3",
+        "concept_id": 60816
+    },
+    {
+        "name": "Mierab Estie",
+        "woredaRowGuid": "69167ae5-91b1-48ae-be8c-8ac25bc9a8bf",
+        "concept_id": 60817
+    },
+    {
+        "name": "Misrak Estie",
+        "woredaRowGuid": "1c621fa4-8cc6-430e-a1a0-f8778e5e17c4",
+        "concept_id": 60818
+    },
+    {
+        "name": "Sedie Muja",
+        "woredaRowGuid": "f1aef5b1-a4a4-4a70-85cc-37a11d17706e",
+        "concept_id": 60819
+    },
+    {
+        "name": "Simada",
+        "woredaRowGuid": "d377073c-819a-499d-ad72-8ed2be0c6dae",
+        "concept_id": 60820
+    },
+    {
+        "name": "TachGaynt",
+        "woredaRowGuid": "6ff3a6ce-dbe3-4faf-b00d-b1bfd4fdf2ab",
+        "concept_id": 60821
+    },
+    {
+        "name": "Woreta Town",
+        "woredaRowGuid": "e33cc2fc-5119-46ce-bd29-d37de6a5e4ca",
+        "concept_id": 60822
+    },
+    {
+        "name": "Sehal Seyemt",
+        "woredaRowGuid": "027940d5-8938-4f06-b51b-f638bc76ad81",
+        "concept_id": 60823
+    },
+    {
+        "name": "Genda wuha",
+        "woredaRowGuid": "5dd8ae7d-94be-40ae-ab51-8cd8b69988ab",
+        "concept_id": 60824
+    },
+    {
+        "name": "Gende Wuha Town",
+        "woredaRowGuid": "b4fc286a-34a4-4723-b825-d315c989daad",
+        "concept_id": 60825
+    },
+    {
+        "name": "Adadgn Hager chako",
+        "woredaRowGuid": "f7320a6f-31b8-43ec-a83b-825c9a0068f3",
+        "concept_id": 60826
+    },
+    {
+        "name": "Metema",
+        "woredaRowGuid": "bd1692d4-77b0-4aaa-9d04-cd8b4f89c5d0",
+        "concept_id": 60827
+    },
+    {
+        "name": "Quara",
+        "woredaRowGuid": "d766327f-4ba0-46ef-9ca7-aa8aae41f9fd",
+        "concept_id": 60828
+    },
+    {
+        "name": "West Armachiho",
+        "woredaRowGuid": "34f1f481-a9b7-414c-bef6-2eaf449a7747",
+        "concept_id": 60829
+    },
+    {
+        "name": "Midr-egenet",
+        "woredaRowGuid": "5cfd61a5-6b63-405a-a9d9-f1feecd705ff",
+        "concept_id": 60830
+    },
+    {
+        "name": "Military",
+        "woredaRowGuid": "ec7e6c50-18f0-4369-9b0f-aba80e04b21a",
+        "concept_id": 60831
+    },
+    {
+        "name": "Wogera",
+        "woredaRowGuid": "af779c49-b643-4434-829a-8fd69c89d135",
+        "concept_id": 60832
+    },
+    {
+        "name": "Nebaru Chilga",
+        "woredaRowGuid": "309d32b2-4132-4dd6-a801-9a9a856b1863",
+        "concept_id": 60833
+    },
+    {
+        "name": "Chilga Kuter 1",
+        "woredaRowGuid": "cd8d0321-3e97-413b-a5ec-5a0fb9f08295",
+        "concept_id": 60834
+    },
+    {
+        "name": "Alefa",
+        "woredaRowGuid": "6ebecdc7-6daf-4986-88ee-17bdae7b4e65",
+        "concept_id": 60835
+    },
+    {
+        "name": "East Belesa",
+        "woredaRowGuid": "fe45c833-a931-49d3-aaed-328c7ec4eae0",
+        "concept_id": 60836
+    },
+    {
+        "name": "West Belesa",
+        "woredaRowGuid": "5932c26a-da70-4fdf-bdc3-37b659811ee8",
+        "concept_id": 60837
+    },
+    {
+        "name": "East Dembia",
+        "woredaRowGuid": "edec9544-0b3d-45f0-ba86-1f3d332f909c",
+        "concept_id": 60838
+    },
+    {
+        "name": "Gondar Zuria",
+        "woredaRowGuid": "00042d19-6c95-4d0b-ae00-78a2bc63a891",
+        "concept_id": 60839
+    },
+    {
+        "name": "Kinfanze Begela",
+        "woredaRowGuid": "b237aebf-0017-4be9-a6a5-e3c619d561f2",
+        "concept_id": 60840
+    },
+    {
+        "name": "Lay Armachiho",
+        "woredaRowGuid": "da918c5b-90a2-47ef-ad15-f94b1daf24bb",
+        "concept_id": 60841
+    },
+    {
+        "name": "Mehal Armachiho",
+        "woredaRowGuid": "ea15984c-94ef-4e52-8991-28b455fc5a6c",
+        "concept_id": 60842
+    },
+    {
+        "name": "Tach Armachiho",
+        "woredaRowGuid": "c4bc053c-52d3-4fca-8af4-7d73c9c5566c",
+        "concept_id": 60843
+    },
+    {
+        "name": "Takusa",
+        "woredaRowGuid": "08dc4bb8-7fe0-43a9-b9d6-7372f8813fba",
+        "concept_id": 60844
+    },
+    {
+        "name": "Aykel town",
+        "woredaRowGuid": "e2f5fb4d-abf2-4e6a-b8e8-f099de89f9e1",
+        "concept_id": 60845
+    },
+    {
+        "name": "Tegede",
+        "woredaRowGuid": "d444ab2d-9cba-4739-b63c-0cfb5cdc9e27",
+        "concept_id": 60846
+    },
+    {
+        "name": "West Dembia",
+        "woredaRowGuid": "87762b02-5b40-42dc-abac-b9d6a6b23ae3",
+        "concept_id": 60847
+    },
+    {
+        "name": "Adiarkay",
+        "woredaRowGuid": "ca3742c9-55a0-4601-86e0-048a27ecb039",
+        "concept_id": 60848
+    },
+    {
+        "name": "Dabat",
+        "woredaRowGuid": "77f722a6-3edc-4ac5-bfd9-d78123dfc434",
+        "concept_id": 60849
+    },
+    {
+        "name": "Debark Zuria",
+        "woredaRowGuid": "ed064fc9-2b4f-4a1c-9a70-16e879463157",
+        "concept_id": 60850
+    },
+    {
+        "name": "Telemit",
+        "woredaRowGuid": "ec754d93-4d11-46b1-bae1-19414e7f16ff",
+        "concept_id": 60851
+    },
+    {
+        "name": "Janamora",
+        "woredaRowGuid": "51238fa6-0ce8-4e4d-9583-f823aa3264a4",
+        "concept_id": 60852
+    },
+    {
+        "name": "Beyeda",
+        "woredaRowGuid": "5deae780-16b2-49d3-acbe-5ab4920a449e",
+        "concept_id": 60853
+    },
+    {
+        "name": "Debark Town",
+        "woredaRowGuid": "c890cb9e-0391-4645-8daf-846da09705e4",
+        "concept_id": 60854
+    },
+    {
+        "name": "Gondar Town",
+        "woredaRowGuid": "ef2e555b-3344-474a-b34d-da7d30700c36",
+        "concept_id": 60855
+    },
+    {
+        "name": "Dansha Ketema Astedader",
+        "woredaRowGuid": "e4592037-d5b4-4a4b-9a9c-b5779ed18522",
+        "concept_id": 60856
+    },
+    {
+        "name": "Awra Wereda",
+        "woredaRowGuid": "57a5525d-894e-44c1-a471-cddc2628f891",
+        "concept_id": 60857
+    },
+    {
+        "name": "Kabtya Wereda",
+        "woredaRowGuid": "bcf24af0-9581-424f-883b-b650093d6efe",
+        "concept_id": 60858
+    },
+    {
+        "name": "Humera Ketema Astedader",
+        "woredaRowGuid": "13a141dc-8616-484c-a158-5697d7c23eb3",
+        "concept_id": 60859
+    },
+    {
+        "name": "Tegede Maksegno Gebeya",
+        "woredaRowGuid": "6d256fa1-3ee9-44b9-9434-2ddcd11aefeb",
+        "concept_id": 60860
+    },
+    {
+        "name": "Welkayt wereda",
+        "woredaRowGuid": "32c3962a-2386-4455-88ae-4d1e2c784e0c",
+        "concept_id": 60861
+    },
+    {
+        "name": "Metema Town",
+        "woredaRowGuid": "49dd01c0-eeb3-4f73-9f84-83b185ff6b3e",
+        "concept_id": 67950
+    }
+]

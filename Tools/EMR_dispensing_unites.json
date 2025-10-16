@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Inpatient Pharmacy 1",
+    "uuid": "7b69c0a5-6cfc-4fa1-8744-9eb7c83e6c3f"
+  },
+  {
+    "name": "Gyn & OBS Pharmacy",
+    "uuid": "d590a35e-fbfd-4742-bd93-ea12f09821a6"
+  },
+  {
+    "name": "Inpatient Pharmacy 2",
+    "uuid": "26e95323-7b47-4109-881f-0a2e5ea14965"
+  },
+  {
+    "name": "MDR TB Pharmacy",
+    "uuid": "293d26a0-fc5f-48ba-9cc6-ae28e279db54"
+  },
+  {
+    "name": "Oncology Pharmacy",
+    "uuid": "a6e6bd4c-0e34-4139-ae92-030e56bab386"
+  },
+  {
+    "name": "OPD Pharmacy 2",
+    "uuid": "3aa18c1b-b6d0-427a-bf31-d2be3befc302"
+  },
+  {
+    "name": "Ophthalmology and Fistula Pharmacy",
+    "uuid": "d484365c-34c8-48a4-bf74-0869bc7a08de"
+  },
+  {
+    "name": "OR pharmacy",
+    "uuid": "52fe496f-07cf-4e35-b2de-9c5a4883991f"
+  },
+  {
+    "name": "Chronic Pharmacy",
+    "uuid": "aa1ecc6c-209f-4637-b6ae-306ce2c5a2a1"
+  },
+  {
+    "name": "Emergency Pharmacy",
+    "uuid": "8a132f71-5e7d-4f1b-9119-af8ec4d7feae"
+  },
+  {
+    "name": "ART Pharmacy",
+    "uuid": "e0f0c446-a3c6-4c1f-afb5-e9e42207b7b5"
+  }
+]

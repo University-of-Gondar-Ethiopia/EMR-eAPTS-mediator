@@ -3,5 +3,5 @@ SELECT
 FROM
     obs
 WHERE
-    concept_id = 25531
+    concept_id = 68568
     AND order_id = ${order_id};
